@@ -51,4 +51,10 @@ body {
     border: 1px solid #000;
 }
 
-
+#page-middle-div .hotnews{
+    padding: 11px 15px;
+    background: #000;
+    text-align: center;
+    color: #fff;
+    height: 42px;
+}

@@ -6,21 +6,23 @@
                 <div class="col-md-6 leftDiv">2018 ඔක්තෝබර් මස 01 වන සඳුදා</div>
 
                 <div class="col-md-6 rightDiv">
-                    <ul class="nav justify-content-end">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">Active</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Disabled</a>
-                        </li>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Right</a></li>
+                        <li><a href="#">Center</a></li>
+                        <li><a href="#">Center</a></li>
+                        <li><a href="#">Center</a></li>
                     </ul>
                 </div>
+
+<!--                <div class="navbar-collapse collapse">-->
+<!--                    <ul class="nav navbar-nav navbar-right">-->
+<!--                        <li><a href="#">Right</a></li>-->
+<!--                        <li><a href="#">Center</a></li>-->
+<!--                        <li><a href="#">Center</a></li>-->
+<!--                        <li><a href="#">Center</a></li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+
             </div>
         </div>
 
@@ -28,14 +30,16 @@
 
     <section class="container" id="page-middle-div">
         <div class="row">
-            <div class="column-div col-md-12">
 
-                <div class="" style="border: 0px solid blue;display: flex;flex-wrap: wrap;">
-                    <div class="col-md-1" style="background-color: red;">
-                        <div class="label">Hot News</div>
-                    </div>
-                    <div class="col-md-11" style="background-color: chartreuse;">www</div>
+
+            <div class="" style="">
+                <div class="col-md-2 hotnews" style="">
+                    <div class="label">Hot News</div>
                 </div>
+                <div class="col-md-10" style="background-color: chartreuse;">www</div>
+            </div>
+
+            <div class="column-div col-md-12">
 
             </div>
 
