@@ -1,5 +1,133 @@
 <?php include 'header.php';?>
 
+    <section id="page-top" class="">
+        <div class="container page-top-nav">
+            <div class="row">
+                <div class="col-md-6 leftDiv">2018 ඔක්තෝබර් මස 01 වන සඳුදා</div>
+
+                <div class="col-md-6 rightDiv">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container" id="page-middle-div">
+        <div class="row">
+            <div class="column-div col-md-12">
+
+                <div class="" style="border: 0px solid blue;display: flex;flex-wrap: wrap;">
+                    <div class="col-md-1" style="background-color: red;">
+                        <div class="label">Hot News</div>
+                    </div>
+                    <div class="col-md-11" style="background-color: chartreuse;">www</div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <div class="vc_row wpb_row vc_row-fluid">
+        <div class=" wpb_column vc_column_container vc_col-sm-12 ">
+            <div class="vc_column-inner">
+                <div class="wpb_wrapper">
+                    <div class="mainboxwrapper    ">
+                        <div class="module32">
+                            <div class="module32-desc">
+                                <h6> HOT NEWS</h6>
+                            </div>
+                            <div class="list_carousel32 responsive">
+                                <div class="module32-wrapper">
+                                    <div class="caroufredsel_wrapper" style="display: block; text-align: start; float: none; position: relative; top: auto; right: auto; bottom: auto; left: auto; z-index: auto; width: 993px; height: 19px; margin: 0px; overflow: hidden;"><div id="carmod32" style="text-align: left; float: none; position: absolute; top: 0px; right: auto; bottom: auto; left: 0px; margin: 0px; width: 10923px; height: 19px; z-index: auto;">
+
+                                            <div class="wrapper-module32" style="width: 993px;">
+                                                <div class="module32-content">
+                                                    <div class="cat-color">
+                                                        <h6> <span>
+						<a href="http://republikwp.com/fineglobe/category/culture/ancient/" title="View all posts in Ancient">Ancient</a> 						</span>
+                                                            / 						<a href="http://republikwp.com/fineglobe/61288-2/" title="Fight for voter is start, Democrat candidate gain voice on Nauru Island.">
+                                                                Fight for voter is start, Democrat candidate gain voice on Nauru Island.						</a>
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="wrapper-module32" style="width: 993px;">
+                                                <div class="module32-content">
+                                                    <div class="cat-color">
+                                                        <h6> <span>
+						<a href="http://republikwp.com/fineglobe/category/sport/extreme-sport/" title="View all posts in Extreme Sport">Extreme Sport</a> 						</span>
+                                                            / 						<a href="http://republikwp.com/fineglobe/zletres-giral-duwick-wullam-dolore-giralce-style-4/" title="Zletres Giral Duwick Wullam dolore Giralce style 4">
+                                                                Zletres Giral Duwick Wullam dolore Giralce style 4						</a>
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="wrapper-module32" style="width: 993px;">
+                                                <div class="module32-content">
+                                                    <div class="cat-color">
+                                                        <h6> <span>
+						<a href="http://republikwp.com/fineglobe/category/culture/art/" title="View all posts in Art">Art</a> 						</span>
+                                                            / 						<a href="http://republikwp.com/fineglobe/photo-booth-bushwick-next-level-officia-2/" title="Polician nexit mollit quis forage fanny post default">
+                                                                Polician nexit mollit quis forage fanny post default						</a>
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="wrapper-module32" style="width: 993px;">
+                                                <div class="module32-content">
+                                                    <div class="cat-color">
+                                                        <h6> <span>
+						<a href="http://republikwp.com/fineglobe/category/nature/" title="View all posts in Nature">Nature</a> 						</span>
+                                                            / 						<a href="http://republikwp.com/fineglobe/thundercats-cred-nisi-vegan-occupy/" title="Hundercats cred nisi crips Willam dolo vice style 3">
+                                                                Hundercats cred nisi crips Willam dolo vice style 3						</a>
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="wrapper-module32" style="width: 993px;">
+                                                <div class="module32-content">
+                                                    <div class="cat-color">
+                                                        <h6> <span>
+						<a href="http://republikwp.com/fineglobe/category/sport/football/" title="View all posts in Football">Football</a> 						</span>
+                                                            / 						<a href="http://republikwp.com/fineglobe/kentucky-glick-warriors-win-the-sknba-final-first-time-since-1000-years/" title="Kentucky “Glick” WarriorS win the SKNBA final. First time since 1000 years!">
+                                                                Kentucky “Glick” WarriorS win the SKNBA final. First time since 1000 years!						</a>
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a id="prevmod32" class="prev17" href="#" style="display: block;"><i class="fa fa-angle-left"></i></a>
+                                    <a id="nextmod32" class="next17" href="#" style="display: block;"><i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
     <section id="section-breaker" class="container main-content ani in">
         <div class="row">
             <div class="col-md-10 col-md-push-1">
