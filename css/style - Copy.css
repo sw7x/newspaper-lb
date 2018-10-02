@@ -1,0 +1,60 @@
+section#page-top{
+    background-color: #000;
+}
+
+section#page-top .page-top-nav{
+    border:0px solid #fff;
+}
+
+section#page-top .page-top-nav .leftDiv{
+    font-size: 14px;
+    color : #fff;
+    display: flex;
+    align-items: center;
+}
+
+
+
+section#page-top .page-top-nav .rightDiv ul li:not(:first-child) a::before {
+    content: '|';
+    padding-right: 10px;
+    /*
+    this content is important only for Crome in case the HTML will be minified with no whitespaces between </li><li>
+    */
+}
+
+
+section#page-top .page-top-nav .rightDiv ul li a{
+    font-size: 12px;
+    color : #fff;
+    padding: 5px 10px 5px 0px;
+}
+
+section#page-top .page-top-nav .rightDiv ul li{
+    padding-left: 0px;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    /*line-height: 1.8;*/
+    /*color: #777;*/
+    color: #4a4949;
+    font-weight: 400;
+    background: #ffffff;
+}
+
+#page-middle-div .column-div{
+    border: 1px solid #000;
+}
+
+#page-middle-div .hotnews{
+    padding: 11px 15px;
+    background: #000;
+    text-align: center;
+    color: #fff;
+    height: 42px;
+}

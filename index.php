@@ -3,25 +3,21 @@
     <section id="page-top" class="">
         <div class="container page-top-nav">
             <div class="row">
-                <div class="col-md-6 leftDiv">2018 ඔක්තෝබර් මස 01 වන සඳුදා</div>
+                <div class="">
 
-                <div class="col-md-6 rightDiv">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Right</a></li>
-                        <li><a href="#">Center</a></li>
-                        <li><a href="#">Center</a></li>
-                        <li><a href="#">Center</a></li>
-                    </ul>
+                    <div class="clearfix">
+                        <div class="col-md-6 leftDiv">2018 ඔක්තෝබර් මස 01 වන සඳුදා</div>
+
+                        <div class="col-md-6 rightDiv">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#">Right</a></li>
+                                <li><a href="#">Center</a></li>
+                                <li><a href="#">Center</a></li>
+                                <li><a href="#">Center</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-
-<!--                <div class="navbar-collapse collapse">-->
-<!--                    <ul class="nav navbar-nav navbar-right">-->
-<!--                        <li><a href="#">Right</a></li>-->
-<!--                        <li><a href="#">Center</a></li>-->
-<!--                        <li><a href="#">Center</a></li>-->
-<!--                        <li><a href="#">Center</a></li>-->
-<!--                    </ul>-->
-<!--                </div>-->
 
             </div>
         </div>
@@ -29,105 +25,336 @@
     </section>
 
     <section class="container" id="page-middle-div">
-        <div class="row">
 
-
-            <div class="" style="">
-                <div class="col-md-2 hotnews" style="">
-                    <div class="label">Hot News</div>
+        <div class="row hotnews-row">
+            <div class="hotnews-div" style="">
+                <div class="clearfix">
+                    <div class="col-md-12">
+                        <div class="col-md-2 hotnews-topic" style="">
+                            <div class="hotnews-label">Hot News</div>
+                        </div>
+                        <div class="col-md-10 news-content-div" style="">
+                            <div class="news-content">Extreme Sport / Zletres Giral Duwick Wullam dolore Giralce style 4</div>
+                            <a id="" class="prev" href="#" style="display: block;"><i class="fa fa-angle-left"></i></a>
+                            <a id="" class="next" href="#" style="display: block;"><i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-10" style="background-color: chartreuse;">www</div>
-            </div>
-
-            <div class="column-div col-md-12">
 
             </div>
+        </div>
 
+        <header class="row header-row">
+
+            <div class="first-ad-div clearfix" style="">
+                <div class="clearfix content-div">
+                    <div class="col-md-4 " style=""><div class=""><img class="img-responsive" src="https://via.placeholder.com/360x75" alt="Chania"></div></div>
+                    <div class="col-md-4 " style=""><div class=""><img class="img-responsive" src="https://via.placeholder.com/360x75" alt="Chania"></div></div>
+                    <div class="col-md-4 " style=""><div class=""><img class="img-responsive" src="https://via.placeholder.com/360x75" alt="Chania"></div></div>
+                </div>
+            </div>
+
+            <div class="second-ad-div clearfix" style="">
+                <div class="clearfix content-div">
+                    <div class="col-md-12 " style=""><div class=""><img class="img-responsive" src="https://via.placeholder.com/1140x75" alt="Chania"> </div></div>
+                </div>
+            </div>
+
+            <div class="logo-div clearfix " style="">
+                <div class="clearfix content-div">
+                    <div class="col-md-4 " style=""><div class="">images can get quite complicated as we have a few variables to w</div></div>
+                    <div class="col-md-4 " style=""><div class=""><img class="img-responsive" src="images/logo.png" alt="Chania"></div></div>
+                    <div class="col-md-4 " style=""><div class=""><img class="img-responsive" src="https://via.placeholder.com/360x75" alt="Chania"></div></div>
+                </div>
+            </div>
+
+        </header>
+
+        <!--            <div class="column-div col-md-12"></div>-->
+    </section>
+
+
+    <section class="container" id="navigation-div">
+        <div class="row navigation-row">
+
+            <nav class="navbar">
+                <div class="top-div">
+                    <div class="clearfix content-div">
+
+
+                            <div class="col-md-8">
+                                <ul class="nav navbar-nav main-nav">
+                                    <li class="active"><a href="#">Home</a></li>
+                                    <li><a href="#">Page 1</a></li>
+                                    <li><a href="#">Page 2</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-md-4">
+                                <form class="navbar-form navbar-right" action="/action_page.php">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search" name="search">
+                                        <div class="input-group-btn search-btn">
+                                            <button class="btn btn-default" type="submit">
+                                                <i class="glyphicon glyphicon-search"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                    </div>
+                </div>
+            </nav>
 
         </div>
     </section>
 
+    <section  class="container" id="home-page-main-news-section">
+        <div class="row home-page-main-news-section-row">
 
-    <div class="vc_row wpb_row vc_row-fluid">
-        <div class=" wpb_column vc_column_container vc_col-sm-12 ">
-            <div class="vc_column-inner">
-                <div class="wpb_wrapper">
-                    <div class="mainboxwrapper    ">
-                        <div class="module32">
-                            <div class="module32-desc">
-                                <h6> HOT NEWS</h6>
-                            </div>
-                            <div class="list_carousel32 responsive">
-                                <div class="module32-wrapper">
-                                    <div class="caroufredsel_wrapper" style="display: block; text-align: start; float: none; position: relative; top: auto; right: auto; bottom: auto; left: auto; z-index: auto; width: 993px; height: 19px; margin: 0px; overflow: hidden;"><div id="carmod32" style="text-align: left; float: none; position: absolute; top: 0px; right: auto; bottom: auto; left: 0px; margin: 0px; width: 10923px; height: 19px; z-index: auto;">
+            <div class="clearfix content-div">
+                <div class="clearfix ">
+                    <div class="col-md-4 left-side-div">
 
-                                            <div class="wrapper-module32" style="width: 993px;">
-                                                <div class="module32-content">
-                                                    <div class="cat-color">
-                                                        <h6> <span>
-						<a href="http://republikwp.com/fineglobe/category/culture/ancient/" title="View all posts in Ancient">Ancient</a> 						</span>
-                                                            / 						<a href="http://republikwp.com/fineglobe/61288-2/" title="Fight for voter is start, Democrat candidate gain voice on Nauru Island.">
-                                                                Fight for voter is start, Democrat candidate gain voice on Nauru Island.						</a>
-                                                        </h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="wrapper-module32" style="width: 993px;">
-                                                <div class="module32-content">
-                                                    <div class="cat-color">
-                                                        <h6> <span>
-						<a href="http://republikwp.com/fineglobe/category/sport/extreme-sport/" title="View all posts in Extreme Sport">Extreme Sport</a> 						</span>
-                                                            / 						<a href="http://republikwp.com/fineglobe/zletres-giral-duwick-wullam-dolore-giralce-style-4/" title="Zletres Giral Duwick Wullam dolore Giralce style 4">
-                                                                Zletres Giral Duwick Wullam dolore Giralce style 4						</a>
-                                                        </h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="wrapper-module32" style="width: 993px;">
-                                                <div class="module32-content">
-                                                    <div class="cat-color">
-                                                        <h6> <span>
-						<a href="http://republikwp.com/fineglobe/category/culture/art/" title="View all posts in Art">Art</a> 						</span>
-                                                            / 						<a href="http://republikwp.com/fineglobe/photo-booth-bushwick-next-level-officia-2/" title="Polician nexit mollit quis forage fanny post default">
-                                                                Polician nexit mollit quis forage fanny post default						</a>
-                                                        </h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="wrapper-module32" style="width: 993px;">
-                                                <div class="module32-content">
-                                                    <div class="cat-color">
-                                                        <h6> <span>
-						<a href="http://republikwp.com/fineglobe/category/nature/" title="View all posts in Nature">Nature</a> 						</span>
-                                                            / 						<a href="http://republikwp.com/fineglobe/thundercats-cred-nisi-vegan-occupy/" title="Hundercats cred nisi crips Willam dolo vice style 3">
-                                                                Hundercats cred nisi crips Willam dolo vice style 3						</a>
-                                                        </h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="wrapper-module32" style="width: 993px;">
-                                                <div class="module32-content">
-                                                    <div class="cat-color">
-                                                        <h6> <span>
-						<a href="http://republikwp.com/fineglobe/category/sport/football/" title="View all posts in Football">Football</a> 						</span>
-                                                            / 						<a href="http://republikwp.com/fineglobe/kentucky-glick-warriors-win-the-sknba-final-first-time-since-1000-years/" title="Kentucky “Glick” WarriorS win the SKNBA final. First time since 1000 years!">
-                                                                Kentucky “Glick” WarriorS win the SKNBA final. First time since 1000 years!						</a>
-                                                        </h6>
-                                                    </div>
-                                                </div>
-                                            </div>
+                        <aside class="">
+                            <div class="snippet-content-div clearfix">
+                                <div class="snippet-wrapper-div col-md-12">
+                                    <h3>නවතම පුවත්</h3>
+
+                                    <div class="snippet-container">
+                                        <h4>නවතම පුවත්</h4>
+                                        <div class="row-5px">
+                                            <img class="img-responsive" width="100%" src="https://via.placeholder.com/320x75" alt="Chania">
+                                        </div>
+
+                                        <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                        <div class="read-more-link">
+                                            <a class="" href="" title="">Read More</a>
                                         </div>
                                     </div>
-                                    <a id="prevmod32" class="prev17" href="#" style="display: block;"><i class="fa fa-angle-left"></i></a>
-                                    <a id="nextmod32" class="next17" href="#" style="display: block;"><i class="fa fa-angle-right"></i></a>
+
+
+                                    <div class="snippet-container">
+                                        <h4>නවතම පුවත්</h4>
+                                        <div class="row-5px">
+                                            <img class="img-responsive" width="100%" src="https://via.placeholder.com/320x125" alt="Chania">
+                                        </div>
+
+                                        <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                        <div class="read-more-link">
+                                            <a class="" href="" title="">Read More</a>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="snippet-container">
+                                        <h4>නවතම පුවත්</h4>
+                                        <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                        <div class="read-more-link">
+                                            <a class="" href="" title="">Read More</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="snippet-container">
+                                        <h4>නවතම පුවත්</h4>
+                                        <p class="snippet">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                        <div class="read-more-link">
+                                            <a class="" href="" title="">Read More</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="snippet-container">
+                                        <h4>නවතම පුවත්</h4>
+                                        <div class="row-5px">
+                                            <img class="img-responsive" width="100%" src="https://via.placeholder.com/320x75" alt="Chania">
+                                        </div>
+                                        <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                        <div class="read-more-link">
+                                            <a class="" href="" title="">Read More</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="snippet-container ">
+                                        <h4>නවතම පුවත්</h4>
+                                        <div class="row-5px clearfix">
+                                            <div class="col-md-4 padding-5px">
+                                                <img class="img-responsive" width="100%" src="https://via.placeholder.com/320x275" alt="Chania">
+                                            </div>
+
+                                            <div class="col-md-8 padding-5px">
+                                                <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                            </div>
+                                        </div>
+                                        <div class="read-more-link">
+                                            <a class="" href="" title="">Read More</a>
+                                        </div>
+                                    </div>
+
+
+
+
+                                    <div class="snippet-container">
+                                        <h4>නවතම පුවත්</h4>
+                                        <div class="row-5px">
+                                            <img class="img-responsive" width="100%" src="https://via.placeholder.com/320x75" alt="Chania">
+                                        </div>
+
+                                        <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                        <div class="read-more-link">
+                                            <a class="" href="" title="">Read More</a>
+                                        </div>
+                                    </div>
+
                                 </div>
+
                             </div>
-                        </div>
+
+                        </aside>
+                        <aside class="">
+                            <div class="snippet-content-div clearfix">
+                                <div class="snippet-wrapper-div col-md-12">
+                                    <h3>නවතම පුවත්</h3>
+
+                                    <div class="snippet-container">
+                                        <h4>නවතම පුවත්</h4>
+                                        <div class="row-5px">
+                                            <img class="img-responsive" width="100%" src="https://via.placeholder.com/320x75" alt="Chania">
+                                        </div>
+
+                                        <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                        <div class="read-more-link">
+                                            <a class="" href="" title="">Read More</a>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="snippet-container">
+                                        <h4>නවතම පුවත්</h4>
+                                        <div class="row-5px">
+                                            <img class="img-responsive" width="100%" src="https://via.placeholder.com/320x125" alt="Chania">
+                                        </div>
+
+                                        <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                        <div class="read-more-link">
+                                            <a class="" href="" title="">Read More</a>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="snippet-container">
+                                        <h4>නවතම පුවත්</h4>
+                                        <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                        <div class="read-more-link">
+                                            <a class="" href="" title="">Read More</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="snippet-container">
+                                        <h4>නවතම පුවත්</h4>
+                                        <p class="snippet">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                        <div class="read-more-link">
+                                            <a class="" href="" title="">Read More</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="snippet-container">
+                                        <h4>නවතම පුවත්</h4>
+                                        <div class="row-5px">
+                                            <img class="img-responsive" width="100%" src="https://via.placeholder.com/320x75" alt="Chania">
+                                        </div>
+                                        <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                        <div class="read-more-link">
+                                            <a class="" href="" title="">Read More</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="snippet-container ">
+                                        <h4>නවතම පුවත්</h4>
+                                        <div class="row-5px clearfix">
+                                            <div class="col-md-4 padding-5px">
+                                                <img class="img-responsive" width="100%" src="https://via.placeholder.com/320x275" alt="Chania">
+                                            </div>
+
+                                            <div class="col-md-8 padding-5px">
+                                                <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                            </div>
+                                        </div>
+                                        <div class="read-more-link">
+                                            <a class="" href="" title="">Read More</a>
+                                        </div>
+                                    </div>
+
+
+
+
+                                    <div class="snippet-container">
+                                        <h4>නවතම පුවත්</h4>
+                                        <div class="row-5px">
+                                            <img class="img-responsive" width="100%" src="https://via.placeholder.com/320x75" alt="Chania">
+                                        </div>
+
+                                        <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                        <div class="read-more-link">
+                                            <a class="" href="" title="">Read More</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </aside>
+                    </div>
+
+                    <div class="col-md-8 right-side-div">
+                        <section  class="top-feature-news-container">
+                            <div class="top-feature-content-div">
+                                <div class="top-feature-wrapper">
+                                    <div class="top-feature-div">qqqqqqqqqqqqqqqq</div>
+                                </div>
+
+                            </div>
+                        </section>
                     </div>
                 </div>
             </div>
+
+
         </div>
-    </div>
+
+
+
+
+
+<!--        <header class="row header-row">-->
+<!---->
+<!--            <div class="first-ad-div clearfix col-md-12" style="">-->
+<!--                <div class="clearfix content-div">-->
+<!--                    <div class="col-md-4 " style=""><div class=""><img class="img-responsive" src="https://via.placeholder.com/350x75" alt="Chania"></div></div>-->
+<!--                    <div class="col-md-4 " style=""><div class=""><img class="img-responsive" src="https://via.placeholder.com/350x75" alt="Chania"></div></div>-->
+<!--                    <div class="col-md-4 " style=""><div class=""><img class="img-responsive" src="https://via.placeholder.com/350x75" alt="Chania"></div></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--            <div class="second-ad-div clearfix col-md-12" style="">-->
+<!--                <div class="clearfix content-div">-->
+<!--                    <div class="col-md-12 " style=""><div class=""><img class="img-responsive" src="https://via.placeholder.com/1110x75" alt="Chania"> </div></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--            <div class="logo-div clearfix col-md-12" style="">-->
+<!--                <div class="clearfix content-div">-->
+<!--                    <div class="col-md-4 " style=""><div class="">images can get quite complicated as we have a few variables to w</div></div>-->
+<!--                    <div class="col-md-4 " style=""><div class=""><img class="img-responsive" src="images/logo.png" alt="Chania"></div></div>-->
+<!--                    <div class="col-md-4 " style=""><div class=""><img class="img-responsive" src="https://via.placeholder.com/350x75" alt="Chania"></div></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--        </header>-->
+    </section>
+
+
 
 
 
