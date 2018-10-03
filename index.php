@@ -110,8 +110,8 @@
         </div>
     </section>
 
-    <section  class="container" id="home-page-main-news-section">
-        <div class="row home-page-main-news-section-row">
+    <section  class="container" id="home-page-top-news-section">
+        <div class="row home-page-top-news-section-row">
 
             <div class="clearfix content-div">
                 <div class="clearfix ">
@@ -314,6 +314,12 @@
                                 <div class="top-feature-wrapper">
                                     <div class="top-feature-div">
 
+                                        <div class="top-feature-heading-wrapper col-md-12">
+                                            <div  class="top-feature-heading">
+                                                <h3>නවතම පුවත්</h3>
+                                            </div>
+                                        </div>
+
                                         <div class="clearfix">
                                             <div class="col-md-8 big-img-div" >
                                                 <div class="image-inner-big" style="background-image: url('https://via.placeholder.com/360x400');"></div>
@@ -343,41 +349,196 @@
 
                             </div>
                         </section>
-                    </div>
-
-                    <div class="col-md-9 right-side-div">
                         <section  class="normal-feature-news-container">
                             <div class="normal-feature-content-div">
-                                <div class="normal-feature-wrapper">
+                                <div class="normal-feature-wrapper clearfix">
 
                                     <div class="news-type-heading-wrapper col-md-12">
                                         <div  class="news-type-heading">
-                                            <h3>නවතම පුවත්</h3>
+                                            <h3>w නවතම පුවත්</h3>
                                         </div>
                                     </div>
 
-                                    <div class="normal-news-feature-div">
+                                    <div class="normal-news-feature-div col-md-12">
 
 
-                                        <div class="clearfix">
-                                            <div class="col-md-4"><img class="img-responsive" src="https://via.placeholder.com/360x175" alt="Chania" width="100%"></div>
-                                            <div class="col-md-4"><img class="img-responsive" src="https://via.placeholder.com/360x175" alt="Chania" width="100%"></div>
-                                            <div class="col-md-4"><img class="img-responsive" src="https://via.placeholder.com/360x175" alt="Chania" width="100%"></div>
+                                        <div class="snippet-container">
+                                            <h4>නවතම පුවත්</h4>
+                                            <div class="row-5px">
+                                                <img class="img-responsive" width="100%" src="https://via.placeholder.com/320x75" alt="Chania">
+                                            </div>
+
+                                            <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work
+                                                with! For example the image below has had a caption entered with! For example the image below has had a caption enteredwith!
+                                                For example the image below has had a caption entered</p>
+                                            <div class="read-more-link">
+                                                <a class="" href="" title="">Read More</a>
+                                            </div>
                                         </div>
 
-                                        <div class="clearfix">
-                                            <div class="col-md-4"><img class="img-responsive" src="https://via.placeholder.com/360x175" alt="Chania" width="100%"></div>
-                                            <div class="col-md-4"><img class="img-responsive" src="https://via.placeholder.com/360x175" alt="Chania" width="100%"></div>
-                                            <div class="col-md-4"><img class="img-responsive" src="https://via.placeholder.com/360x175" alt="Chania" width="100%"></div>
+                                        <div class="snippet-container ">
+                                            <h4>නවතම පුවත්</h4>
+                                            <div class="row-5px clearfix">
+                                                <div class="col-md-4 padding-5px">
+                                                    <img class="img-responsive" width="100%" src="https://via.placeholder.com/320x275" alt="Chania">
+                                                </div>
+
+                                                <div class="col-md-8 padding-5px">
+                                                    <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has
+                                                        had a caption entered OK, so images can get quite complicated as we have a few variables to work with! For example the image below has
+                                                        OK, so images can get quite complicated as we have a few variables to work with! For example the image below has OK, so images can get quite
+                                                        complicated as we have a few variables to work with! For example the image below has</p>
+                                                </div>
+                                            </div>
+                                            <div class="read-more-link">
+                                                <a class="" href="" title="">Read More</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="snippet-container">
+                                            <h4>නවතම පුවත්</h4>
+                                            <div class="row-5px">
+                                                <img class="img-responsive" width="100%" src="https://via.placeholder.com/320x75" alt="Chania">
+                                            </div>
+
+                                            <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                            <div class="read-more-link">
+                                                <a class="" href="" title="">Read More</a>
+                                            </div>
                                         </div>
 
 
+                                        <div class="snippet-container">
+                                            <h4>නවතම පුවත්</h4>
+                                            <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                            <div class="read-more-link">
+                                                <a class="" href="" title="">Read More</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="snippet-container">
+                                            <h4>නවතම පුවත්</h4>
+                                            <p class="snippet-text">OK, so images can get quite complicated as
+                                                we have a few variables to work with! For example the image we have a few variables to work with! For example the image
+                                                we have a few variables to work with! For example the image we have a few variables to work with! For example the image
+                                                we have a few variables to work with! For example the image we have a few variables to work with! For example the image
+                                                we have a few variables to work with! For example the image below has had a caption entered</p>
+                                            <div class="read-more-link">
+                                                <a class="" href="" title="">Read More</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="snippet-container">
+                                            <h4>නවතම පුවත්</h4>
+                                            <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                            <div class="read-more-link">
+                                                <a class="" href="" title="">Read More</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="read-more-link">
+                                            <a class="" href="" title="">More News</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="normal-feature-wrapper clearfix">
+
+                                    <div class="news-type-heading-wrapper col-md-12">
+                                        <div  class="news-type-heading">
+                                            <h3>w නවතම පුවත්</h3>
+                                        </div>
+                                    </div>
+
+                                    <div class="normal-news-feature-div col-md-12">
+
+
+                                        <div class="snippet-container">
+                                            <h4>නවතම පුවත්</h4>
+                                            <div class="row-5px">
+                                                <img class="img-responsive" width="100%" src="https://via.placeholder.com/320x75" alt="Chania">
+                                            </div>
+
+                                            <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work
+                                                with! For example the image below has had a caption entered with! For example the image below has had a caption enteredwith!
+                                                For example the image below has had a caption entered</p>
+                                            <div class="read-more-link">
+                                                <a class="" href="" title="">Read More</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="snippet-container ">
+                                            <h4>නවතම පුවත්</h4>
+                                            <div class="row-5px clearfix">
+                                                <div class="col-md-4 padding-5px">
+                                                    <img class="img-responsive" width="100%" src="https://via.placeholder.com/320x275" alt="Chania">
+                                                </div>
+
+                                                <div class="col-md-8 padding-5px">
+                                                    <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has
+                                                        had a caption entered OK, so images can get quite complicated as we have a few variables to work with! For example the image below has
+                                                        OK, so images can get quite complicated as we have a few variables to work with! For example the image below has OK, so images can get quite
+                                                        complicated as we have a few variables to work with! For example the image below has</p>
+                                                </div>
+                                            </div>
+                                            <div class="read-more-link">
+                                                <a class="" href="" title="">Read More</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="snippet-container">
+                                            <h4>නවතම පුවත්</h4>
+                                            <div class="row-5px">
+                                                <img class="img-responsive" width="100%" src="https://via.placeholder.com/320x75" alt="Chania">
+                                            </div>
+
+                                            <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                            <div class="read-more-link">
+                                                <a class="" href="" title="">Read More</a>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="snippet-container">
+                                            <h4>නවතම පුවත්</h4>
+                                            <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                            <div class="read-more-link">
+                                                <a class="" href="" title="">Read More</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="snippet-container">
+                                            <h4>නවතම පුවත්</h4>
+                                            <p class="snippet-text">OK, so images can get quite complicated as
+                                                we have a few variables to work with! For example the image we have a few variables to work with! For example the image
+                                                we have a few variables to work with! For example the image we have a few variables to work with! For example the image
+                                                we have a few variables to work with! For example the image we have a few variables to work with! For example the image
+                                                we have a few variables to work with! For example the image below has had a caption entered</p>
+                                            <div class="read-more-link">
+                                                <a class="" href="" title="">Read More</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="snippet-container">
+                                            <h4>නවතම පුවත්</h4>
+                                            <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                            <div class="read-more-link">
+                                                <a class="" href="" title="">Read More</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="read-more-link">
+                                            <a class="" href="" title="">More News</a>
+                                        </div>
 
                                     </div>
                                 </div>
 
                             </div>
                         </section>
+                    </div>
+
+                    <div class="col-md-9 right-side-div">
                     </div>
 
 
@@ -390,6 +551,10 @@
 
         </div>
 
+
+        <section  class="container" id="home-page-category-news-section">
+            <div class="row home-page-category-news-section-row">ssssss</div>
+        </section>
 
 
 
