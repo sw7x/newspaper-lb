@@ -115,8 +115,8 @@
 
             <div class="clearfix content-div">
                 <div class="clearfix ">
-                    <div class="col-md-4 left-side-div">
 
+                    <div class="col-md-3 left-side-div">
                         <aside class="">
                             <div class="snippet-content-div clearfix">
                                 <div class="snippet-wrapper-div col-md-12">
@@ -307,16 +307,83 @@
                         </aside>
                     </div>
 
-                    <div class="col-md-8 right-side-div">
+
+                    <div class="col-md-9 right-side-div">
                         <section  class="top-feature-news-container">
                             <div class="top-feature-content-div">
                                 <div class="top-feature-wrapper">
-                                    <div class="top-feature-div">qqqqqqqqqqqqqqqq</div>
+                                    <div class="top-feature-div">
+
+                                        <div class="clearfix">
+                                            <div class="col-md-8 big-img-div" >
+                                                <div class="image-inner-big" style="background-image: url('https://via.placeholder.com/360x400');"></div>
+                                            </div>
+                                            <div class="col-md-4 small-img-div">
+                                                <div class="image-inner-small" style="background-image: url('https://via.placeholder.com/360x175');"></div>
+                                                <div class="image-inner-small" style="background-image: url('https://via.placeholder.com/360x175');"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="clearfix">
+                                            <div class="col-md-4"><img class="img-responsive" src="https://via.placeholder.com/360x175" alt="Chania" width="100%"></div>
+                                            <div class="col-md-4"><img class="img-responsive" src="https://via.placeholder.com/360x175" alt="Chania" width="100%"></div>
+                                            <div class="col-md-4"><img class="img-responsive" src="https://via.placeholder.com/360x175" alt="Chania" width="100%"></div>
+                                        </div>
+
+                                        <div class="clearfix">
+                                            <div class="col-md-4"><img class="img-responsive" src="https://via.placeholder.com/360x175" alt="Chania" width="100%"></div>
+                                            <div class="col-md-4"><img class="img-responsive" src="https://via.placeholder.com/360x175" alt="Chania" width="100%"></div>
+                                            <div class="col-md-4"><img class="img-responsive" src="https://via.placeholder.com/360x175" alt="Chania" width="100%"></div>
+                                        </div>
+
+
+
+                                    </div>
                                 </div>
 
                             </div>
                         </section>
                     </div>
+
+                    <div class="col-md-9 right-side-div">
+                        <section  class="normal-feature-news-container">
+                            <div class="normal-feature-content-div">
+                                <div class="normal-feature-wrapper">
+
+                                    <div class="news-type-heading-wrapper col-md-12">
+                                        <div  class="news-type-heading">
+                                            <h3>නවතම පුවත්</h3>
+                                        </div>
+                                    </div>
+
+                                    <div class="normal-news-feature-div">
+
+
+                                        <div class="clearfix">
+                                            <div class="col-md-4"><img class="img-responsive" src="https://via.placeholder.com/360x175" alt="Chania" width="100%"></div>
+                                            <div class="col-md-4"><img class="img-responsive" src="https://via.placeholder.com/360x175" alt="Chania" width="100%"></div>
+                                            <div class="col-md-4"><img class="img-responsive" src="https://via.placeholder.com/360x175" alt="Chania" width="100%"></div>
+                                        </div>
+
+                                        <div class="clearfix">
+                                            <div class="col-md-4"><img class="img-responsive" src="https://via.placeholder.com/360x175" alt="Chania" width="100%"></div>
+                                            <div class="col-md-4"><img class="img-responsive" src="https://via.placeholder.com/360x175" alt="Chania" width="100%"></div>
+                                            <div class="col-md-4"><img class="img-responsive" src="https://via.placeholder.com/360x175" alt="Chania" width="100%"></div>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </section>
+                    </div>
+
+
+
+
+
                 </div>
             </div>
 

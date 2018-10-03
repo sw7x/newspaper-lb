@@ -1193,6 +1193,12 @@ a img.aligncenter {
   padding-right: 5px;
   padding-left: 5px; }
 
+.image-inner {
+  min-height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
 section#page-top {
   background-color: #000; }
   section#page-top .page-top-nav {
@@ -1324,17 +1330,18 @@ section#navigation-div {
           text-align: center; }
         #home-page-main-news-section .home-page-main-news-section-row .content-div div div.left-side-div aside .snippet-content-div .snippet-wrapper-div .snippet-container {
           position: relative;
+          font-size: 12px;
           border: 1px solid;
           padding: 5px;
           margin-bottom: 10px; }
           #home-page-main-news-section .home-page-main-news-section-row .content-div div div.left-side-div aside .snippet-content-div .snippet-wrapper-div .snippet-container h4 {
             text-align: center; }
           #home-page-main-news-section .home-page-main-news-section-row .content-div div div.left-side-div aside .snippet-content-div .snippet-wrapper-div .snippet-container p.snippet-text {
-            margin: 0 0 32px; }
+            margin: 0 0 20px; }
           #home-page-main-news-section .home-page-main-news-section-row .content-div div div.left-side-div aside .snippet-content-div .snippet-wrapper-div .snippet-container .read-more-link {
             position: absolute;
             right: 3px;
-            bottom: 8px; }
+            bottom: 7px; }
             #home-page-main-news-section .home-page-main-news-section-row .content-div div div.left-side-div aside .snippet-content-div .snippet-wrapper-div .snippet-container .read-more-link a {
               color: #000;
               border: 1px solid #000;
@@ -1353,21 +1360,70 @@ section#navigation-div {
       border-top-width: 1px;
       border-bottom-width: 1px;
       border-color: #666; }
-    #home-page-main-news-section .home-page-main-news-section-row .content-div div div.left-side-div aside:last-of-type {
+    #home-page-main-news-section .home-page-main-news-section-row .content-div div div.left-side-div aside:not(:first-of-type) {
       border-bottom: 1px solid #666; }
-    #home-page-main-news-section .home-page-main-news-section-row .content-div div .right-side-div section.top-feature-news-container {
-      border-top-style: solid;
-      border-bottom-style: solid;
-      border-top-width: 1px;
-      border-bottom-width: 1px;
-      border-color: #666; }
-      #home-page-main-news-section .home-page-main-news-section-row .content-div div .right-side-div section.top-feature-news-container .top-feature-content-div {
-        padding: 10px 0px; }
-        #home-page-main-news-section .home-page-main-news-section-row .content-div div .right-side-div section.top-feature-news-container .top-feature-content-div .top-feature-wrapper {
-          border-left-style: solid;
-          border-right-style: solid;
-          border-left-width: 1px;
-          border-right-width: 1px;
-          border-color: #666; }
+    #home-page-main-news-section .home-page-main-news-section-row .content-div div .right-side-div section.top-feature-news-container .top-feature-content-div {
+      padding: 10px 0px; }
+      #home-page-main-news-section .home-page-main-news-section-row .content-div div .right-side-div section.top-feature-news-container .top-feature-content-div .top-feature-wrapper {
+        border-left-style: solid;
+        border-right-style: solid;
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-color: #666; }
+        #home-page-main-news-section .home-page-main-news-section-row .content-div div .right-side-div section.top-feature-news-container .top-feature-content-div .top-feature-wrapper .top-feature-div > div {
+          margin-bottom: 10px; }
+          #home-page-main-news-section .home-page-main-news-section-row .content-div div .right-side-div section.top-feature-news-container .top-feature-content-div .top-feature-wrapper .top-feature-div > div:last-of-type {
+            margin-bottom: 0px; }
+        #home-page-main-news-section .home-page-main-news-section-row .content-div div .right-side-div section.top-feature-news-container .top-feature-content-div .top-feature-wrapper .top-feature-div .small-img-div > div {
+          margin-bottom: 10px; }
+        #home-page-main-news-section .home-page-main-news-section-row .content-div div .right-side-div section.top-feature-news-container .top-feature-content-div .top-feature-wrapper .top-feature-div .image-inner-big {
+          min-height: 300px;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center; }
+        #home-page-main-news-section .home-page-main-news-section-row .content-div div .right-side-div section.top-feature-news-container .top-feature-content-div .top-feature-wrapper .top-feature-div .image-inner-small {
+          min-height: 145px;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center; }
+    #home-page-main-news-section .home-page-main-news-section-row .content-div div .right-side-div .top-feature-news-container {
+      border-top: 1px solid #666; }
+    #home-page-main-news-section .home-page-main-news-section-row .content-div div .right-side-div:last-of-type .top-feature-news-container {
+      border-bottom: 1px solid #666; }
+    #home-page-main-news-section .home-page-main-news-section-row .content-div div .right-side-div section.normal-feature-news-container .normal-feature-content-div {
+      padding: 10px 0px; }
+      #home-page-main-news-section .home-page-main-news-section-row .content-div div .right-side-div section.normal-feature-news-container .normal-feature-content-div .normal-feature-wrapper {
+        border-left-style: solid;
+        border-right-style: solid;
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-color: #666; }
+        #home-page-main-news-section .home-page-main-news-section-row .content-div div .right-side-div section.normal-feature-news-container .normal-feature-content-div .normal-feature-wrapper .normal-news-feature-div > div {
+          margin-bottom: 10px; }
+          #home-page-main-news-section .home-page-main-news-section-row .content-div div .right-side-div section.normal-feature-news-container .normal-feature-content-div .normal-feature-wrapper .normal-news-feature-div > div:last-of-type {
+            margin-bottom: 0px; }
+        #home-page-main-news-section .home-page-main-news-section-row .content-div div .right-side-div section.normal-feature-news-container .normal-feature-content-div .normal-feature-wrapper .normal-news-feature-div .small-img-div > div {
+          margin-bottom: 10px; }
+        #home-page-main-news-section .home-page-main-news-section-row .content-div div .right-side-div section.normal-feature-news-container .normal-feature-content-div .normal-feature-wrapper .normal-news-feature-div .image-inner-big {
+          min-height: 300px;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center; }
+        #home-page-main-news-section .home-page-main-news-section-row .content-div div .right-side-div section.normal-feature-news-container .normal-feature-content-div .normal-feature-wrapper .normal-news-feature-div .image-inner-small {
+          min-height: 145px;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center; }
+        #home-page-main-news-section .home-page-main-news-section-row .content-div div .right-side-div section.normal-feature-news-container .normal-feature-content-div .normal-feature-wrapper .news-type-heading-wrapper .news-type-heading {
+          background-color: coral;
+          padding: 5px 0px;
+          text-align: center;
+          margin-bottom: 10px; }
+          #home-page-main-news-section .home-page-main-news-section-row .content-div div .right-side-div section.normal-feature-news-container .normal-feature-content-div .normal-feature-wrapper .news-type-heading-wrapper .news-type-heading h3 {
+            margin-bottom: 0px; }
+    #home-page-main-news-section .home-page-main-news-section-row .content-div div .right-side-div .normal-feature-news-container {
+      border-top: 1px solid #666; }
+    #home-page-main-news-section .home-page-main-news-section-row .content-div div .right-side-div:last-of-type .normal-feature-news-container {
+      border-bottom: 1px solid #666; }
 
 /*# sourceMappingURL=style.css.map */
