@@ -57,7 +57,7 @@ h4,
 h5,
 h6 {
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .h1,
@@ -1497,6 +1497,8 @@ section#page-top{
             .leftDiv{
                 font-size: 14px;
                 color : #fff;
+                padding-bottom: 5px;
+                padding-top: 5px;
 
             }
 
@@ -1508,6 +1510,10 @@ section#page-top{
                     font-size : 12px;
                     color     : #fff;
                     padding   : 5px 10px 5px 0px;
+                    &:hover{
+                        background-color: #fff;
+                        color:#000;
+                    }
                 }
 
                 &:not(:first-child) a::before {
@@ -1552,20 +1558,114 @@ section#page-top{
                 height: 35px;
                 border: 1px solid#666;
                 border-left: none;
-                position: relative;
+
                 .news-content{
                     padding: 0px 25px;
+                    text-align: center;
+                    font-size: 12px;
+                    a{
+                        text-decoration: none;
+                        color:#000;
+                        &:hover{
+                            color:#ea6f2b;
+                        }
+
+                    }
                 }
+
+                .news-slider{
+                    position: relative;
+                    padding: 0px 60px;
+
+                    &.owl-carousel{
+                        width: auto;
+                        .owl-stage-outer{
+                            //width : 95%;
+                            //padding:0px 50px;
+                        }
+                    }
+                }
+
+
+                //&.owl-carousel{
+                //    display: none;
+                //    width: 100%;
+                //    -webkit-tap-highlight-color: transparent;
+                //    position: relative;
+                //    z-index: 1;
+                //    .owl-stage {
+                //        position: relative;
+                //        -ms-touch-action: pan-Y
+                //    }
+                //
+                //    .owl-item {
+                //        position: relative;
+                //        min-height: 1px;
+                //        float: left;
+                //        -webkit-backface-visibility: hidden;
+                //        -webkit-tap-highlight-color: transparent;
+                //        -webkit-touch-callout: none;
+                //        -webkit-user-select: none;
+                //        -moz-user-select: none;
+                //        -ms-user-select: none;
+                //        user-select: none;
+                //    }
+                //}
+
+                .owl-next, .owl-prev {
+                    //font-size: 20px;
+                    //color: #bb1616;
+                    //
+                    //margin-top: -20px;
+                    //position: absolute;
+                    //bottom: 50%;
+                    //transform: translateY(50%);
+                    //
+                    //cursor: pointer;
+                    //font-weight: 600;
+                    a{
+                        i{
+                            font-size: 25px;
+                            color: #000;
+                        }
+                        padding: 0 10px;
+                    }
+
+                }
+
+                .owl-next {
+                    right: 10px;
+                    bottom: -3px;
+                    position: absolute;
+                }
+                .owl-prev {
+                    left: 10px;
+                    bottom: -3px;
+                    position: absolute;
+                }
+
+
+
+
+
+
+
                 .prev{
                     right: 35px;
                     bottom: 8px;
-                    position: absolute;
+                    //position: absolute;
                 }
                 .next{
                     right: 10px;
                     bottom: 8px;
-                    position: absolute;
+                    //position: absolute;
                 }
+
+
+
+
+
+
 
             }
         }
@@ -1672,8 +1772,12 @@ section#navigation-div{
                         border: 1px solid #666;
                         input.form-control{
                             border: 0px solid transparent;
-
+                            &:focus{
+                                border-right: 1px solid;
+                            }
                         }
+
+
                         .search-btn{
                             height: 40px;
                             color: #555;
@@ -1734,7 +1838,8 @@ section#navigation-div{
                         .snippet-content-div{
                             padding: 10px 0px;
                             .snippet-wrapper-div{
-
+                                position: relative;
+                                padding-bottom: 30px;
                                 .heading-wrapper{
                                     .heading{
                                         background-color: #000;
@@ -1742,8 +1847,18 @@ section#navigation-div{
                                         padding: 5px 0px;
                                         text-align: center;
                                         margin-bottom: 10px;
+                                        border-bottom: 3px solid #ea6f2b;
                                         h3{
                                             margin-bottom: 0px;
+                                            a{
+                                                text-decoration: none;
+                                                font-weight: bold;
+                                                line-height: 30px;
+
+                                                &:hover{
+                                                    color:#fff;
+                                                }
+                                            }
                                         }
                                     }
                                 }
@@ -1754,16 +1869,95 @@ section#navigation-div{
                                 .snippet-container{
                                     position : relative;
                                     font-size: 12px;
-                                    h4{
-                                        text-align: center;
-                                    }
                                     border: 1px solid;
-                                    padding: 5px;
+                                    //padding: 5px;
                                     margin-bottom: 10px;
-                                    p.snippet-text{
-                                        margin: 0 0 27px;
 
+                                    .snippet-heading{
+                                        text-align: center;
+                                        padding: 5px;
+                                        background-color: #000;
+                                        h4{
+                                            //text-align: center;
+                                            a{
+                                                text-decoration: none;
+                                                font-weight: bold;
+
+                                                &:hover{
+                                                    color:#fff;
+                                                }
+                                            }
+                                        }
                                     }
+
+                                    .snippet-content{
+                                        padding: 0px 0px 30px 0px;
+                                        overflow: hidden;
+
+                                        .topImgDiv{
+                                            a{
+
+                                                img{
+                                                    max-width: 100%;
+
+                                                    -moz-transition: all 0.3s;
+                                                    -webkit-transition: all 0.3s;
+                                                    transition: all 0.3s;
+                                                }
+
+                                                &:hover img{
+                                                    -moz-transform: scale(1.1);
+                                                    -webkit-transform: scale(1.1);
+                                                    transform: scale(1.1);
+
+                                                }
+                                            }
+
+
+                                        }
+
+                                        .infoDiv{
+                                            border-bottom:1px dotted #000;
+                                            padding:5px;
+                                            font-size: 10px;
+                                            .left{
+                                                text-align: left;
+                                            }
+                                            .right{
+                                                text-align: right;
+                                                font-size: 12px;
+
+                                            }
+
+                                            &.video{
+                                                border-bottom:0px;
+
+                                            }
+                                        }
+
+
+
+
+                                        .snippet-text-div{
+                                            padding:5px;
+                                            line-height: 18px;
+                                            p.snippet-text{
+                                                //margin: 0 0 27px;
+                                                text-align: justify;
+
+                                                a{
+                                                    text-decoration: none;
+                                                    font-weight: bold;
+
+                                                    &:hover{
+                                                        color:#fff;
+                                                    }
+                                                }
+
+                                            }
+                                        }
+                                    }
+
                                     .read-more-link{
                                         position: absolute;
                                         right : 3px;
@@ -1772,7 +1966,7 @@ section#navigation-div{
                                             color: #000;
                                             border: 1px solid#000;
                                             background: #fff;
-                                            /* float: left; */
+                                            font-size: 12px;
                                             padding: 5px 10px;
                                             text-decoration: none !important;
                                             &:hover{
@@ -1785,11 +1979,38 @@ section#navigation-div{
                                             }
                                         }
                                     }
+
                                 }
+
+
+
 
                                 .snippet-container:last-of-type{
                                     margin-bottom: 0px;
                                 }
+
+                                .read-more-link{
+                                    position: absolute;
+                                    right : 15px;
+                                    bottom: 5px;
+                                    a{
+                                        color: #000;
+                                        border: 1px solid#000;
+                                        background: #fff;
+                                        font-size: 14px;
+                                        padding: 5px 10px;
+                                        text-decoration: none !important;
+                                        &:hover{
+                                            //float: left;
+                                            //padding: 5px 10px;
+                                            color: #fff;
+                                            //border: 1px solid#000;
+                                            background: #000;
+
+                                        }
+                                    }
+                                }
+
                             }
                         }
 
@@ -1823,19 +2044,575 @@ section#navigation-div{
                                         }
                                     }
                                     .small-img-div{
-                                        >div{
+                                        div{
                                             margin-bottom: 10px;
                                         }
+
+                                        .small-img-div-wrapper{
+                                            position: relative;
+
+
+                                            .overlayDiv{
+                                                padding: 10px 10px;
+                                                background-color: rgba(245, 130, 32, 0.35);
+                                                position: absolute;
+                                                bottom: 0px;
+                                                width : 100%;
+                                                margin-bottom: 0px;
+
+                                                a{
+
+                                                    &:hover{
+                                                        text-decoration: none;
+                                                        .date{
+                                                            color: #f58220;
+                                                        }
+
+                                                        .heading{
+                                                            h4{
+                                                                color: #f58220;
+                                                            }
+                                                        }
+                                                        .para{
+                                                            color: #f58220;
+                                                        }
+                                                    }
+
+
+
+                                                    .date{
+                                                        font-size: 12px;
+                                                        font-weight: bold;
+                                                        color: #000;
+                                                        line-height: 16px;
+                                                        margin-bottom: 0px;
+
+                                                    }
+
+
+                                                    .heading{
+                                                        h4{
+                                                            font-size: 16px;
+                                                            font-weight: bold;
+                                                            color: #000;
+                                                            line-height: 18px;
+                                                        }
+                                                        margin-bottom: 0px;
+                                                    }
+                                                    .para{
+                                                        padding: 5px 0px 0px 0px;
+                                                        text-align: left;
+                                                        font-size: 13px;
+                                                        color: #000;
+                                                        line-height: 20px;
+                                                        letter-spacing: 0.1px;
+
+
+                                                        p{
+                                                            margin-bottom: 0px;
+                                                            line-height: 18px;
+                                                        }
+                                                    }
+
+                                                }
+
+                                            }
+                                            .newsType{
+                                                a{
+                                                    color: #fff;
+                                                    font-weight: bold;
+                                                    text-transform: capitalize;
+                                                    font-size: 16px;
+                                                    text-decoration: none;
+
+                                                }
+                                                position: absolute;
+                                                top: 0px;
+                                                left: 0px;
+                                                padding: 10px 15px;
+
+                                                background-color: #f58220;
+
+
+                                                min-width: 100px;
+                                                -webkit-border-top-right-radius: 4px;
+                                                -webkit-border-bottom-right-radius: 4px;
+                                                -moz-border-radius-topright: 4px;
+                                                -moz-border-radius-bottomright: 4px;
+                                                border-top-right-radius: 4px;
+                                                border-bottom-right-radius: 4px;
+                                            }
+                                        }
+
                                     }
+
+                                    .big-img-div{
+
+                                        .mainSlider{
+
+                                            .nav-pills > li > a {
+                                                border-radius: 2px 2px 0 0 ;
+                                                min-width : 100px;
+                                                text-transform: capitalize;
+                                                font-weight: bold;
+                                            }
+
+                                            .nav-pills > li.active > a {
+                                                background-color: #f58220;
+                                            }
+
+                                            .tab-content {
+                                                color : white;
+                                                background-color: #f58220;
+                                                padding : 0px;
+                                            }
+
+                                            .item{
+                                                padding : 5px;
+                                                .snippet-heading{
+                                                    text-align: center;
+                                                    padding: 5px;
+                                                    background-color: #000;
+                                                    h4 a {
+                                                        text-decoration: none;
+                                                        font-weight: bold;
+                                                        &:hover {
+                                                            color: #fff;
+                                                        }
+                                                    }
+                                                }
+
+                                                .snippet-content{
+                                                    padding: 0px 0px 30px 0px;
+                                                    overflow: hidden;
+                                                    .infoDiv{
+                                                        border-bottom:1px dotted #000;
+                                                        padding:5px;
+                                                        font-size: 10px;
+                                                        .left{
+                                                            text-align: left;
+                                                        }
+                                                        .right{
+                                                            text-align: right;
+                                                            font-size: 12px;
+
+                                                        }
+
+                                                        &.video{
+                                                            border-bottom:0px;
+
+                                                        }
+                                                    }
+
+                                                    .snippet-text-div{
+                                                        padding: 5px;
+                                                        line-height: 18px;
+                                                        p.snippet-text{
+                                                            text-align: justify;
+                                                        }
+                                                    }
+
+                                                    .read-more-link{
+                                                        position: absolute;
+                                                        right : 3px;
+                                                        bottom: 7px;
+                                                        a{
+                                                            color: #000;
+                                                            border: 1px solid#000;
+                                                            background: #fff;
+                                                            font-size: 12px;
+                                                            padding: 5px 10px;
+                                                            text-decoration: none !important;
+                                                            &:hover{
+                                                                //float: left;
+                                                                //padding: 5px 10px;
+                                                                color: #fff;
+                                                                //border: 1px solid#000;
+                                                                background: #000;
+
+                                                            }
+                                                        }
+                                                    }
+                                                }
+
+                                                .videoWrapper {
+                                                    position: relative;
+                                                    padding-bottom: 56.25%;
+                                                    height: 0;
+                                                    iframe {
+                                                        position: absolute;
+                                                        top: 0;
+                                                        left: 0;
+                                                        width: 100%;
+                                                        height: 100%;
+                                                    }
+                                                }
+
+                                                img{
+                                                    display: block;
+                                                    width: 100%;
+                                                    height: auto;
+                                                }
+
+
+                                            }
+
+
+                                            .owl-prev {
+                                                left: 1%;
+                                                bottom: 50%;
+                                                position: absolute;
+                                                transform: translateY(-50%);
+                                            }
+
+                                            .owl-next {
+                                                right: 1%;
+                                                bottom: 50%;
+                                                position: absolute;
+                                                transform: translateY(-50%);
+                                            }
+
+
+                                            .owl-next a,
+                                            .owl-prev a {
+                                                padding: 0 10px;
+                                            }
+
+
+
+                                            .owl-next a i,
+                                            .owl-prev a i {
+                                                font-size: 25px;
+                                                //color: #000;
+                                            }
+
+
+                                            .prev {
+                                                right: 35px;
+                                                bottom: 8px;
+                                            }
+
+
+                                            .next {
+                                                right: 10px;
+                                                bottom: 8px;
+                                            }
+
+                                            .owl-theme .owl-dots .owl-dot.active span,
+                                            .owl-theme .owl-dots .owl-dot:hover span {
+                                                background: #fff;
+                                            }
+
+
+
+                                        }
+
+
+                                        .big-img-div-wrapper{
+                                            overflow: hidden;
+                                            position: relative;
+                                            .overlayDiv{
+                                                padding: 10px 10px;
+                                                background-color:#f582208a;
+                                                position: absolute;
+                                                bottom: 0px;
+                                                width : 100%;
+                                                a{
+                                                    &:hover{
+                                                        text-decoration: none;
+                                                        .date{
+                                                            color: #f58220;
+                                                        }
+
+                                                        .heading{
+                                                            h4{
+                                                                color: #f58220;
+                                                            }
+                                                        }
+                                                        .para{
+                                                            color: #f58220;
+                                                        }
+                                                    }
+
+
+
+                                                    .date{
+                                                        font-size: 12px;
+                                                        font-weight: bold;
+                                                        color: #000;
+                                                        line-height: 18px;
+                                                    }
+
+
+                                                    .heading{
+                                                        h4{
+                                                            font-size: 16px;
+                                                            font-weight: bold;
+                                                            color: #000;
+                                                            line-height: 18px;
+                                                        }
+                                                    }
+                                                    .para{
+                                                        padding: 5px 0px 0px 0px;
+                                                        text-align: left;
+                                                        font-size: 13px;
+                                                        color: #000;
+                                                        line-height: 20px;
+                                                        letter-spacing: 0.1px;
+
+
+                                                        p{
+                                                            margin-bottom: 0px;
+                                                            line-height: 18px;
+                                                        }
+                                                    }
+
+                                                }
+
+                                            }
+                                            .newsType{
+                                                a{
+                                                    color: #fff;
+                                                    font-weight: bold;
+                                                    text-transform: capitalize;
+                                                    font-size: 16px;
+                                                    text-decoration: none;
+                                                    //&:hover{
+                                                    //    color: #f58220;
+                                                    //}
+                                                }
+                                                position: absolute;
+                                                top: 0px;
+                                                left: 0px;
+                                                padding: 10px 15px;
+
+                                                background-color: #f58220;
+
+
+                                                min-width: 100px;
+                                                -webkit-border-top-right-radius: 4px;
+                                                -webkit-border-bottom-right-radius: 4px;
+                                                -moz-border-radius-topright: 4px;
+                                                -moz-border-radius-bottomright: 4px;
+                                                border-top-right-radius: 4px;
+                                                border-bottom-right-radius: 4px;
+                                            }
+                                        }
+
+                                    }
+
+                                    .img2Div{
+                                        .img2Div-wrapper{
+                                            position: relative;
+
+                                            .overlayDiv{
+                                                padding: 5px 10px;
+                                                background-color: rgba(245, 130, 32, 0.35);
+                                                position: absolute;
+                                                bottom: 0px;
+                                                width : 100%;
+                                                a{
+                                                    &:hover{
+                                                        text-decoration: none;
+                                                        .date{
+                                                            color: #f58220;
+                                                        }
+
+                                                        .heading{
+                                                            h4{
+                                                                color: #f58220;
+                                                            }
+                                                        }
+                                                        .para{
+                                                            color: #f58220;
+                                                        }
+                                                    }
+
+
+
+                                                    .date{
+                                                        font-size: 12px;
+                                                        font-weight: bold;
+                                                        color: #000;
+                                                        line-height: 16px;
+                                                    }
+
+
+                                                    .heading{
+                                                        h4{
+                                                            font-size: 14px;
+                                                            font-weight: bold;
+                                                            color: #000;
+                                                            line-height: 18px;
+                                                        }
+                                                    }
+                                                    .para{
+                                                        padding: 5px 0px 0px 0px;
+                                                        text-align: left;
+                                                        font-size: 13px;
+                                                        color: #000;
+                                                        line-height: 20px;
+                                                        letter-spacing: 0.1px;
+
+
+                                                        p{
+                                                            margin-bottom: 0px;
+                                                        }
+                                                    }
+
+                                                }
+
+                                            }
+
+                                            .newsType{
+                                                a{
+                                                    color: #fff;
+                                                    font-weight: bold;
+                                                    text-transform: capitalize;
+                                                    font-size: 16px;
+                                                    text-decoration: none;
+                                                    //&:hover{
+                                                    //    color: #f58220;
+                                                    //}
+                                                }
+                                                position: absolute;
+                                                top: 0px;
+                                                left: 0px;
+                                                padding: 10px 15px;
+
+                                                background-color: #f58220;
+
+
+                                                min-width: 100px;
+                                                -webkit-border-top-right-radius: 4px;
+                                                -webkit-border-bottom-right-radius: 4px;
+                                                -moz-border-radius-topright: 4px;
+                                                -moz-border-radius-bottomright: 4px;
+                                                border-top-right-radius: 4px;
+                                                border-bottom-right-radius: 4px;
+                                            }
+                                        }
+                                    }
+
+                                    .img3Div{
+                                        .img3Div-wrapper{
+                                            position: relative;
+
+                                            .overlayDiv{
+                                                padding: 2px 10px;
+                                                background-color: rgba(245, 130, 32, 0.35);
+                                                position: absolute;
+                                                bottom: 0px;
+                                                width : 100%;
+                                                a{
+                                                    &:hover{
+                                                        text-decoration: none;
+                                                        .date{
+                                                            color: #f58220;
+                                                        }
+
+                                                        .heading{
+                                                            h4{
+                                                                color: #f58220;
+                                                            }
+                                                        }
+                                                        .para{
+                                                            color: #f58220;
+                                                        }
+                                                    }
+
+
+
+                                                    .date{
+                                                        font-size: 10px;
+                                                        font-weight: bold;
+                                                        color: #000;
+                                                        line-height: 14px;
+
+                                                    }
+
+
+                                                    .heading{
+                                                        h4{
+                                                            font-size: 12px;
+                                                            font-weight: bold;
+                                                            color: #000;
+                                                            line-height: 20px;
+                                                        }
+                                                    }
+                                                    .para{
+                                                        padding: 5px 0px 0px 0px;
+                                                        text-align: left;
+                                                        font-size: 12px;
+                                                        color: #000;
+                                                        line-height: 20px;
+                                                        letter-spacing: 0.1px;
+
+
+                                                        p{
+                                                            margin-bottom: 0px;
+                                                        }
+                                                    }
+
+                                                }
+
+                                            }
+
+                                            .newsType{
+                                                a{
+                                                    color: #fff;
+                                                    font-weight: bold;
+                                                    text-transform: capitalize;
+                                                    font-size: 16px;
+                                                    text-decoration: none;
+                                                    //&:hover{
+                                                    //    color: #f58220;
+                                                    //}
+                                                }
+                                                position: absolute;
+                                                top: 0px;
+                                                left: 0px;
+                                                padding: 10px 15px;
+
+                                                background-color: #f58220;
+
+
+                                                min-width: 100px;
+                                                -webkit-border-top-right-radius: 4px;
+                                                -webkit-border-bottom-right-radius: 4px;
+                                                -moz-border-radius-topright: 4px;
+                                                -moz-border-radius-bottomright: 4px;
+                                                border-top-right-radius: 4px;
+                                                border-bottom-right-radius: 4px;
+                                            }
+
+                                        }
+                                    }
+
+
+
+
 
                                     .image-inner-big {
                                         min-height: 300px;
                                         background-size: cover;
                                         background-repeat: no-repeat;
                                         background-position: center center;
+                                        //overflow: hidden;
+                                        -webkit-transition: all 0.5s ease-in-out;
+                                        transition: all 0.5s ease-in-out;
+
+                                        &:hover{
+                                            -webkit-transform: scale(1.2,1.2);
+                                            transform: scale(1.2,1.2);
+                                            -webkit-transition: all 0.5s ease-in-out;
+                                            transition: all 0.5s ease-in-out;
+                                        }
+
+
                                     }
                                     .image-inner-small {
-                                        min-height: 145px;
+                                        min-height: 300px;
                                         background-size: cover;
                                         background-repeat: no-repeat;
                                         background-position: center center;
@@ -1855,6 +2632,7 @@ section#navigation-div{
                                                 a{
                                                     text-decoration: none;
                                                     font-weight: bold;
+                                                    line-height: 30px;
 
                                                     &:hover{
                                                         color:#fff;
@@ -1954,32 +2732,47 @@ section#navigation-div{
                                         margin-bottom: 10px;
 
                                         .snippet-content{
-                                            padding: 0px 5px 30px 5px;
+                                            padding: 0px 0px 30px 0px;
 
-                                            p.snippet-text{
-                                                margin: 0 0 30px;
-                                                text-align: justify;
-
+                                            .infoDiv{
+                                                border-bottom:1px dotted #000;
+                                                padding:5px;
+                                                font-size: 12px;
+                                                .left{
+                                                    text-align: left;
+                                                }
+                                                .right{
+                                                    text-align: right;
+                                                }
                                             }
-                                            .read-more-link{
-                                                position: absolute;
-                                                right : 3px;
-                                                bottom: 7px;
-                                                a{
-                                                    color: #000;
-                                                    border: 1px solid#000;
-                                                    background: #fff;
-                                                    /* float: left; */
-                                                    padding: 5px 10px;
-                                                    text-decoration: none !important;
-                                                    &:hover{
-                                                        //float: left;
-                                                        //padding: 5px 10px;
-                                                        color: #fff;
-                                                        //border: 1px solid#000;
-                                                        background: #000;
 
-                                                    }
+                                            .snippet-text-div{
+                                                padding:5px;
+                                                p.snippet-text{
+                                                    margin: 0 0 30px;
+                                                    text-align: justify;
+
+                                                }
+                                            }
+                                        }
+                                        .read-more-link{
+                                            position: absolute;
+                                            right : 3px;
+                                            bottom: 7px;
+                                            a{
+                                                color: #000;
+                                                border: 1px solid#000;
+                                                background: #fff;
+                                                /* float: left; */
+                                                padding: 5px 10px;
+                                                text-decoration: none !important;
+                                                &:hover{
+                                                    //float: left;
+                                                    //padding: 5px 10px;
+                                                    color: #fff;
+                                                    //border: 1px solid#000;
+                                                    background: #000;
+
                                                 }
                                             }
                                         }
@@ -2021,12 +2814,13 @@ section#navigation-div{
                                         padding: 5px 0px;
                                         text-align: center;
                                         margin-bottom: 10px;
+                                        border-bottom: 3px solid #ea6f2b;
                                         h3{
                                             margin-bottom: 0px;
                                             a{
                                                 text-decoration: none;
                                                 font-weight: bold;
-
+                                                line-height: 30px;
                                                 &:hover{
                                                     color:#fff;
                                                 }
@@ -2089,12 +2883,13 @@ section.home-page-category-news-section{
                         padding: 5px 0px;
                         text-align: center;
                         margin-bottom: 10px;
+                        border-bottom: 3px solid #ea6f2b;
                         h3{
                             //margin-bottom: 0px;
                             a{
                                 text-decoration: none;
                                 font-weight: bold;
-
+                                line-height: 30px;
                                 &:hover{
                                     color:#fff;
                                 }
@@ -2136,16 +2931,61 @@ section.home-page-category-news-section{
                         }
 
                         .snippet-content{
-                            padding: 0px 5px 30px 5px;
-                            .snippet-text-div{
+                            //padding: 0px 5px 30px 5px;
+                            padding: 0px 0px 30px 0px;
 
+
+                            .infoDiv{
+                                border-bottom:1px dotted #000;
+                                padding:5px;
+                                font-size: 12px;
+                                .left{
+                                    text-align: left;
+                                }
+                                .right{
+                                    text-align: right;
+                                }
+                            }
+
+
+
+                            .snippet-text-div{
+                                text-align: justify;
+                                padding:5px;
                                 p.snippet-text{
                                     text-align: justify;
+                                    font-size: 12px;
                                 }
                             }
 
                             &:last-of-type{
                                 margin-bottom: 0px;
+                            }
+
+                            .read-more-link{
+                                position: absolute;
+                                right : 3px;
+                                bottom: 7px;
+                                //display: none;
+                                a{
+                                    color: #000;
+                                    border: 1px solid#000;
+                                    background: #fff;
+                                    //float: left;
+                                    padding: 5px 10px;
+                                    text-decoration: none !important;
+                                    font-size: 12px;
+
+                                    &:hover{
+                                        //float: left;
+                                        //padding: 5px 10px;
+                                        color: #fff;
+                                        //border: 1px solid#000;
+                                        background: #000;
+
+
+                                    }
+                                }
                             }
                         }
 
@@ -2164,6 +3004,8 @@ section.home-page-category-news-section{
                         //float: left;
                         padding: 5px 10px;
                         text-decoration: none !important;
+                        font-size: 14px;
+
                         &:hover{
                             //float: left;
                             //padding: 5px 10px;
@@ -2181,8 +3023,15 @@ section.home-page-category-news-section{
 
         }
     }
+
+
+
 }
 
+
+section .v2.home-page-category-news-section{
+
+}
 
 
 
@@ -2236,6 +3085,34 @@ footer{
 
                                 }
                             }
+
+                            .mobileAppDiv{
+
+
+                                p{
+                                    color: #000;
+                                    text-decoration: none;
+                                    font-weight: bold;
+                                    font-size: 14px;
+                                }
+
+                                .imgDiv{
+                                    margin-bottom: 10px !important;
+                                }
+
+                            }
+
+                            .socialDiv{
+                                p{
+                                    color: #000;
+                                    text-decoration: none;
+                                    font-weight: bold;
+                                    font-size: 14px;
+                                }
+                            }
+
+
+
                         }
                     }
 
@@ -2298,7 +3175,7 @@ section#copywrite{
     position: fixed;
     right: 20px;
     bottom: 35px;
-    background: #000;
+    //background: #000;
     z-index: 11111;
 
     a, a:link, a:visited {
@@ -2308,6 +3185,8 @@ section#copywrite{
          display: block;
          color: #fff;
         border: 2px solid #000;
+        background-color: #000;
+        border-radius: 50%;
          span i.fa.fa-angle-up.fa-2x {
             padding-top: 6px;
          }
@@ -2330,5 +3209,198 @@ section#copywrite{
         }
     }
 }
+
+
+
+
+
+
+
+
+#feature-news-slider .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#feature-news-slider .owl-prev {
+    left: 1%;
+    bottom: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+#feature-news-slider .owl-next {
+    right: 1%;
+    bottom: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+
+#feature-news-slider .owl-next a,
+#feature-news-slider .owl-prev a {
+    padding: 0 10px;
+}
+
+
+
+#feature-news-slider .owl-next a i,
+#feature-news-slider .owl-prev a i {
+    font-size: 25px;
+    //color: #000;
+}
+
+
+#feature-news-slider .prev {
+    right: 35px;
+    bottom: 8px;
+}
+
+
+#feature-news-slider .next {
+    right: 10px;
+    bottom: 8px;
+}
+
+
+/* Styling Pagination*/
+#feature-news-slider.item {
+    margin: 3px;
+}
+#feature-news-slider.item img {
+    display: block;
+    width: 50%;
+    height: auto;
+}
+.owl-theme .owl-controls .owl-page {
+    display: inline-block;
+}
+.owl-theme .owl-controls .owl-page span {
+    background: none repeat scroll 0 0 #869791;
+    border-radius: 20px;
+    display: block;
+    height: 12px;
+    margin: 5px 7px;
+    opacity: 0.5;
+    width: 12px;
+}
+
+.owl-theme .owl-nav {
+    margin-top: 10px;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+
+.owl-theme .owl-nav [class*='owl-'] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: #f58220;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover a i{
+     color: #FFF;
+
+}
+
+.owl-theme .owl-dots {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #f58220;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #000;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity 200ms ease;
+    border-radius: 30px;
+}
+
+.searchbox{
+    position:relative;
+    min-width:50px;
+    width:0%;
+    height:50px;
+    float:right;
+    overflow:hidden;
+
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    -ms-transition: width 0.3s;
+    -o-transition: width 0.3s;
+    transition: width 0.3s;
+}
+.searchbox.expand
+{
+    width : 100%;
+}
+
+
+
+//#searchBox{
+//    text-align: right;
+//    -webkit-transition: right 2s ease;; /* Safari */
+//    transition: right 2s ease;;
+//
+//
+//    //transition:width 2s, left 2s;
+//    //-webkit-transition:width 2s, left 2s;
+//}
+//
+//#searchBox.expand {
+//    max-width:600px;
+//    opacity:1;
+//    width : 600px;
+//    transition:width 2s, right 2s;
+//    -webkit-transition:width 2s, right 2s;
+//}
+
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    //padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
 
 

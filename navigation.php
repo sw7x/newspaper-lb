@@ -15,9 +15,9 @@
                         </div>
 
                         <div class="col-md-4">
-                            <form class="navbar-form navbar-right" action="/action_page.php">
+                            <form class="searchbox navbar-form navbar-right" action="/action_page.php">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Search" name="search">
+                                    <input id="searchFild" type="text" class="form-control" placeholder="Search" name="search">
                                     <div class="input-group-btn search-btn">
                                         <button class="btn btn-default" type="submit">
                                             <i class="glyphicon glyphicon-search"></i>

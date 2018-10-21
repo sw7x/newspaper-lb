@@ -1,9 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+
 
         <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 
@@ -21,16 +22,23 @@
         <!-- custom css file -->
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css'>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.css'>
+
+
         <!-- custom css file -->
         <link href="css/style.css" rel="stylesheet" type="text/css">
 
-        <title>Hello, world!</title>
+        <title>Lakbima Online</title>
     </head>
     <body class="body">
 
 
 
         <!--        -->
+
+
 
 
 
@@ -45,7 +53,7 @@
                 <div class="row">
 
                     <div class="content-wrapper clearfix">
-                        <div class="col-md-6 leftDiv">2018 ඔක්තෝබර් මස 01 වන සඳුදා</div>
+                        <div class="col-md-6 leftDiv"><span>2018 ඔක්තෝබර් මස 01 වන සඳුදා</span></div>
 
                         <div class="col-md-6 rightDiv">
                             <ul class="nav navbar-nav navbar-right">
@@ -71,15 +79,43 @@
                         <div class="col-md-2 hotnews-topic" style="">
                             <div class="hotnews-label">Hot News</div>
                         </div>
-                        <div class="col-md-10 news-content-div" style="">
-                            <div class="news-content">Extreme Sport / Zletres Giral Duwick Wullam dolore Giralce style 4</div>
+                        <div class=" col-md-10 news-content-div" style="">
+                            <div class="news-slider owl-carousel">
+
+                                <div class="item news-content">Extreme Sport / Zletres Giral Duwick Wullam dolore Giralce style 4</div>
+                                <div class="item news-content">Technical Skills Required</div>
+                                <div class="item news-content"><a href="">Your Content </a></div>
+
+
+                            </div>
+                            <!--
+
+
                             <a id="" class="prev" href="#" style="display: block;"><i class="fa fa-angle-left"></i></a>
                             <a id="" class="next" href="#" style="display: block;"><i class="fa fa-angle-right"></i></a>
+                             -->
                         </div>
                     </div>
 
                 </div>
             </div>
+
+
+<!--            <div class="owl-carousel owl-theme image-slider">-->
+<!--                <div><h5>Technical Skills Required:</h5></div>-->
+<!--                <div> Your Content </div>-->
+<!--                <div> Your Content </div>-->
+<!--                <div> Your Content </div>-->
+<!--                <div> Your Content </div>-->
+<!--                <div> Your Content </div>-->
+<!--                <div> Your Content </div>-->
+<!--            </div>-->
+
+
+
+
+
+
 
             <header class="row header-row">
 
@@ -106,6 +142,8 @@
                 </div>
 
             </header>
+
+
 
 
         </section>
