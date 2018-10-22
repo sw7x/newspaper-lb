@@ -329,16 +329,72 @@ $('.overlayDiv').mouseout(function (event) {
 
 
 
-$('#searchBox').focus(function (event) {
+$('#lakbima-search').focus(function (event) {
 	//alert();
-$(this).addClass('expand');
+    $(this).addClass('expand');
+    $('.searchbox-parent-wrapper').css("width","100%");
 
 });
 
-$('#searchBox').focusout(function (event) {
+$('#lakbima-search').focusout(function (event) {
 	//alert();
 	$(this).removeClass('expand');
-})
+	$('.searchbox-parent-wrapper').css("width","auto");
+});
+
+
+
+$('#lksearch input').focus(function (event) {
+
+    var $searchField = $(this);
+
+
+	$.when($('.main-nav-parent-wrapper').fadeOut("slow")).done(function() {
+
+	   // alert("Now all '.hotel_photo_select are hidden'");
+		$searchField.addClass('expand');
+	    //$('.searchbox-parent-wrapper').css("width","100%");
+	});
+
+
+
+    //	$('.main-nav-parent-wrapper').fadeOut("slow");
+	//$('.searchbox-parent-wrapper').css("width","100%");
+
+	//$('#main-navigation').fadeIn("slow");
+
+});
+
+$('#lksearch input').focusout(function (event) {
+
+	var $searchField = $(this);
+
+
+
+
+	$.when(
+
+		$searchField.removeClass('expand'),
+       // $('.searchbox-parent-wrapper').css("width","auto")
+
+
+    ).done(function(){
+
+		$('.main-nav-parent-wrapper').fadeIn("slow");
+    });
+
+// 	$.when($('.main-nav-parent-wrapper').fadeIn("slow")).done(function() {
+//
+// 		// alert("Now all '.hotel_photo_select are hidden'");
+// 		$searchField.removeClass('expand');
+// 		$('.searchbox-parent-wrapper').css("width","auto");
+// 	});
+
+//     $(this).removeClass('expand');
+// 	$('.main-nav-parent-wrapper').fadeIn("slow");
+// 	$('.searchbox-parent-wrapper').css("width","auto");
+
+});
 
 
 

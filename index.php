@@ -348,7 +348,7 @@
                                                                     <div class="item">
 
                                                                         <div class="snippet-heading">
-                                                                            <h4><a href="" title="">qq1 නවතම පුවත්</a></h4>
+                                                                            <h4><a href="" title="">නවතම 1 පුවත්</a></h4>
                                                                         </div>
 
                                                                         <div class="snippet-content">
@@ -377,7 +377,7 @@
                                                                     <div class="item">
 
                                                                         <div class="snippet-heading">
-                                                                            <h4><a href="" title="">qq2 නවතම පුවත්</a></h4>
+                                                                            <h4><a href="" title="">නවතම 2 පුවත්</a></h4>
                                                                         </div>
 
                                                                         <div class="snippet-content">
@@ -405,7 +405,7 @@
                                                                     <div class="item">
 
                                                                         <div class="snippet-heading">
-                                                                            <h4><a href="" title="">qq3 නවතම පුවත්</a></h4>
+                                                                            <h4><a href="" title="">නවතම 3 පුවත්</a></h4>
                                                                         </div>
 
                                                                         <div class="snippet-content">
@@ -444,7 +444,7 @@
 
                                                             <div role="tabpanel" class="tab-pane fade" id="videoTab">
                                                                 <div id="video-carousel" class="owl-carousel owl-theme">
-                                                                    <!---->
+                                                                    <!--
 
                                                                     <div class="item">
                                                                         <div class="videoWrapper">
@@ -461,7 +461,7 @@
                                                                             <iframe width="" height="" allowfullscreen src="http://www.youtube.com/embed/CevxZvSJLk8" frameborder="0"></iframe>
                                                                         </div>
                                                                     </div>
-
+                                                                    -->
 
                                                                 </div>
                                                             </div>
@@ -654,229 +654,502 @@
                             </div>
                         </section>
 
-                        <div class="snippet-heading">
-                        <div class="snippet-content">
+
 
 
 
 
                         <section  class="normal-feature-news-container clearfix">
 
-                            <?php for ($i=0;$i<5;$i++):
+                            <?php for ($i=0;$i<3;$i++):
                             $t=0;
-                            $cls = ($i==4)?'last':'';
+                            $cls = ($i==2)?'last':'';
 
                                 // var_dump ($t);
                             ?>
 
                             <div class="normal-feature-wrapper clearfix ">
+
+                                <!-- -->
                                 <div class="normal-feature-wrapper-inside col-md-12">
 
-                                    <div class="news-type-heading-wrapper ">
+                                    <div class="news-type-heading-wrapper">
                                         <div  class="news-type-heading">
-                                            <h3><a href="" title=""><?php echo $i;?> නවතම පුවත්</a></h3>
+                                            <h3><a href="" title=""><?php echo $i;?> yyy නවතම පුවත්</a></h3>
                                         </div>
                                     </div>
 
-                                    <div class="normal-news-feature-div">
 
 
-                                        <div class="snippet-container">
+                                    <div class="news-snippet-wrapper">
+                                        <div class="row normal-news-feature-div">
+                                            <div class="col-md-12">
+                                                <div class="snippet-container">
 
-                                            <div class="snippet-heading">
-                                                <h4><a href="" title="">නවතම පුවත්</a></h4>
-                                            </div>
 
-                                            <div class="snippet-content">
-                                                <div class="">
-                                                    <a href="" title="">
-                                                        <img class="img-responsive" width="100%" src="https://placeimg.com/320/75/nature" alt="Chania">
-                                                    </a>
-                                                </div>
-
-                                                <div>
-                                                    <div class="clearfix infoDiv">
-                                                        <div class="left col-md-10 nopadding">2018 ඔක්තෝබර් මස 01 වන සඳුදා</div>
-                                                        <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 42</i></div>
+                                                    <div class="snippet-heading">
+                                                        <h4><a href="" title="">නවතම පුවත්</a></h4>
                                                     </div>
 
-                                                    <div class="snippet-text-div">
-                                                        <p class="snippet-text">--- OK, so images can get quite complicated as we have a few variables to work
-                                                            with! For example the image below has had a caption entered with! For example the image below has had a caption enteredwith!
-                                                            For example the image below has had a caption entered</p>
+                                                    <div class="snippet-content">
+                                                        <div class="">
+                                                            <a href="" title="">
+                                                                <img class="img-responsive" width="100%" src="https://placeimg.com/320/75/nature" alt="Chania">
+                                                            </a>
+                                                        </div>
+
+                                                        <div>
+                                                            <div class="clearfix infoDiv">
+                                                                <div class="left col-md-10 nopadding">2018 ඔක්තෝබර් මස 01 වන සඳුදා</div>
+                                                                <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 42</i></div>
+                                                            </div>
+
+                                                            <div class="snippet-text-div">
+                                                                <p class="snippet-text">--- OK, so images can get quite complicated as we have a few variables to work
+                                                                    with! For example the image below has had a caption entered with! For example the image below has had a caption enteredwith!
+                                                                    For example the image below has had a caption entered</p>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="read-more-link">
+                                                        <a class="" href="" title="">Read More</a>
                                                     </div>
                                                 </div>
-
-                                            </div>
-
-                                            <div class="read-more-link">
-                                                <a class="" href="" title="">Read More</a>
                                             </div>
                                         </div>
 
-                                        <div class="snippet-container ">
+                                        <div class="row normal-news-feature-div">
+                                            <div class="col-md-12">
+                                                <div class="snippet-container ">
 
-                                            <div class="snippet-heading">
-                                                <h4><a href="" title="">නවතම පුවත්</a></h4>
-                                            </div>
 
-                                            <div class="snippet-content clearfix">
-
-                                                <div class="col-md-4 nopadding">
-                                                    <a href="" title="">
-                                                        <img class="img-responsive" width="100%" src="https://placeimg.com/320/275/nature" alt="Chania">
-                                                    </a>
-                                                </div>
-
-                                                <div class="col-md-8 nopadding">
-                                                    <div class="clearfix infoDiv">
-                                                        <div class="left col-md-10 nopadding">2018 ඔක්තෝබර් මස 01 වන සඳුදා</div>
-                                                        <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 42</i></div>
+                                                    <div class="snippet-heading">
+                                                        <h4><a href="" title="">නවතම පුවත්</a></h4>
                                                     </div>
 
-                                                    <div class="snippet-text-div">
-                                                        <p class="snippet-text">ss OK, so images can get quite complicated as we have a few variables to work with! For example the image below has
-                                                            had a caption entered OK, so images can get quite complicated as we have a few variables to work with! For example the image below has
-                                                            OK, so images can get quite complicated as we have a few variables to work with! For example the image below has OK, so images can get quite
-                                                            complicated as we have a few variables to work with! For example the image below has</p>
+                                                    <div class="snippet-content clearfix">
+
+                                                        <div class="col-md-4 nopadding">
+                                                            <a href="" title="">
+                                                                <img class="img-responsive" width="100%" src="https://placeimg.com/320/275/nature" alt="Chania">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="col-md-8 nopadding">
+                                                            <div class="clearfix infoDiv">
+                                                                <div class="left col-md-10 nopadding">2018 ඔක්තෝබර් මස 01 වන සඳුදා</div>
+                                                                <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 42</i></div>
+                                                            </div>
+
+                                                            <div class="snippet-text-div">
+                                                                <p class="snippet-text">ss OK, so images can get quite complicated as we have a few variables to work with! For example the image below has
+                                                                    had a caption entered OK, so images can get quite complicated as we have a few variables to work with! For example the image below has
+                                                                    OK, so images can get quite complicated as we have a few variables to work with! For example the image below has OK, so images can get quite
+                                                                    complicated as we have a few variables to work with! For example the image below has</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class="read-more-link">
+                                                        <a class="" href="" title="">Read More</a>
                                                     </div>
                                                 </div>
-                                            </div>
-
-
-                                            <div class="read-more-link">
-                                                <a class="" href="" title="">Read More</a>
                                             </div>
                                         </div>
 
-                                        <div class="snippet-container">
+                                        <div class="row normal-news-feature-div">
+                                            <div class="col-md-12">
+                                                <div class="snippet-container">
 
-                                            <div class="snippet-heading">
-                                                <h4><a href="" title="">නවතම පුවත්</a></h4>
-                                            </div>
 
-                                            <div class="snippet-content">
-                                                <div class="">
-                                                    <a href="" title="">
-                                                        <img class="img-responsive" width="100%" src="https://placeimg.com/320/75" alt="Chania">
-                                                    </a>
-                                                </div>
-
-                                                <div>
-                                                    <div class="clearfix infoDiv">
-                                                        <div class="left col-md-10 nopadding">2018 ඔක්තෝබර් මස 01 වන සඳුදා</div>
-                                                        <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 42</i></div>
+                                                    <div class="snippet-heading">
+                                                        <h4><a href="" title="">නවතම පුවත්</a></h4>
                                                     </div>
 
-                                                    <div class="snippet-text-div">
-                                                        <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                                    <div class="snippet-content">
+                                                        <div class="">
+                                                            <a href="" title="">
+                                                                <img class="img-responsive" width="100%" src="https://placeimg.com/320/75" alt="Chania">
+                                                            </a>
+                                                        </div>
+
+                                                        <div>
+                                                            <div class="clearfix infoDiv">
+                                                                <div class="left col-md-10 nopadding">2018 ඔක්තෝබර් මස 01 වන සඳුදා</div>
+                                                                <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 42</i></div>
+                                                            </div>
+
+                                                            <div class="snippet-text-div">
+                                                                <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
+
+                                                    <div class="read-more-link">
+                                                        <a class="" href="" title="">Read More</a>
+                                                    </div>
+
                                                 </div>
-
                                             </div>
-
-                                            <div class="read-more-link">
-                                                <a class="" href="" title="">Read More</a>
-                                            </div>
-
                                         </div>
 
+                                        <div class="row normal-news-feature-div">
+                                            <div class="col-md-12">
+                                                <div class="snippet-container">
 
-                                        <div class="snippet-container">
 
-                                            <div class="snippet-heading">
-                                                <h4><a href="" title="">නවතම පුවත්</a></h4>
-                                            </div>
-
-                                            <div class="snippet-content">
-
-                                                <div>
-                                                    <div class="clearfix infoDiv">
-                                                        <div class="left col-md-10 nopadding">2018 ඔක්තෝබර් මස 01 වන සඳුදා</div>
-                                                        <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 42</i></div>
+                                                    <div class="snippet-heading">
+                                                        <h4><a href="" title="">නවතම පුවත්</a></h4>
                                                     </div>
 
-                                                    <div class="snippet-text-div">
-                                                        <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                                    <div class="snippet-content">
+
+                                                        <div>
+                                                            <div class="clearfix infoDiv">
+                                                                <div class="left col-md-10 nopadding">2018 ඔක්තෝබර් මස 01 වන සඳුදා</div>
+                                                                <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 42</i></div>
+                                                            </div>
+
+                                                            <div class="snippet-text-div">
+                                                                <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
+
+                                                    <div class="read-more-link">
+                                                        <a class="" href="" title="">Read More</a>
+                                                    </div>
+
                                                 </div>
-
                                             </div>
-
-                                            <div class="read-more-link">
-                                                <a class="" href="" title="">Read More</a>
-                                            </div>
-
                                         </div>
 
-                                        <div class="snippet-container">
+                                        <div class="row normal-news-feature-div">
+                                            <div class="col-md-12">
+                                                <div class="snippet-container">
 
-                                           <div class="snippet-heading">
-                                               <h4><a href="" title="">නවතම පුවත්</a></h4>
-                                           </div>
 
-                                            <div class="snippet-content">
-
-                                                <div>
-                                                    <div class="clearfix infoDiv">
-                                                        <div class="left col-md-10 nopadding">2018 ඔක්තෝබර් මස 01 වන සඳුදා</div>
-                                                        <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 42</i></div>
+                                                    <div class="snippet-heading">
+                                                        <h4><a href="" title="">නවතම පුවත්</a></h4>
                                                     </div>
 
-                                                    <div class="snippet-text-div">
-                                                        <p class="snippet-text">OK, so images can get quite complicated as
-                                                            we have a few variables to work with! For example the image we have a few variables to work with! For example the image
-                                                            we have a few variables to work with! For example the image we have a few variables to work with! For example the image
-                                                            we have a few variables to work with! For example the image we have a few variables to work with! For example the image
-                                                            we have a few variables to work with! For example the image below has had a caption entered</p>
+                                                    <div class="snippet-content">
+
+                                                        <div>
+                                                            <div class="clearfix infoDiv">
+                                                                <div class="left col-md-10 nopadding">2018 ඔක්තෝබර් මස 01 වන සඳුදා</div>
+                                                                <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 42</i></div>
+                                                            </div>
+
+                                                            <div class="snippet-text-div">
+                                                                <p class="snippet-text">OK, so images can get quite complicated as
+                                                                    we have a few variables to work with! For example the image we have a few variables to work with! For example the image
+                                                                    we have a few variables to work with! For example the image we have a few variables to work with! For example the image
+                                                                    we have a few variables to work with! For example the image we have a few variables to work with! For example the image
+                                                                    we have a few variables to work with! For example the image below has had a caption entered</p>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
+
+                                                    <div class="read-more-link">
+                                                        <a class="" href="" title="">Read More</a>
+                                                    </div>
+
                                                 </div>
-
                                             </div>
-
-                                            <div class="read-more-link">
-                                                <a class="" href="" title="">Read More</a>
-                                            </div>
-
                                         </div>
 
-                                        <div class="snippet-container">
+                                        <div class="row normal-news-feature-div">
+                                            <div class="col-md-12">
+                                                <div class="snippet-container">
 
-                                            <div class="snippet-heading">
-                                                <h4><a href="" title="">නවතම පුවත්</a></h4>
-                                            </div>
 
-                                            <div class="snippet-content">
-
-                                                <div>
-                                                    <div class="clearfix infoDiv">
-                                                        <div class="left col-md-10 nopadding">2018 ඔක්තෝබර් මස 01 වන සඳුදා</div>
-                                                        <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 42</i></div>
+                                                    <div class="snippet-heading">
+                                                        <h4><a href="" title="">නවතම පුවත්</a></h4>
                                                     </div>
 
-                                                    <div class="snippet-text-div">
-                                                        <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                                    <div class="snippet-content">
+
+                                                        <div>
+                                                            <div class="clearfix infoDiv">
+                                                                <div class="left col-md-10 nopadding">2018 ඔක්තෝබර් මස 01 වන සඳුදා</div>
+                                                                <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 42</i></div>
+                                                            </div>
+
+                                                            <div class="snippet-text-div">
+                                                                <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
+
+                                                    <div class="read-more-link">
+                                                        <a class="" href="" title="">Read More</a>
+                                                    </div>
+
                                                 </div>
-
                                             </div>
-
-                                            <div class="read-more-link">
-                                                <a class="" href="" title="">Read More</a>
-                                            </div>
-
                                         </div>
-
-
-
-
 
                                         <div class="read-more-link">
                                             <a class="" href="" title="">More News</a>
                                         </div>
 
-
                                     </div>
+
+
+
+
+
+
+                                    <div class="clearfix row" style="margin-bottom: 10px">
+                                        <div class="col-md-4"><div class=""><img class="img-responsive" src="https://dummyimage.com/360x175&text=AD" alt="Chania"></div></div>
+                                        <div class="col-md-4"><div class=""><img class="img-responsive" src="https://dummyimage.com/360x175&text=AD" alt="Chania"></div></div>
+                                        <div class="col-md-4"><div class=""><img class="img-responsive" src="https://dummyimage.com/360x175&text=AD" alt="Chania"></div></div>
+                                    </div>
+
+                                    <div class="clearfix row" style="margin-bottom: 10px">
+                                        <div class="col-md-12"><div class=""><img class="img-responsive" src="https://dummyimage.com/1140x75&text=AD" alt="Chania"></div></div>
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="normal-feature-wrapper-inside col-md-12">
+
+                                    <div class="news-type-heading-wrapper ">
+                                        <div  class="news-type-heading">
+                                            <h3><a href="" title=""><?php echo $i;?> yyy නවතම පුවත්</a></h3>
+                                        </div>
+                                    </div>
+
+
+                                        <div class="news-snippet-wrapper">
+
+                                            <div class="row normal-news-feature-div clearfix">
+
+                                                <div class="col-md-6">
+                                                    <div class="snippet-container">
+
+                                                        <div class="snippet-heading">
+                                                            <h4><a href="" title="">නවතම පුවත්</a></h4>
+                                                        </div>
+
+                                                        <div class="snippet-content">
+                                                            <div class="">
+                                                                <a href="" title="">
+                                                                    <img class="img-responsive" width="100%" src="https://placeimg.com/320/200/nature" alt="Chania">
+                                                                </a>
+                                                            </div>
+
+                                                            <div>
+                                                                <div class="clearfix infoDiv">
+                                                                    <div class="left col-md-10 nopadding">2018 ඔක්තෝබර් මස 01 වන සඳුදා</div>
+                                                                    <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 42</i></div>
+                                                                </div>
+
+                                                                <div class="snippet-text-div">
+                                                                    <p class="snippet-text">--- OK, so images can get quite complicated as we have a few variables to work
+                                                                        with! For example the image below has had a caption</p>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="read-more-link">
+                                                            <a class="" href="" title="">Read More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
+                                                <div class="col-md-6">
+                                                    <div class="snippet-container">
+
+                                                        <div class="snippet-heading">
+                                                            <h4><a href="" title="">නවතම පුවත්</a></h4>
+                                                        </div>
+
+                                                        <div class="snippet-content">
+                                                            <div class="">
+                                                                <a href="" title="">
+                                                                    <img class="img-responsive" width="100%" src="https://placeimg.com/320/200" alt="Chania">
+                                                                </a>
+                                                            </div>
+
+                                                            <div>
+                                                                <div class="clearfix infoDiv">
+                                                                    <div class="left col-md-10 nopadding">2018 ඔක්තෝබර් මස 01 වන සඳුදා</div>
+                                                                    <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 42</i></div>
+                                                                </div>
+
+                                                                <div class="snippet-text-div">
+                                                                    <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="read-more-link">
+                                                            <a class="" href="" title="">Read More</a>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+
+
+                                            <div class="row normal-news-feature-div clearfix">
+
+                                                <div class="col-md-6">
+                                                    <div class="snippet-container ">
+
+                                                        <div class="snippet-heading">
+                                                            <h4><a href="" title="">නවතම පුවත්</a></h4>
+                                                        </div>
+
+                                                        <div class="snippet-content clearfix">
+
+                                                            <div class="col-md-4 nopadding">
+                                                                <a href="" title="">
+                                                                    <img class="img-responsive" width="100%" src="https://placeimg.com/320/275/nature" alt="Chania">
+                                                                </a>
+                                                            </div>
+
+                                                            <div class="col-md-8 nopadding">
+                                                                <div class="clearfix infoDiv">
+                                                                    <div class="left col-md-10 nopadding">2018 ඔක්තෝබර් මස 01 වන සඳුදා</div>
+                                                                    <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 42</i></div>
+                                                                </div>
+
+                                                                <div class="snippet-text-div">
+                                                                    <p class="snippet-text">ss OK, so images can get quite complicated as we have a few variables to work with! For example the image below</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+                                                        <div class="read-more-link">
+                                                            <a class="" href="" title="">Read More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="col-md-6">
+                                                    <div class="snippet-container">
+
+                                                        <div class="snippet-heading">
+                                                            <h4><a href="" title="">නවතම පුවත්</a></h4>
+                                                        </div>
+
+                                                        <div class="snippet-content">
+
+                                                            <div>
+                                                                <div class="clearfix infoDiv">
+                                                                    <div class="left col-md-10 nopadding">2018 ඔක්තෝබර් මස 01 වන සඳුදා</div>
+                                                                    <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 42</i></div>
+                                                                </div>
+
+                                                                <div class="snippet-text-div">
+                                                                    <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="read-more-link">
+                                                            <a class="" href="" title="">Read More</a>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+
+
+                                            <div class="row normal-news-feature-div clearfix">
+
+                                                <div class="col-md-6">
+                                                    <div class="snippet-container">
+
+                                                        <div class="snippet-heading">
+                                                            <h4><a href="" title="">නවතම පුවත්</a></h4>
+                                                        </div>
+
+                                                        <div class="snippet-content">
+
+                                                            <div>
+                                                                <div class="clearfix infoDiv">
+                                                                    <div class="left col-md-10 nopadding">2018 ඔක්තෝබර් මස 01 වන සඳුදා</div>
+                                                                    <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 42</i></div>
+                                                                </div>
+
+                                                                <div class="snippet-text-div">
+                                                                    <p class="snippet-text">OK, so images can get quite complicated as
+                                                                        we have a few variables to we have a few variables to work with! For example the image below has had a caption entered</p>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="read-more-link">
+                                                            <a class="" href="" title="">Read More</a>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="col-md-6">
+                                                    <div class="snippet-container">
+
+                                                        <div class="snippet-heading">
+                                                            <h4><a href="" title="">නවතම පුවත්</a></h4>
+                                                        </div>
+
+                                                        <div class="snippet-content">
+
+                                                            <div>
+                                                                <div class="clearfix infoDiv">
+                                                                    <div class="left col-md-10 nopadding">2018 ඔක්තෝබර් මස 01 වන සඳුදා</div>
+                                                                    <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 42</i></div>
+                                                                </div>
+
+                                                                <div class="snippet-text-div">
+                                                                    <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="read-more-link">
+                                                            <a class="" href="" title="">Read More</a>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="read-more-link">
+                                                <a class="" href="" title="">More News</a>
+                                            </div>
+
+                                        </div>
+
+
 
                                     <div class="clearfix row" style="margin-bottom: 10px">
                                         <div class="col-md-4"><div class=""><img class="img-responsive" src="https://dummyimage.com/360x175&text=AD" alt="Chania"></div></div>
@@ -887,7 +1160,20 @@
                                     <div class="clearfix row">
                                         <div class="col-md-12"><div class=""><img class="img-responsive" src="https://dummyimage.com/1140x75&text=AD" alt="Chania"></div></div>
                                     </div>
+
+
                                 </div>
+
+
+
+
+
+
+
+
+
+                                <!---->
+
 
                             </div>
 

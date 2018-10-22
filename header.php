@@ -117,9 +117,9 @@
 
 
 
-            <header class="row header-row">
+            <header class="header-row">
 
-                <div class="first-ad-div clearfix" style="">
+                <div class="row first-ad-div clearfix" style="">
                     <div class="clearfix content-div">
                         <div class="col-md-4 " style=""><div class=""><img class="img-responsive" src="https://via.placeholder.com/360x75" alt="Chania"></div></div>
                         <div class="col-md-4 " style=""><div class=""><img class="img-responsive" src="https://via.placeholder.com/360x75" alt="Chania"></div></div>
@@ -127,13 +127,13 @@
                     </div>
                 </div>
 
-                <div class="second-ad-div clearfix" style="">
+                <div class="row second-ad-div clearfix" style="">
                     <div class="clearfix content-div">
                         <div class="col-md-12 " style=""><div class=""><img class="img-responsive" src="https://via.placeholder.com/1140x75" alt="Chania"> </div></div>
                     </div>
                 </div>
 
-                <div class="logo-div clearfix " style="">
+                <div class="row logo-div clearfix " style="">
                     <div class="clearfix content-div">
                         <div class="col-md-4 " style=""><div class="">images can get quite complicated as we have a few variables to w</div></div>
                         <div class="col-md-4 " style=""><div class=""><img class="img-responsive" src="images/logo.png" alt="Chania"></div></div>

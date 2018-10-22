@@ -1750,30 +1750,68 @@ section#navigation-div{
     margin-top:10px;
     .navigation-row{
 
-        nav.navbar{
+
 
 
             .top-div{
 
                 .content-div{
 
-                    @include top-and-down-border;
+                    //@include top-and-down-border;
+                    padding: 5px 0px 10px 0px;
 
-                    ul.main-nav{
-                        li{
-                            a{
-                                padding-left : 0px;
+                    .content-div-wrapper{
+                        padding-bottom: 2px;
+                        padding-top: 2px;
+                        border-bottom: solid 1px #f58220;
+                        border-top: solid 1px #f58220;
+                        position: relative;
+                        margin-bottom: 1px;
+                        nav#main-nav{
+
+
+                            ul#main-navigation{
+                                li{
+                                    a,
+                                    a:visited {
+                                        line-height: normal;
+                                        font-size: 16px;
+                                        padding: 10px 15px 10px 10px;
+                                        font-weight: 200;
+                                        color: #f58220;
+                                        background-color: #fff;
+                                        font-weight: bold;
+                                    }
+
+                                    &.active{
+                                        a,
+                                        a:visited {
+                                            color: #fff;
+                                            background-color: #f58220;
+                                        }
+                                    }
+
+                                }
                             }
+
+
                         }
                     }
 
                     .input-group{
 
-                        border: 1px solid #666;
+                        border: 1px solid #f58220;
                         input.form-control{
                             border: 0px solid transparent;
                             &:focus{
-                                border-right: 1px solid;
+                                border-right: 1px solid #f58220;
+
+                                -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(245, 130, 32, 0.6);;
+                                box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(245, 130, 32, 0.6);;
+
+
+
+
                             }
                         }
 
@@ -1789,9 +1827,12 @@ section#navigation-div{
 
                             button.btn{
                                 border-style : solid;
-                                border-width : 1px 0px 1px 1px;
-                                border-color : #666;
+                                border-width : 1px 1px 1px 1px;
+                                border-color : #f58220;
                                 border-radius: 0px;
+                                i{
+                                    color: #f58220;
+                                }
                             }
                         }
                     }
@@ -1816,7 +1857,7 @@ section#navigation-div{
             //    border-color: red;
             //
             //}
-        }
+
     }
 }
 
@@ -2150,11 +2191,25 @@ section#navigation-div{
 
                                         .mainSlider{
 
+                                            ul.nav-pills{
+                                                background-color: #f5822040;
+                                                li{
+                                                    margin-right: 5px;
+                                                }
+                                            }
+
+
                                             .nav-pills > li > a {
                                                 border-radius: 2px 2px 0 0 ;
                                                 min-width : 100px;
                                                 text-transform: capitalize;
-                                                font-weight: bold;
+                                                //font-weight: bold;
+                                                font-size: 18px;
+
+                                                &:hover{
+                                                    background-color: #f58220;
+                                                    color: #fff;
+                                                }
                                             }
 
                                             .nav-pills > li.active > a {
@@ -2671,138 +2726,167 @@ section#navigation-div{
                             border-bottom: 1px solid #666;
                             padding: 10px 0px;
 
-                            .normal-feature-wrapper-inside{
+                            .normal-feature-wrapper-inside
+                            {
                                 //padding-top: 10px;
                                 //padding-bottom: 10px;
                                 //border-top:1px solid #666;
                                 @include left-and-right-border;
-                                .normal-news-feature-div{
-                                    margin-bottom: 10px;
+
+                                .news-snippet-wrapper{
+
+
                                     position: relative;
-                                    padding-bottom: 35px;
-                                    //
-                                    //>div{
-                                    //    margin-bottom: 10px;
-                                    //    &:last-of-type{
-                                    //        margin-bottom:0px;
-                                    //    }
-                                    //}
-                                    //.small-img-div{
-                                    //    >div{
-                                    //        margin-bottom: 10px;
-                                    //    }
-                                    //}
-                                    //
-                                    //.image-inner-big {
-                                    //    min-height: 300px;
-                                    //    background-size: cover;
-                                    //    background-repeat: no-repeat;
-                                    //    background-position: center center;
-                                    //}
-                                    //.image-inner-small {
-                                    //    min-height: 145px;
-                                    //    background-size: cover;
-                                    //    background-repeat: no-repeat;
-                                    //    background-position: center center;
-                                    //}
-                                    //
+                                    padding-bottom: 30px;
 
-                                    .snippet-container{
-                                        position : relative;
-                                        font-size: 12px;
-                                        .snippet-heading{
-                                            text-align: center;
-                                            padding: 5px;
-                                            background-color: #000;
-                                            h4{
-                                                text-align: center;
-                                                margin-bottom: 0px;
-                                                a{
-                                                    text-decoration: none;
-                                                    font-weight: bold;
+                                    .normal-news-feature-div
+                                    {
+                                        margin-bottom : 10px;
+                                        position      : relative;
 
-                                                    &:hover{
-                                                        color:#fff;
+                                        //
+                                        //>div{
+                                        //    margin-bottom: 10px;
+                                        //    &:last-of-type{
+                                        //        margin-bottom:0px;
+                                        //    }
+                                        //}
+                                        //.small-img-div{
+                                        //    >div{
+                                        //        margin-bottom: 10px;
+                                        //    }
+                                        //}
+                                        //
+                                        //.image-inner-big {
+                                        //    min-height: 300px;
+                                        //    background-size: cover;
+                                        //    background-repeat: no-repeat;
+                                        //    background-position: center center;
+                                        //}
+                                        //.image-inner-small {
+                                        //    min-height: 145px;
+                                        //    background-size: cover;
+                                        //    background-repeat: no-repeat;
+                                        //    background-position: center center;
+                                        //}
+                                        //
+
+                                        .snippet-container
+                                        {
+                                            position      : relative;
+                                            font-size     : 12px;
+                                            .snippet-heading
+                                            {
+                                                text-align       : center;
+                                                padding          : 5px;
+                                                background-color : #000;
+                                                h4
+                                                {
+                                                    text-align    : center;
+                                                    margin-bottom : 0px;
+                                                    a
+                                                    {
+                                                        text-decoration : none;
+                                                        font-weight     : bold;
+
+                                                        &:hover
+                                                        {
+                                                            color : #fff;
+                                                        }
                                                     }
                                                 }
                                             }
+
+                                            border        : 1px solid;
+                                            margin-bottom : 10px;
+
+                                            .snippet-content
+                                            {
+                                                padding : 0px 0px 30px 0px;
+
+                                                .infoDiv
+                                                {
+                                                    border-bottom : 1px dotted #000;
+                                                    padding       : 5px;
+                                                    font-size     : 12px;
+                                                    .left
+                                                    {
+                                                        text-align : left;
+                                                    }
+                                                    .right
+                                                    {
+                                                        text-align : right;
+                                                    }
+                                                }
+
+                                                .snippet-text-div
+                                                {
+                                                    padding : 5px;
+                                                    p.snippet-text
+                                                    {
+                                                        margin     : 0 0 30px;
+                                                        text-align : justify;
+
+                                                    }
+                                                }
+                                            }
+                                            .read-more-link
+                                            {
+                                                position : absolute;
+                                                right    : 3px;
+                                                bottom   : 7px;
+                                                a
+                                                {
+                                                    color           : #000;
+                                                    border          : 1px solid #000;
+                                                    background      : #fff;
+                                                    /* float: left; */
+                                                    padding         : 5px 10px;
+                                                    text-decoration : none !important;
+                                                    &:hover
+                                                    {
+                                                        //float: left;
+                                                        //padding: 5px 10px;
+                                                        color      : #fff;
+                                                        //border: 1px solid#000;
+                                                        background : #000;
+
+                                                    }
+                                                }
+                                            }
+
                                         }
 
-                                        border: 1px solid;
-                                        margin-bottom: 10px;
-
-                                        .snippet-content{
-                                            padding: 0px 0px 30px 0px;
-
-                                            .infoDiv{
-                                                border-bottom:1px dotted #000;
-                                                padding:5px;
-                                                font-size: 12px;
-                                                .left{
-                                                    text-align: left;
-                                                }
-                                                .right{
-                                                    text-align: right;
-                                                }
-                                            }
-
-                                            .snippet-text-div{
-                                                padding:5px;
-                                                p.snippet-text{
-                                                    margin: 0 0 30px;
-                                                    text-align: justify;
-
-                                                }
-                                            }
-                                        }
-                                        .read-more-link{
-                                            position: absolute;
-                                            right : 3px;
-                                            bottom: 7px;
-                                            a{
-                                                color: #000;
-                                                border: 1px solid#000;
-                                                background: #fff;
-                                                /* float: left; */
-                                                padding: 5px 10px;
-                                                text-decoration: none !important;
-                                                &:hover{
-                                                    //float: left;
-                                                    //padding: 5px 10px;
-                                                    color: #fff;
-                                                    //border: 1px solid#000;
-                                                    background: #000;
-
-                                                }
-                                            }
+                                        .snippet-container:last-of-type
+                                        {
+                                            margin-bottom : 0px;
                                         }
 
                                     }
 
-                                    .read-more-link{
-                                        position: absolute;
-                                        right : 0px;
-                                        bottom: 10px;
-                                        a{
-                                            color: #000;
-                                            border: 1px solid#000;
-                                            background: #fff;
+                                    .read-more-link
+                                    {
+                                        position : absolute;
+                                        right    : 0px;
+                                        bottom   : 10px;
+                                        a
+                                        {
+                                            color           : #000;
+                                            border          : 1px solid #000;
+                                            background      : #fff;
                                             /* float: left; */
-                                            padding: 5px 10px;
-                                            text-decoration: none !important;
-                                            &:hover{
+                                            padding         : 5px 10px;
+                                            text-decoration : none !important;
+                                            &:hover
+                                            {
                                                 //float: left;
                                                 //padding: 5px 10px;
-                                                color: #fff;
+                                                color      : #fff;
                                                 //border: 1px solid#000;
-                                                background: #000;
+                                                background : #000;
 
                                             }
                                         }
-                                    }
-
-                                    .snippet-container:last-of-type{
-                                        margin-bottom: 0px;
                                     }
 
                                 }
@@ -2828,6 +2912,7 @@ section#navigation-div{
                                         }
                                     }
                                 }
+
                             }
 
 
@@ -3344,24 +3429,72 @@ section#copywrite{
     border-radius: 30px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+.searchbox-parent-wrapper{
+    float: right;
+}
+
+
+
+
+
+
+
 .searchbox{
     position:relative;
-    min-width:50px;
-    width:0%;
-    height:50px;
+    //min-width:50px;
+    width: 100%;
+    //height:50px;
     float:right;
     overflow:hidden;
+    margin: 0px;
 
     -webkit-transition: width 0.3s;
     -moz-transition: width 0.3s;
     -ms-transition: width 0.3s;
     -o-transition: width 0.3s;
     transition: width 0.3s;
+
+    .input-group{
+        float: right !important;
+
+        > div {
+            //float: right;
+        }
+    }
 }
-.searchbox.expand
+
+#lakbima-search
 {
-    width : 100%;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(0.3, 1.5, 0.6, 1);
+    width : 200px;
 }
+
+#lakbima-search:focus
+{
+    transition-duration: .3s;
+    width : 600px;
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+}
+
+#lakbima-search.expand
+{
+   // width : 600px;
+    //transition-duration: .3s;
+}
+
 
 
 
@@ -3398,6 +3531,104 @@ section#copywrite{
     height: 100%;
 }
 
+
+
+
+
+
+.search-box {
+    float: right;
+    //width: 150px;
+    height: 42px;
+    position: relative;
+    margin: 0px 5px;
+}
+
+.search-box input,
+.search-box .icon {
+    transition-duration: 0.3s;
+}
+#lksearch{
+    /**/
+    margin-right: 0px;
+}
+#lksearch input {
+    /*position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    */
+    text-indent: 15px;
+    height: 42px;
+    z-index: 2;
+    outline: none;
+    color: #999;
+    background: transparent;
+    border: 1px solid #f58220;
+    width: 200px;
+    transition-timing-function: ease-out;
+    font-size: 16px;
+    padding-right: 40px;
+
+
+    &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #f58220;
+        opacity: 1; /* Firefox */
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: #f58220;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    &::-ms-input-placeholder { /* Microsoft Edge */
+        color: #f58220;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+
+}
+
+#lksearch .search-box input.expand {
+    color: #000;
+
+    width: 400px;
+
+}
+
+#lksearch input.expand ~ .icon {
+    opacity: 1;
+    z-index: 3;
+    color: #f58220;
+
+}
+
+.search-box .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    z-index: 1;
+    cursor: pointer;
+    opacity: .5;
+    font-size: 18px;
+}
+
+#lksearch.navbar-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
 
 
 
