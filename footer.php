@@ -8,7 +8,7 @@
 
                             <div class="footer-list-heading-wrapper">
                                 <div  class="footer-list-heading">
-                                    <h3>w නවතම පුවත්</h3>
+                                    <h2>w නවතම පුවත්</h2>
                                 </div>
                             </div>
                             <div class="menu-wrapper-parent clearfix">
@@ -42,7 +42,7 @@
 
                                 <div class="footer-list-heading-wrapper">
                                     <div  class="footer-list-heading">
-                                        <h3>w නවතම පුවත්</h3>
+                                        <h2>w නවතම පුවත්</h2>
                                     </div>
                                 </div>
                                 <div class="menu-wrapper-parent">
@@ -71,7 +71,7 @@
 
                                 <div class="footer-list-heading-wrapper">
                                     <div  class="footer-list-heading">
-                                        <h3>w නවතම පුවත්</h3>
+                                        <h2>w නවතම පුවත්</h2>
                                     </div>
                                 </div>
                                 <div class="menu-wrapper-parent">
@@ -100,7 +100,7 @@
 
                             <div class="footer-list-heading-wrapper">
                                 <div  class="footer-list-heading">
-                                    <h3>w නවතම පුවත්</h3>
+                                    <h2>w නවතම පුවත්</h2>
                                 </div>
                             </div>
                             <div class="menu-wrapper-parent">

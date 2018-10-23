@@ -53,14 +53,18 @@
                 <div class="row">
 
                     <div class="content-wrapper clearfix">
-                        <div class="col-md-6 leftDiv"><span>2018 ඔක්තෝබර් මස 01 වන සඳුදා</span></div>
+                        <div class="col-md-4 leftDiv"><span>2018 ඔක්තෝබර් මස 01 වන සඳුදා</span></div>
 
-                        <div class="col-md-6 rightDiv">
+                        <div class="col-md-8 rightDiv">
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#">Right</a></li>
-                                <li><a href="#">Center</a></li>
-                                <li><a href="#">Center</a></li>
-                                <li><a href="#">Center</a></li>
+                                <li><a href="https://www.lakbima.lk">Home</a></li>
+                                <li><a href="http://enewspaper.lakbima.lk/ada.php" rel="noopener noreferrer" target="_blank">Daily Lakbima</a></li>
+                                <li><a href="http://enewspaper.lakbima.lk/sunday-index.php" rel="noopener noreferrer" target="_blank">Sunday Lakbima</a></li>
+                                <li><a href="http://enewspaper.lakbima.lk/rajina.php" rel="noopener noreferrer" target="_blank">Rajina&nbsp; </a></li>
+                                <li><a href="http://enewspaper.lakbima.lk/archive-home.php" rel="noopener noreferrer" target="_blank">Archive</a></li>
+                                <li><a href="/images/banners/2018/advertice2.jpg" rel="noopener noreferrer" target="_blank" title="Advertise With Us">Advertise With Us</a></li>
+                                <li><a href="/index.php/contact-us">Contact Us</a></li>
+                                <li><a href="/images/banners/2018/2018.06.08Web-Ad-Final-20x3.jpg">Career</a></li>
                             </ul>
                         </div>
                     </div>
@@ -135,9 +139,53 @@
 
                 <div class="row logo-div clearfix " style="">
                     <div class="clearfix content-div">
-                        <div class="col-md-4 " style=""><div class="">images can get quite complicated as we have a few variables to w</div></div>
-                        <div class="col-md-4 " style=""><div class=""><img class="img-responsive" src="images/logo.png" alt="Chania"></div></div>
-                        <div class="col-md-4 " style=""><div class=""><img class="img-responsive" src="https://via.placeholder.com/360x75" alt="Chania"></div></div>
+
+                        <div class="col-md-4 social-container" style="">
+                            <div class="">
+                                <p>Get In Touch With Us</p>
+                                <div class="socialDiv clearfix">
+                                    <div class="col-md-2 nopadding"><a href="https://www.facebook.com/lakbima.lk/" target="_blank"><img alt="Facebook icon" src="images/social/fb.png" style="width: 40px;"></a></div>
+                                    <div class="col-md-2 nopadding"><a href="https://twitter.com/lakbimaonline?lang=en" target="_blank"><img alt="Twitter icon" src="images/social/twitter.png" style="width: 40px;"></a></div>
+                                    <div class="col-md-2 nopadding"><a href="https://www.instagram.com/lakbimalk/" target="_blank"><img alt="Instagram icon" src="images/social/instagram.png" style="width: 40px;"></a></div>
+                                    <div class="col-md-2 nopadding"><a href="https://plus.google.com/+LakbimaNewsPaper" target="_blank"><img alt="Google plus icon" src="images/social/gplus.png" style="width: 40px;"></a></div>
+                                    <div class="col-md-2 nopadding"><a href="https://www.youtube.com/channel/UC4D_-vXfH6FYahnCbufW1Mg" target="_blank"><img alt="YouTube icon" src="/images/social/youtube.png" style="width: 40px;"></a></div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="col-md-4 lakbimaLogoDiv" style="">
+                            <div class="">
+
+                                <h1 class="logo-img">
+                                    <a href="#" style="" target="_blank" title="Lakbima Online">
+                                        <img class="img-responsive" src="images/logo.png" title="Lakbima Online" alt="Lakbima Online">
+                                    </a>
+                                </h1>
+
+
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 enewsPaperDiv" style="">
+                            <div class="clearfix">
+                                <div class="para"><p>Read Lakbima E-Paper</p></div>
+
+                                <div class="e-paper-btn-wrapper">
+                                    <div class="e-paper-btn">
+                                        <a href="" target="_blank">E-Paper</a>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
