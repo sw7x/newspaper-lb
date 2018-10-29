@@ -26,6 +26,9 @@
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css'>
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.css'>
 
+        <link rel='stylesheet' href='css/jquery.fancybox.min.css'>
+        <link rel='stylesheet' href='css/datepicker.min.css'>
+
 
         <!-- custom css file -->
         <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -144,11 +147,11 @@
                             <div class="">
                                 <p>Get In Touch With Us</p>
                                 <div class="socialDiv clearfix">
-                                    <div class="col-md-2 nopadding"><a href="https://www.facebook.com/lakbima.lk/" target="_blank"><img alt="Facebook icon" src="images/social/fb.png" style="width: 40px;"></a></div>
-                                    <div class="col-md-2 nopadding"><a href="https://twitter.com/lakbimaonline?lang=en" target="_blank"><img alt="Twitter icon" src="images/social/twitter.png" style="width: 40px;"></a></div>
-                                    <div class="col-md-2 nopadding"><a href="https://www.instagram.com/lakbimalk/" target="_blank"><img alt="Instagram icon" src="images/social/instagram.png" style="width: 40px;"></a></div>
-                                    <div class="col-md-2 nopadding"><a href="https://plus.google.com/+LakbimaNewsPaper" target="_blank"><img alt="Google plus icon" src="images/social/gplus.png" style="width: 40px;"></a></div>
-                                    <div class="col-md-2 nopadding"><a href="https://www.youtube.com/channel/UC4D_-vXfH6FYahnCbufW1Mg" target="_blank"><img alt="YouTube icon" src="/images/social/youtube.png" style="width: 40px;"></a></div>
+                                    <div class="icon-div"><a href="https://www.facebook.com/lakbima.lk/" target="_blank"><img alt="Facebook icon" src="images/social/fb.png"></a></div>
+                                    <div class="icon-div"><a href="https://twitter.com/lakbimaonline?lang=en" target="_blank"><img alt="Twitter icon" src="images/social/twitter.png"></a></div>
+                                    <div class="icon-div"><a href="https://www.instagram.com/lakbimalk/" target="_blank"><img alt="Instagram icon" src="images/social/instagram.png"></a></div>
+                                    <div class="icon-div"><a href="https://plus.google.com/+LakbimaNewsPaper" target="_blank"><img alt="Google plus icon" src="images/social/gplus.png"></a></div>
+                                    <div class="icon-div"><a href="https://www.youtube.com/channel/UC4D_-vXfH6FYahnCbufW1Mg" target="_blank"><img alt="YouTube icon" src="/images/social/youtube.png"></a></div>
                                 </div>
 
                             </div>
@@ -176,7 +179,7 @@
                             <div class="clearfix">
                                 <div class="para"><p>Read Lakbima E-Paper</p></div>
 
-                                <div class="e-paper-btn-wrapper">
+                                <div class="e-paper-btn-wrapper clearfix">
                                     <div class="e-paper-btn">
                                         <a href="" target="_blank">E-Paper</a>
                                     </div>

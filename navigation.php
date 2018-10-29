@@ -12,7 +12,10 @@
                                 <div class="col-md-9 main-nav-parent-wrapper">
                                 <nav id="main-nav" class="clearfix">
                                     <ul id="main-navigation" class="nav navbar-nav main-nav">
-                                        <li class="active"><a href="#">නිවස</a></li>
+                                        <li class="active">
+                                            <a href="/"><i class="fa fa-home hidden-xs" aria-hidden="true"></i></a>
+                                            <span class="visible-xs">Home</span>
+                                        </li>
                                         <li><a href="#">විශේෂාංග</a></li>
                                         <li><a href="#">ක්‍රීඩා</a></li>
                                         <li><a href="#">නවතම ප්‍රවෘත්ති</a></li>

@@ -145,39 +145,40 @@ $def-font-color: #4a4949;
 
 .h1,
 h1 {
-    font-size: 38px;
-    line-height: 32px;
+    font-size: 22px;
+    line-height: 26px;
 }
 
 .h2,
 h2 {
-    font-size: 22px;
-    line-height: 24px;
+
+    font-size: 18px;
+    line-height: 22px;
 
 }
 
 .h3,
 h3 {
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 18px;
 }
 
 .h4,
 h4 {
     font-size: 14px;
-    line-height: 18px;
+    line-height: 16px;
 }
 
 .h5,
 h5 {
     font-size: 12px;
-    line-height: 16px;
+    line-height: 14px;
 }
 
 .h6,
 h6 {
     font-size: 10px;
-    line-height: 14px;
+    line-height: 12px;
 }
 
 
@@ -594,7 +595,7 @@ output {
 .form-control {
     display: block;
     width: 100%;
-    height: 40px;
+    height: 35px;
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
@@ -1534,14 +1535,14 @@ section#page-top{
     //border: 1px dashed #000;
     background-color: #ffffff;
     .hotnews-row{
-        margin-top: 10px;
+        margin-top: 5px;
         .hotnews-div{
             .hotnews-topic{
                 padding: 5px 15px;
-                background: #000;
+                background: #f58220;
                 text-align: center;
                 color: #fff;
-                height: 35px;
+                height: 30px;
                 .hotnews-label{
                     font-family:"Oswald",Helvetica, Arial, san-serif;
                     font-size:14px;
@@ -1556,7 +1557,7 @@ section#page-top{
             }
             .news-content-div{
                 padding: 5px 0;
-                height: 35px;
+                height: 30px;
                 border: 1px solid#666;
                 border-left: none;
 
@@ -1674,7 +1675,7 @@ section#page-top{
 
     header.header-row{
 
-        margin-top: 10px;
+        margin-top: 5px;
         .first-ad-div{
             .content-div{
                 //border-style: solid;
@@ -1709,10 +1710,10 @@ section#page-top{
 
         .logo-div{
             font-weight: bold;
-            font-size: 16px;
+            font-size: 14px;
             .content-div
             {
-                padding      : 10px 0px;
+                padding      : 5px 0px;
                 > div:not(:last-of-type){
                     border-right: 1px solid;
 
@@ -1722,6 +1723,20 @@ section#page-top{
                 }
 
                 .social-container{
+                    .socialDiv{
+                        .icon-div{
+                            float: left;
+                            margin-right: 3px;
+
+                            a{
+                                img{
+                                    width: 35px;
+                                }
+                            }
+
+                        }
+                    }
+
 
                 }
                 .enewsPaperDiv{
@@ -1750,7 +1765,7 @@ section#page-top{
                             top: 10px;
                             a{
                                 font-size: 18px;
-                                padding: 5px 60px;
+                                padding: 5px 40px;
                                 border-radius: 4px;
                                 color: #fff;
                                 background-image: linear-gradient(to right, #f58220 0, #f58220c2 51%, #f58220 100%);
@@ -1765,7 +1780,7 @@ section#page-top{
 
                 }
                 .lakbimaLogoDiv{
-                    padding: 0px 30px;
+                    padding: 0px 70px;
                     h1{
                         display: block;
                         position: relative;
@@ -1832,15 +1847,14 @@ section#navigation-div{
                                     a,
                                     a:visited {
                                         line-height: normal;
-                                        font-size: 16px;
-                                        padding: 10px 15px 10px 10px;
-                                        font-weight: 200;
+                                        font-size: 14px;
+                                        padding: 7px 12px 7px 10px;
                                         color: #f58220;
                                         background-color: #fff;
                                         font-weight: bold;
                                     }
 
-                                    &.active{
+                                    &.active,&:hover{
                                         a,
                                         a:visited {
                                             color: #fff;
@@ -1923,6 +1937,7 @@ section#navigation-div{
 
 #home-page-top-news-section{
     background-color: #fff;
+
     .home-page-top-news-section-row{
         .content-div{
             @include top-and-down-border;
@@ -1945,18 +1960,19 @@ section#navigation-div{
 
                                 .heading-wrapper{
                                     .heading{
-                                        background-color: #000;
+                                        background-color: #f58220;
                                         color : #fff;
-                                        padding: 5px 0px;
+                                        padding: 2px 0px;
                                         text-align: center;
-                                        margin-bottom: 10px;
-                                        border-bottom: 3px solid #ea6f2b;
+                                        margin-bottom: 0px;
+                                        //border-bottom: 3px solid #ea6f2b;
                                         h2{
                                             margin-bottom: 0px;
                                             a{
                                                 text-decoration: none;
                                                 font-weight: bold;
                                                 line-height: 30px;
+                                                color : #fff;
 
                                                 &:hover{
                                                     color:#fff;
@@ -1976,15 +1992,38 @@ section#navigation-div{
                                     //padding: 5px;
                                     margin-bottom: 10px;
 
+
+                                    .infoDiv{
+                                        border-bottom:1px dotted #000;
+                                        padding:5px;
+                                        font-size: 10px;
+                                        .left{
+                                            text-align: left;
+                                        }
+                                        .right{
+                                            text-align: right;
+                                            font-size: 12px;
+
+                                        }
+
+                                        &.video{
+                                            border-bottom:0px;
+
+                                        }
+                                    }
+
+
                                     .snippet-heading{
                                         text-align: center;
-                                        padding: 5px;
-                                        background-color: #000;
+                                        padding: 5px 5px;
+                                        background-color: #f58220;
+
                                         h3{
                                             //text-align: center;
                                             a{
                                                 text-decoration: none;
                                                 font-weight: bold;
+                                                color:#fff;
 
                                                 &:hover{
                                                     color:#fff;
@@ -1993,11 +2032,19 @@ section#navigation-div{
                                         }
                                     }
 
+                                    &.side-image{
+                                        .snippet-content{
+                                            padding: 0px 0px 0px 0px;
+                                        }
+                                    }
+
+
                                     .snippet-content{
                                         padding: 0px 0px 30px 0px;
                                         overflow: hidden;
 
                                         .topImgDiv{
+                                            overflow: hidden;
                                             a{
 
                                                 img{
@@ -2019,31 +2066,32 @@ section#navigation-div{
 
                                         }
 
-                                        .infoDiv{
-                                            border-bottom:1px dotted #000;
-                                            padding:5px;
-                                            font-size: 10px;
-                                            .left{
-                                                text-align: left;
-                                            }
-                                            .right{
-                                                text-align: right;
-                                                font-size: 12px;
-
-                                            }
-
-                                            &.video{
-                                                border-bottom:0px;
-
-                                            }
-                                        }
+                                        //.infoDiv{
+                                        //    border-bottom:1px dotted #000;
+                                        //    padding:5px;
+                                        //    font-size: 10px;
+                                        //    .left{
+                                        //        text-align: left;
+                                        //    }
+                                        //    .right{
+                                        //        text-align: right;
+                                        //        font-size: 12px;
+                                        //
+                                        //    }
+                                        //
+                                        //    &.video{
+                                        //        border-bottom:0px;
+                                        //
+                                        //    }
+                                        //}
 
 
 
 
                                         .snippet-text-div{
-                                            padding:5px;
                                             line-height: 18px;
+                                            padding: 5px 10px;
+                                            text-align: justify;
                                             p.snippet-text{
                                                 //margin: 0 0 27px;
                                                 text-align: justify;
@@ -2146,6 +2194,590 @@ section#navigation-div{
                                             margin-bottom:0px;
                                         }
                                     }
+
+                                    /*-- styles for default page --*/
+
+                                    .default-content-div{
+                                        border-top: 1px solid;
+                                        border-bottom: 1px solid ;
+                                        padding: 15px 0px;
+                                        .default-content-div-inside{
+
+                                            border-left: 1px solid;
+                                            border-right: 1px solid;
+                                            padding: 0px 15px;
+                                            min-height: 600px;
+
+
+
+
+                                            .rightDiv{
+
+                                                aside{
+                                                    .snippet-content-div{
+                                                        padding: 10px 0px;
+                                                        .snippet-wrapper-div{
+                                                            position: relative;
+                                                            padding-bottom: 35px;
+
+                                                            .row{
+                                                                margin-bottom: 10px;
+                                                            }
+
+                                                            .heading-wrapper{
+                                                                .heading{
+                                                                    background-color: #f58220;
+                                                                    color : #fff;
+                                                                    padding: 2px 0px;
+                                                                    text-align: center;
+                                                                    margin-bottom: 0px;
+                                                                    //border-bottom: 3px solid #ea6f2b;
+                                                                    h2{
+                                                                        margin-bottom: 0px;
+                                                                        a{
+                                                                            text-decoration: none;
+                                                                            font-weight: bold;
+                                                                            line-height: 30px;
+                                                                            color : #fff;
+
+                                                                            &:hover{
+                                                                                color:#fff;
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+
+
+
+                                                            @include left-and-right-border;
+                                                            .snippet-container{
+                                                                position : relative;
+                                                                font-size: 12px;
+                                                                border: 1px solid;
+                                                                //padding: 5px;
+                                                                margin-bottom: 10px;
+
+
+                                                                .infoDiv{
+                                                                    border-bottom:1px dotted #000;
+                                                                    padding:5px;
+                                                                    font-size: 10px;
+                                                                    .left{
+                                                                        text-align: left;
+                                                                    }
+                                                                    .right{
+                                                                        text-align: right;
+                                                                        font-size: 12px;
+
+                                                                    }
+
+                                                                    &.video{
+                                                                        border-bottom:0px;
+
+                                                                    }
+                                                                }
+
+
+                                                                .snippet-heading{
+                                                                    text-align: center;
+                                                                    padding: 5px 5px;
+                                                                    background-color: #f58220;
+
+                                                                    h3{
+                                                                        //text-align: center;
+                                                                        a{
+                                                                            text-decoration: none;
+                                                                            font-weight: bold;
+                                                                            color:#fff;
+
+                                                                            &:hover{
+                                                                                color:#fff;
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+
+                                                                &.side-image{
+                                                                    .snippet-content{
+                                                                        padding: 0px 0px 0px 0px;
+                                                                    }
+                                                                }
+
+
+                                                                .snippet-content{
+                                                                    padding: 0px 0px 30px 0px;
+                                                                    overflow: hidden;
+
+                                                                    .topImgDiv{
+                                                                        overflow: hidden;
+                                                                        a{
+
+                                                                            img{
+                                                                                max-width: 100%;
+
+                                                                                -moz-transition: all 0.3s;
+                                                                                -webkit-transition: all 0.3s;
+                                                                                transition: all 0.3s;
+                                                                            }
+
+                                                                            &:hover img{
+                                                                                -moz-transform: scale(1.1);
+                                                                                -webkit-transform: scale(1.1);
+                                                                                transform: scale(1.1);
+
+                                                                            }
+                                                                        }
+
+
+                                                                    }
+
+                                                                    //.infoDiv{
+                                                                    //    border-bottom:1px dotted #000;
+                                                                    //    padding:5px;
+                                                                    //    font-size: 10px;
+                                                                    //    .left{
+                                                                    //        text-align: left;
+                                                                    //    }
+                                                                    //    .right{
+                                                                    //        text-align: right;
+                                                                    //        font-size: 12px;
+                                                                    //
+                                                                    //    }
+                                                                    //
+                                                                    //    &.video{
+                                                                    //        border-bottom:0px;
+                                                                    //
+                                                                    //    }
+                                                                    //}
+
+
+
+
+                                                                    .snippet-text-div{
+                                                                        line-height: 18px;
+                                                                        padding: 5px 10px;
+                                                                        text-align: justify;
+                                                                        p.snippet-text{
+                                                                            //margin: 0 0 27px;
+                                                                            text-align: justify;
+
+                                                                            a{
+                                                                                text-decoration: none;
+                                                                                font-weight: bold;
+
+                                                                                &:hover{
+                                                                                    color:#fff;
+                                                                                }
+                                                                            }
+
+                                                                        }
+                                                                    }
+                                                                }
+
+                                                                .read-more-link{
+                                                                    position: absolute;
+                                                                    right : 3px;
+                                                                    bottom: 7px;
+                                                                    a{
+                                                                        color: #000;
+                                                                        border: 1px solid#000;
+                                                                        background: #fff;
+                                                                        font-size: 12px;
+                                                                        padding: 5px 10px;
+                                                                        text-decoration: none !important;
+                                                                        &:hover{
+                                                                            //float: left;
+                                                                            //padding: 5px 10px;
+                                                                            color: #fff;
+                                                                            //border: 1px solid#000;
+                                                                            background: #000;
+
+                                                                        }
+                                                                    }
+                                                                }
+
+                                                            }
+
+
+
+
+                                                            .snippet-container:last-of-type{
+                                                                margin-bottom: 0px;
+                                                            }
+
+                                                            .read-more-link{
+                                                                position: absolute;
+                                                                right : 15px;
+                                                                bottom: 5px;
+                                                                a{
+                                                                    color: #000;
+                                                                    border: 1px solid#000;
+                                                                    background: #fff;
+                                                                    font-size: 14px;
+                                                                    padding: 5px 10px;
+                                                                    text-decoration: none !important;
+                                                                    &:hover{
+                                                                        //float: left;
+                                                                        //padding: 5px 10px;
+                                                                        color: #fff;
+                                                                        //border: 1px solid#000;
+                                                                        background: #000;
+
+                                                                    }
+                                                                }
+                                                            }
+
+                                                        }
+                                                    }
+
+                                                    &:first-of-type{
+                                                        @include top-and-down-border;
+                                                    }
+
+                                                    &:not(:first-of-type){
+                                                        border-bottom: 1px solid #666;
+                                                    }
+
+
+                                                }
+                                            }
+
+
+                                            /*-- search page styles --*/
+                                            form.search-option{
+                                                .form-group{
+                                                    margin-bottom: 10px;
+                                                    .form-control{
+                                                        height : 30px;
+
+                                                    }
+
+                                                    textarea{
+                                                        width : 100%;
+                                                        resize:none;
+                                                        min-height: 150px;
+                                                    }
+                                                    button{
+                                                        padding: 5px 12px;
+                                                        min-width: 80px;
+                                                    }
+
+                                                    select{
+                                                        font-size:12px;
+                                                        //option { font-size:12px; }
+                                                    }
+
+                                                    .news-from,.news-to{
+                                                        background-color: #fff !important;
+
+                                                    }
+
+
+                                                }
+                                            }
+
+
+
+                                            /*-- gallery page styles --*/
+                                            form.contact-us-form{
+                                                .form-group{
+                                                    margin-bottom: 10px;
+                                                    .form-control{
+                                                        height : 30px;
+
+                                                    }
+
+                                                    textarea{
+                                                        width : 100%;
+                                                        resize:none;
+                                                        min-height: 150px;
+                                                    }
+                                                    button{
+                                                        padding: 5px 12px;
+                                                        width: 100px;
+                                                    }
+
+
+                                                }
+                                            }
+
+
+
+
+                                            /*-- gallery page styles --*/
+
+                                            .gallery-row.row{
+                                                margin-bottom: 15px;
+
+                                                &:last-of-type{
+                                                    margin-bottom: 0px;
+                                                }
+                                            }
+
+                                            .video-gallery-row{
+                                                margin-bottom: 15px;
+
+                                                &:last-of-type{
+                                                    margin-bottom: 0px;
+                                                }
+                                                .overlayDiv{
+                                                    background-color: #ffffffbd;
+                                                }
+                                            }
+
+
+                                            /*-- gallery page styles --*/
+
+                                            //
+
+                                            .normal-news-feature-div
+                                            {
+                                                margin-bottom : 10px;
+                                                position      : relative;
+
+                                                //
+                                                //>div{
+                                                //    margin-bottom: 10px;
+                                                //    &:last-of-type{
+                                                //        margin-bottom:0px;
+                                                //    }
+                                                //}
+                                                //.small-img-div{
+                                                //    >div{
+                                                //        margin-bottom: 10px;
+                                                //    }
+                                                //}
+                                                //
+                                                //.image-inner-big {
+                                                //    min-height: 300px;
+                                                //    background-size: cover;
+                                                //    background-repeat: no-repeat;
+                                                //    background-position: center center;
+                                                //}
+                                                //.image-inner-small {
+                                                //    min-height: 145px;
+                                                //    background-size: cover;
+                                                //    background-repeat: no-repeat;
+                                                //    background-position: center center;
+                                                //}
+                                                //
+
+                                                .snippet-container
+                                                {
+                                                    position      : relative;
+                                                    font-size     : 12px;
+                                                    .snippet-heading
+                                                    {
+                                                        text-align       : center;
+                                                        padding          : 5px;
+                                                        background-color : #f58220;                                                        h3
+                                                        {
+                                                            text-align    : center;
+                                                            margin-bottom : 0px;
+
+                                                            a
+                                                            {
+                                                                text-decoration : none;
+                                                                font-weight     : bold;
+                                                                color : #fff;
+
+                                                                &:hover
+                                                                {
+                                                                    color : #fff;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+
+                                                    border        : 1px solid;
+                                                    margin-bottom : 10px;
+
+                                                    .snippet-content
+                                                    {
+                                                        padding : 0px 0px 0px 0px;
+
+                                                        .infoDiv
+                                                        {
+                                                            border-bottom : 1px dotted #000;
+                                                            padding       : 5px;
+                                                            font-size     : 12px;
+                                                            .left
+                                                            {
+                                                                text-align : left;
+                                                            }
+                                                            .right
+                                                            {
+                                                                text-align : right;
+                                                            }
+                                                        }
+
+                                                        .snippet-text-div
+                                                        {
+                                                            padding : 5px;
+                                                            p.snippet-text
+                                                            {
+                                                                margin     : 0 0 0px;
+                                                                text-align : justify;
+
+                                                            }
+                                                        }
+                                                    }
+                                                    .read-more-link
+                                                    {
+                                                        position : absolute;
+                                                        right    : 3px;
+                                                        bottom   : 7px;
+                                                        a
+                                                        {
+                                                            color           : #000;
+                                                            border          : 1px solid #000;
+                                                            background      : #fff;
+                                                            /* float: left; */
+                                                            padding         : 5px 10px;
+                                                            text-decoration : none !important;
+                                                            &:hover
+                                                            {
+                                                                //float: left;
+                                                                //padding: 5px 10px;
+                                                                color      : #fff;
+                                                                //border: 1px solid#000;
+                                                                background : #000;
+
+                                                            }
+                                                        }
+                                                    }
+
+
+                                                    &.noImg{
+                                                        .snippet-content
+                                                        {
+                                                            padding : 0px 0px 35px 0px;
+                                                        }
+
+                                                    }
+
+
+                                                    &.main{
+
+                                                        color: #000;
+                                                        .snippet-heading{
+                                                            a{
+                                                                color:#fff;
+                                                                font-weight: bold;
+                                                            }
+                                                        }
+
+                                                        .snippet-content{
+                                                            .infoDiv {
+                                                                font-size: 16px;
+                                                                padding: 5px 10px;
+                                                            }
+                                                            .snippet-text-div{
+                                                                padding: 20px 10px 5px 10px;
+                                                                font-size: 20px;
+                                                                line-height: 24px;
+                                                                p.snippet-text{
+                                                                    margin-bottom: 20px;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+
+                                                    &.single-news{
+
+
+                                                        .snippet-content{
+                                                            .infoDiv {
+                                                                font-size: 16px;
+
+                                                                .socialDiv{
+                                                                    float: right;
+                                                                    .icon-div{
+                                                                        float: left;
+                                                                        margin-right: 3px;
+
+                                                                        a{
+                                                                            img{
+                                                                                width: 27px;
+                                                                                //-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+                                                                                //filter: grayscale(100%);
+
+                                                                            }
+                                                                            transition: all .2s ease-in-out;
+
+
+                                                                            &:hover{
+                                                                                img{
+                                                                                    width: 27px;
+                                                                                    //-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+                                                                                    //filter: grayscale(0%);
+                                                                                    transform: translateY(-4px);
+                                                                                }
+
+                                                                                /* outline-offset: -1px; */
+                                                                            }
+                                                                        }
+
+                                                                    }
+                                                                }
+                                                                .CommentCountDiv{
+                                                                    float: right;
+                                                                }
+                                                            }
+                                                            .snippet-text-div{
+                                                                padding: 10px 5px 5px 5px;
+                                                                font-size: 16px;
+                                                                text-align: justify;
+                                                                p.snippet-text{
+                                                                    margin-bottom: 20px;
+                                                                }
+
+                                                            }
+
+                                                            .author-div{
+                                                                padding: 5px;
+
+                                                                .author{
+                                                                    font-size : 16px;
+                                                                    text-align: right;
+                                                                    color : red;
+                                                                    font-weight: bold;
+
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+
+
+
+
+                                                }
+
+                                                .snippet-container:last-of-type
+                                                {
+                                                    margin-bottom : 0px;
+                                                }
+
+
+
+
+
+                                            }
+
+
+                                            //
+
+
+
+
+
+
+
+                                        }
+                                    }
+
+
                                     .small-img-div{
                                         div{
                                             margin-bottom: 10px;
@@ -2521,6 +3153,25 @@ section#navigation-div{
                                     .img2Div{
                                         .img2Div-wrapper{
                                             position: relative;
+                                            overflow: hidden;
+
+                                            a{
+                                                color: red;
+                                            }
+                                            a img {
+                                                max-width: 100%;
+
+                                                -moz-transition: all 0.3s;
+                                                -webkit-transition: all 0.3s;
+                                                transition: all 0.3s;
+                                            }
+                                            a:hover img {
+                                                -moz-transform: scale(1.1);
+                                                -webkit-transform: scale(1.1);
+                                                transform: scale(1.1);
+                                            }
+
+
 
                                             .overlayDiv{
                                                 padding: 5px 10px;
@@ -2611,9 +3262,23 @@ section#navigation-div{
                                         }
                                     }
 
-                                    .img3Div{
-                                        .img3Div-wrapper{
+                                    .img3Div,.img4Div{
+                                        .img3Div-wrapper,.img4Div-wrapper {
                                             position: relative;
+                                            overflow: hidden;
+
+                                            a img {
+                                                max-width: 100%;
+
+                                                -moz-transition: all 0.3s;
+                                                -webkit-transition: all 0.3s;
+                                                transition: all 0.3s;
+                                            }
+                                            a:hover img {
+                                                -moz-transform: scale(1.1);
+                                                -webkit-transform: scale(1.1);
+                                                transform: scale(1.1);
+                                            }
 
                                             .overlayDiv{
                                                 padding: 2px 10px;
@@ -2729,7 +3394,7 @@ section#navigation-div{
 
                                     }
                                     .image-inner-small {
-                                        min-height: 300px;
+                                        min-height: 260px;
                                         background-size: cover;
                                         background-repeat: no-repeat;
                                         background-position: center center;
@@ -2738,18 +3403,33 @@ section#navigation-div{
                                     .top-feature-heading-wrapper{
                                         margin-bottom: 0px;
                                         .top-feature-heading{
-                                            background-color: #000;
+                                            background-color: #ea6f2b;
                                             color : #fff;
                                             padding: 5px 0px;
                                             text-align: center;
-                                            margin-bottom: 10px;
-                                            border-bottom: 3px solid #ea6f2b;
+                                            margin-bottom: 0px;
+                                            //border-bottom: 3px solid #ea6f2b;
                                             h2{
                                                 margin-bottom: 0px;
                                                 a{
                                                     text-decoration: none;
                                                     font-weight: bold;
                                                     line-height: 30px;
+                                                    color:#fff;
+
+                                                    &:hover{
+                                                        color:#fff;
+                                                    }
+                                                }
+                                            }
+
+                                            h1{
+                                                margin-bottom: 0px;
+                                                a{
+                                                    text-decoration: none;
+                                                    font-weight: bold;
+                                                    //line-height: 30px;
+                                                    color:#fff;
 
                                                     &:hover{
                                                         color:#fff;
@@ -2841,7 +3521,7 @@ section#navigation-div{
                                             {
                                                 text-align       : center;
                                                 padding          : 5px;
-                                                background-color : #000;
+                                                background-color : #ea6f2b;
                                                 h3
                                                 {
                                                     text-align    : center;
@@ -2850,6 +3530,7 @@ section#navigation-div{
                                                     {
                                                         text-decoration : none;
                                                         font-weight     : bold;
+                                                        color : #fff;
 
                                                         &:hover
                                                         {
@@ -2861,6 +3542,24 @@ section#navigation-div{
 
                                             border        : 1px solid;
                                             margin-bottom : 10px;
+
+
+                                            .infoDiv
+                                            {
+                                                border-bottom : 1px dotted #000;
+                                                padding       : 5px;
+                                                font-size     : 12px;
+                                                .left
+                                                {
+                                                    text-align : left;
+                                                }
+                                                .right
+                                                {
+                                                    text-align : right;
+                                                }
+                                            }
+
+
 
                                             .snippet-content
                                             {
@@ -2955,18 +3654,19 @@ section#navigation-div{
 
                                 .news-type-heading-wrapper{
                                     .news-type-heading{
-                                        background-color: #000;
+                                        background-color: #ea6f2b;
                                         color : #fff;
                                         padding: 5px 0px;
                                         text-align: center;
                                         margin-bottom: 10px;
-                                        border-bottom: 3px solid #ea6f2b;
+                                       // border-bottom: 3px solid #ea6f2b;
                                         h2{
                                             margin-bottom: 0px;
                                             a{
                                                 text-decoration: none;
                                                 font-weight: bold;
                                                 line-height: 30px;
+                                                color:#fff;
                                                 &:hover{
                                                     color:#fff;
                                                 }
@@ -3025,18 +3725,19 @@ section.home-page-category-news-section{
                 padding-bottom: 30px;
                 .category-feature-heading-wrapper{
                     .category-feature-heading{
-                        background-color: #000;
+                        background-color: #ea6f2b;
                         color : #fff;
                         padding: 5px 0px;
                         text-align: center;
                         margin-bottom: 10px;
-                        border-bottom: 3px solid #ea6f2b;
+                        //border-bottom: 3px solid #ea6f2b;
                         h2{
                             //margin-bottom: 0px;
                             a{
                                 text-decoration: none;
                                 font-weight: bold;
                                 line-height: 30px;
+                                color:#fff;
                                 &:hover{
                                     color:#fff;
                                 }
@@ -3062,12 +3763,13 @@ section.home-page-category-news-section{
                         .snippet-heading{
                             text-align: center;
                             padding: 5px;
-                            background-color: #000;
+                            background-color: #ea6f2b;
                             h3{
                                 margin-bottom: 0px;
                                 a{
                                     text-decoration: none;
                                     font-weight: bold;
+                                    color:#fff;
                                     &:hover{
                                         color:#fff;
 
@@ -3361,6 +4063,12 @@ section#copywrite{
 
 
 
+#feature-news-slider{
+    .owl-stage-outer{
+        height: 100% !important;
+
+    }
+}
 
 
 
@@ -3601,7 +4309,7 @@ section#copywrite{
 .search-box {
     float: right;
     //width: 150px;
-    height: 42px;
+    height: 33px;
     position: relative;
     margin: 0px 5px;
 }
@@ -3625,7 +4333,7 @@ section#copywrite{
     margin: 0;
     */
     text-indent: 15px;
-    height: 42px;
+    height: 33px;
     z-index: 2;
     outline: none;
     color: #999;
@@ -3641,19 +4349,19 @@ section#copywrite{
         color: #f58220;
         opacity: 1; /* Firefox */
         font-weight: bold;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     &:-ms-input-placeholder { /* Internet Explorer 10-11 */
         color: #f58220;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     &::-ms-input-placeholder { /* Microsoft Edge */
         color: #f58220;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 14px;
     }
 
 
@@ -3691,6 +4399,55 @@ section#copywrite{
     padding-top: 20px;
     padding-bottom: 15px;
 }
+
+
+
+#news-carousel{
+
+    .owl-stage-outer{
+        height: 100% !important;
+
+    }
+
+    &.owl-carousel {
+        position: relative;
+        height: 100%;
+        width: auto;
+    }
+
+    .item {
+        position: relative;
+        overflow: hidden;
+        //height: 500px;
+        height: 100% !important;
+        display: block;
+        img{
+            display: block;
+        }
+
+    }
+}
+
+
+@media all and (min-width: 800px) {
+    .fancybox-thumbs {
+        top: auto;
+        width: auto;
+        bottom: 0;
+        left: 0;
+        right : 0;
+        height: 95px;
+        padding: 10px 10px 5px 10px;
+        box-sizing: border-box;
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    .fancybox-show-thumbs .fancybox-inner {
+        right: 0;
+        bottom: 95px;
+    }
+}
+
 
 
 
