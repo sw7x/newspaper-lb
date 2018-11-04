@@ -153,7 +153,7 @@
         <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
         <script type="text/javascript" src="js/datepicker.js"></script>
         <script id="dsq-count-scr" src="//local-lakbima-com.disqus.com/count.js" async></script>
-
+        <script type="text/javascript" src="js/jquery.marquee.min.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
 
 

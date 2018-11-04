@@ -86,12 +86,15 @@
                         <div class="col-md-2 hotnews-topic" style="">
                             <div class="hotnews-label">Hot News</div>
                         </div>
-                        <div class=" col-md-10 news-content-div" style="">
-                            <div class="news-slider owl-carousel">
+                        <div class=" col-md-10 news-content-div marquee" style="">
+                            <div class="news-slider">
 
-                                <div class="item news-content">Extreme Sport / Zletres Giral Duwick Wullam dolore Giralce style 4</div>
-                                <div class="item news-content">Technical Skills Required</div>
-                                <div class="item news-content"><a href="">Your Content </a></div>
+                                <div class="item news-content marquee--item" style="">Extreme Sport / Zletres Giral Duwick Wullam dolore Giralce style 4</div>
+                                <div class="item news-content marquee--item" style="">Technical Skills Required</div>
+                                <div class="item news-content marquee--item" style=""><a href="">Your Content </a></div>
+                                <div class="item news-content marquee--item" style="">Wullam dolore</div>
+                                <div class="item news-content marquee--item" style="">Content Required Technical Skills</div>
+                                <div class="item news-content marquee--item" style=""><a href="">444 Your Content aaaa</a></div>
 
 
                             </div>

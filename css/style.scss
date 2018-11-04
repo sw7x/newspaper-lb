@@ -1556,7 +1556,7 @@ section#page-top{
 
             }
             .news-content-div{
-                padding: 5px 0;
+                padding: 5px;
                 height: 30px;
                 border: 1px solid#666;
                 border-left: none;
@@ -1579,89 +1579,11 @@ section#page-top{
                     position: relative;
                     padding: 0px 60px;
 
-                    &.owl-carousel{
-                        width: auto;
-                        .owl-stage-outer{
-                            //width : 95%;
-                            //padding:0px 50px;
-                        }
-                    }
-                }
-
-
-                //&.owl-carousel{
-                //    display: none;
-                //    width: 100%;
-                //    -webkit-tap-highlight-color: transparent;
-                //    position: relative;
-                //    z-index: 1;
-                //    .owl-stage {
-                //        position: relative;
-                //        -ms-touch-action: pan-Y
-                //    }
-                //
-                //    .owl-item {
-                //        position: relative;
-                //        min-height: 1px;
-                //        float: left;
-                //        -webkit-backface-visibility: hidden;
-                //        -webkit-tap-highlight-color: transparent;
-                //        -webkit-touch-callout: none;
-                //        -webkit-user-select: none;
-                //        -moz-user-select: none;
-                //        -ms-user-select: none;
-                //        user-select: none;
-                //    }
-                //}
-
-                .owl-next, .owl-prev {
-                    //font-size: 20px;
-                    //color: #bb1616;
-                    //
-                    //margin-top: -20px;
-                    //position: absolute;
-                    //bottom: 50%;
-                    //transform: translateY(50%);
-                    //
-                    //cursor: pointer;
-                    //font-weight: 600;
-                    a{
-                        i{
-                            font-size: 25px;
-                            color: #000;
-                        }
-                        padding: 0 10px;
-                    }
 
                 }
 
-                .owl-next {
-                    right: 10px;
-                    bottom: -3px;
-                    position: absolute;
-                }
-                .owl-prev {
-                    left: 10px;
-                    bottom: -3px;
-                    position: absolute;
-                }
 
 
-
-
-
-
-
-                .prev{
-                    right: 35px;
-                    bottom: 8px;
-                    //position: absolute;
-                }
-                .next{
-                    right: 10px;
-                    bottom: 8px;
-                    //position: absolute;
-                }
 
 
 
@@ -2783,6 +2705,7 @@ section#navigation-div{
                                             margin-bottom: 10px;
                                         }
 
+                                        /* TODO
                                         .small-img-div-wrapper{
                                             position: relative;
 
@@ -2878,6 +2801,7 @@ section#navigation-div{
                                                 border-bottom-right-radius: 4px;
                                             }
                                         }
+                                        */
 
                                     }
 
@@ -3056,7 +2980,7 @@ section#navigation-div{
 
                                         }
 
-
+                                        /* TODO
                                         .big-img-div-wrapper{
                                             overflow: hidden;
                                             position: relative;
@@ -3147,6 +3071,7 @@ section#navigation-div{
                                                 border-bottom-right-radius: 4px;
                                             }
                                         }
+                                        */
 
                                     }
 
@@ -3261,6 +3186,7 @@ section#navigation-div{
                                             }
                                         }
                                     }
+
 
                                     .img3Div,.img4Div{
                                         .img3Div-wrapper,.img4Div-wrapper {
@@ -4450,6 +4376,23 @@ section#copywrite{
 
 
 
+
+
+
+.marquee {
+    //width: 100%;
+
+    overflow: hidden;
+    border:1px solid #ccc;
+    //background: black;
+    //color: rgb(202, 255, 195);
+}
+.marquee .marquee--item{
+    display: none;
+
+
+
+}
 
 
 

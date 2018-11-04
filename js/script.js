@@ -1,3 +1,30 @@
+$(function () {
+
+	var marquee = $('.marquee');
+
+	marquee.find('.marquee--item').css('display','inline-block');
+
+	marquee.marquee({
+		duration: 15000,
+		gap: 500,
+		duplicated: true,
+		pauseOnHover: true
+	});
+
+
+
+
+
+// 	marquee.hover(function() {
+// 		marquee.marquee('pause');
+// 	}, function() {
+// 		marquee.marquee('play');
+// 	});
+
+
+
+
+});
 
 
 
@@ -14,7 +41,7 @@
 
 
 $(document).ready(function(){
-	$('.news-slider').owlCarousel({
+	$('.i---news-slider').owlCarousel({
 		loop:true,
 		margin:0,
 		autoplay:true,
