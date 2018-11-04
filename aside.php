@@ -1,7 +1,6 @@
 
-    <aside class="">
-        <div class="snippet-content-div clearfix">
-            <div class="snippet-wrapper-div col-md-12">
+    <aside class="clearfix">
+        <div class="snippet-wrapper-div">
 
                 <div class="row">
                     <div class="col-md-12">
@@ -80,7 +79,6 @@
 
     
             </div>
-        </div>
     </aside>
 
 
@@ -94,9 +92,8 @@ for ($i=0;$i<7;$i++):
     $cls = ($i==6)?'last':'';
 // var_dump ($t);
 ?>
-    <aside class="<?php echo $cls;?>">
-        <div class="snippet-content-div clearfix">
-            <div class="snippet-wrapper-div col-md-12">
+    <aside class="<?php echo $cls;?> clearfix">
+        <div class="snippet-wrapper-div">
 
                 <div class="row">
                     <div class="col-md-12">
@@ -331,44 +328,7 @@ for ($i=0;$i<7;$i++):
                 </div>
 
 
-                <style>
-                    .wr-news-line {
-                        margin-bottom: .5rem;
-                    }
 
-                    .wr-news-line .news-line{
-                        border-bottom: 1px solid rgb(74, 73, 73);
-                        position: relative;
-                    }
-                    .wr-news-line .news-line.last{
-                        border-bottom: 0px solid rgb(74, 73, 73);;
-
-                    }
-                    .wr-news-line .news-line:before{
-                        content: '\f04b';
-                        font-family: "FontAwesome";
-                        color: #f58220;
-                        position: absolute;
-                        top: 10px;
-                        left: 0;
-                        font-size: 14px;
-                    }
-
-
-                    .wr-news-line .news-line a{
-                        font-size: 14px;
-                        line-height: 1.5;
-                        display: block;
-                        text-decoration: none;
-                        color: #222;
-                        padding: 10px 0 10px 20px;
-                    }
-
-
-
-
-
-                </style>
 
 
                 <div class="row">
@@ -412,8 +372,5 @@ for ($i=0;$i<7;$i++):
                 </div>
 
             </div>
-
-        </div>
-
     </aside>
 <?php endfor;?>
