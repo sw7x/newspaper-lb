@@ -25,21 +25,21 @@
 
                         <div class="top-feature-div">
 
-                            <div class="row">
 
-                                <div class="top-feature-heading-wrapper col-md-12">
-                                    <div  class="top-feature-heading">
-                                        <h2><a href="" title="">right S නවතම පුවත්</a></h2>
-                                    </div>
-                                </div>
-
-                            </div>
 
 
 
                             <div class="row">
 
                                 <div class="col-md-7 big-img-div" >
+
+                                    <div class="">
+                                        <div class="top-feature-heading-wrapper">
+                                            <div  class="top-feature-heading">
+                                                <h2><a href="" title="">right S නවතම පුවත්</a></h2>
+                                            </div>
+                                        </div>
+                                    </div>
 
                                     <div class="mainSlider">
 
@@ -193,7 +193,7 @@
 
                                     <div class="secondary-news-snippet-wrapper">
 
-                                        <div class="row">
+                                        <div class="row heading-row">
                                             <div class="col-md-12">
                                                 <div class="news-type-heading-wrapper">
                                                     <div  class="news-type-heading">
@@ -205,9 +205,9 @@
 
 
                                         <?php
-                                        for ($i=0;$i<16;$i++):
+                                        for ($i=0;$i<7;$i++):
 
-                                            $cls = ($i==15)?'last':'';
+                                            $cls = ($i==6)?'last':'';
 
 
                                         ?>
@@ -222,7 +222,7 @@
 
                                                     <div class="snippet-content clearfix">
 
-                                                        <div class="col-md-4 nopadding">
+                                                        <div class="imgDiv col-md-4 nopadding">
                                                             <a href="" title="">
                                                                 <img class="img-responsive" width="100%" src="https://placeimg.com/320/275/nature" alt="Chania">
                                                             </a>
@@ -273,7 +273,7 @@
 
 
                                 <div class="col-md-5 small-img-div">
-                                    <?php include 'aside-news.php';?>
+                                    <?php include 'aside-news-2.php';?>
                                 </div>
 
                             </div>
@@ -312,9 +312,9 @@
 
                         <section  class="normal-feature-news-container clearfix">
 
-                            <?php for ($i=0;$i<3;$i++):
+                            <?php for ($i=0;$i<1;$i++):
                             $t=0;
-                            $cls = ($i==2)?'last':'';
+                            $cls = ($i==0)?'last':'';
 
                                 // var_dump ($t);
                             ?>
@@ -346,7 +346,7 @@
 
                                                 <div class="snippet-content clearfix">
 
-                                                    <div class="col-md-4 nopadding">
+                                                    <div class="imgDiv col-md-4 nopadding">
                                                         <a href="" title="">
                                                             <img class="img-responsive" width="100%" src="https://placeimg.com/320/275/nature" alt="Chania">
                                                         </a>
@@ -374,75 +374,6 @@
                                         </div>
                                     </div>
 
-                                    <!--
-                                    <div class="row normal-news-feature-div">
-                                        <div class="col-md-12">
-                                            <div class="snippet-container">
-
-
-                                                <div class="snippet-heading">
-                                                    <h3><a href="" title="">2 නවතම පුවත්</a></h3>
-                                                </div>
-
-                                                <div class="snippet-content">
-
-                                                    <div>
-                                                        <div class="clearfix infoDiv">
-                                                            <div class="left col-md-10 nopadding">2018 ඔක්තෝබර් මස 01 වන සඳුදා</div>
-                                                            <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 42</i></div>
-                                                        </div>
-
-                                                        <div class="snippet-text-div">
-                                                            <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-
-                                                <div class="read-more-link">
-                                                    <a class="" href="" title="">Read More</a>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row normal-news-feature-div">
-                                        <div class="col-md-12">
-                                            <div class="snippet-container">
-
-
-                                                <div class="snippet-heading">
-                                                    <h3><a href="" title="">3 නවතම පුවත්</a></h3>
-                                                </div>
-
-                                                <div class="snippet-content">
-
-                                                    <div>
-                                                        <div class="clearfix infoDiv">
-                                                            <div class="left col-md-10 nopadding">2018 ඔක්තෝබර් මස 01 වන සඳුදා</div>
-                                                            <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 42</i></div>
-                                                        </div>
-
-                                                        <div class="snippet-text-div">
-                                                            <p class="snippet-text">OK, so images can get quite complicated as
-                                                                we have a few variables to work with! For example the image we have a few variables to work with! For example the image
-                                                                we have a few variables to work with! For example the image we have a few variables to work with! For example the image
-                                                                we have a few variables to work with! For example the image we have a few variables to work with! For example the image
-                                                                we have a few variables to work with! For example the image below has had a caption entered</p>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-
-                                                <div class="read-more-link">
-                                                    <a class="" href="" title="">Read More</a>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    -->
 
 
                                     <div class="row normal-news-feature-div clearfix">
@@ -463,7 +394,7 @@
 
                                                 <div class="snippet-content clearfix">
 
-                                                    <div class="col-md-4 nopadding">
+                                                    <div class="imgDiv col-md-4 nopadding">
                                                         <a href="" title="">
                                                             <img class="img-responsive" width="100%" src="https://placeimg.com/320/275/nature" alt="Chania">
                                                         </a>
@@ -502,7 +433,7 @@
 
                                                 <div class="snippet-content clearfix">
 
-                                                    <div class="col-md-4 nopadding">
+                                                    <div class="imgDiv col-md-4 nopadding">
                                                         <a href="" title="">
                                                             <img class="img-responsive" width="100%" src="https://placeimg.com/320/275/nature" alt="Chania">
                                                         </a>
@@ -544,7 +475,7 @@
 
                                                 <div class="snippet-content clearfix">
 
-                                                    <div class="col-md-4 nopadding">
+                                                    <div class="imgDiv col-md-4 nopadding">
                                                         <a href="" title="">
                                                             <img class="img-responsive" width="100%" src="https://placeimg.com/320/275/nature" alt="Chania">
                                                         </a>
@@ -583,7 +514,7 @@
 
                                                 <div class="snippet-content clearfix">
 
-                                                    <div class="col-md-4 nopadding">
+                                                    <div class="imgDiv col-md-4 nopadding">
                                                         <a href="" title="">
                                                             <img class="img-responsive" width="100%" src="https://placeimg.com/320/275/nature" alt="Chania">
                                                         </a>
@@ -625,7 +556,7 @@
 
                                                 <div class="snippet-content clearfix">
 
-                                                    <div class="col-md-4 nopadding">
+                                                    <div class="imgDiv col-md-4 nopadding">
                                                         <a href="" title="">
                                                             <img class="img-responsive" width="100%" src="https://placeimg.com/320/275/nature" alt="Chania">
                                                         </a>
@@ -750,7 +681,7 @@
                                     </div>
 
                                     <div class="snippet-content">
-                                        <div class="">
+                                        <div class="imgDiv">
                                             <a href="" title="">
                                                 <img class="img-responsive" width="100%" src="https://placeimg.com/320/200/nature" alt="Chania">
                                             </a>
@@ -780,7 +711,7 @@
                                     </div>
 
                                     <div class="snippet-content">
-                                        <div class="">
+                                        <div class="imgDiv">
                                             <a href="" title="">
                                                 <img class="img-responsive" width="100%" src="https://placeimg.com/320/200/people" alt="Chania">
                                             </a>
@@ -809,7 +740,7 @@
                                     </div>
 
                                     <div class="snippet-content">
-                                        <div class="">
+                                        <div class="imgDiv">
                                             <a href="" title="">
                                                 <img class="img-responsive" width="100%" src="https://placeimg.com/320/200" alt="Chania">
                                             </a>
@@ -850,7 +781,7 @@
                                     <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 12</i></div>
                                 </div>
 
-                                <div class="col-md-4 nopadding">
+                                <div class="imgDiv col-md-4 nopadding">
                                     <a href="" title="">
                                         <img class="img-responsive" width="100%" src="https://placeimg.com/320/320/people" alt="Chania">
                                     </a>
@@ -883,7 +814,7 @@
                                     <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 12</i></div>
                                 </div>
 
-                                <div class="col-md-4 nopadding">
+                                <div class="imgDiv col-md-4 nopadding">
                                     <a href="" title="">
                                         <img class="img-responsive" width="100%" src="https://placeimg.com/320/320/people" alt="Chania">
                                     </a>
@@ -919,7 +850,7 @@
                                     <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 12</i></div>
                                 </div>
 
-                                <div class="col-md-4 nopadding">
+                                <div class="imgDiv col-md-4 nopadding">
                                     <a href="" title="">
                                         <img class="img-responsive" width="100%" src="https://placeimg.com/320/320/people" alt="Chania">
                                     </a>
@@ -975,7 +906,7 @@
                             </div>
 
                             <div class="snippet-content">
-                                <div class="">
+                                <div class="imgDiv">
                                     <a href="" title="">
                                         <img class="img-responsive" width="100%" src="https://placeimg.com/320/150/animals" alt="Chania">
                                     </a>
@@ -1048,7 +979,7 @@
                                     <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 12</i></div>
                                 </div>
 
-                                <div class="col-md-4 nopadding">
+                                <div class="imgDiv col-md-4 nopadding">
                                     <a href="" title="">
                                         <img class="img-responsive" width="100%" src="https://placeimg.com/320/320/people" alt="Chania">
                                     </a>
@@ -1084,7 +1015,7 @@
                                     <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 12</i></div>
                                 </div>
 
-                                <div class="col-md-4 nopadding">
+                                <div class="imgDiv col-md-4 nopadding">
                                     <a href="" title="">
                                         <img class="img-responsive" width="100%" src="https://placeimg.com/320/320/people" alt="Chania">
                                     </a>
@@ -1127,7 +1058,7 @@
                                 <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 12</i></div>
                             </div>
 
-                            <div class="col-md-4 nopadding">
+                            <div class="imgDiv col-md-4 nopadding">
                                 <a href="" title="">
                                     <img class="img-responsive" width="100%" src="https://placeimg.com/320/320/people" alt="Chania">
                                 </a>
@@ -1163,7 +1094,7 @@
                                 <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 12</i></div>
                             </div>
 
-                            <div class="col-md-4 nopadding">
+                            <div class="imgDiv col-md-4 nopadding">
                                 <a href="" title="">
                                     <img class="img-responsive" width="100%" src="https://placeimg.com/320/320/people" alt="Chania">
                                 </a>
@@ -1199,7 +1130,7 @@
                                 <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 12</i></div>
                             </div>
 
-                            <div class="col-md-4 nopadding">
+                            <div class="imgDiv col-md-4 nopadding">
                                 <a href="" title="">
                                     <img class="img-responsive" width="100%" src="https://placeimg.com/320/320/people" alt="Chania">
                                 </a>
@@ -1237,10 +1168,10 @@
 
 
 
-    <?php for ($i=0;$i<3;$i++):
+    <?php for ($i=0;$i<1;$i++):
     $t=0;
     //if($i==1)break;
-    $cls = ($i==2)?'last':'';
+    $cls = ($i==1)?'last':'';
 
     // var_dump ($t);
     ?>
@@ -1275,7 +1206,7 @@
                                 </div>
 
                                 <div class="snippet-content">
-                                    <div class="">
+                                    <div class="imgDiv">
                                         <a href="" title="">
                                             <img class="img-responsive" width="100%" src="https://placeimg.com/320/200/nature" alt="Chania">
                                         </a>
@@ -1305,7 +1236,7 @@
                                 </div>
 
                                 <div class="snippet-content">
-                                    <div class="">
+                                    <div class="imgDiv">
                                         <a href="" title="">
                                             <img class="img-responsive" width="100%" src="https://placeimg.com/320/200/people" alt="Chania">
                                         </a>
@@ -1334,7 +1265,7 @@
                                 </div>
 
                                 <div class="snippet-content">
-                                    <div class="">
+                                    <div class="imgDiv">
                                         <a href="" title="">
                                             <img class="img-responsive" width="100%" src="https://placeimg.com/320/200" alt="Chania">
                                         </a>
@@ -1379,7 +1310,7 @@
                                 <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 12</i></div>
                             </div>
 
-                            <div class="col-md-4 nopadding">
+                            <div class="imgDiv col-md-4 nopadding">
                                 <a href="" title="">
                                     <img class="img-responsive" width="100%" src="https://placeimg.com/320/320/people" alt="Chania">
                                 </a>
@@ -1416,7 +1347,7 @@
                                 <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 12</i></div>
                             </div>
 
-                            <div class="col-md-4 nopadding">
+                            <div class="imgDiv col-md-4 nopadding">
                                 <a href="" title="">
                                     <img class="img-responsive" width="100%" src="https://placeimg.com/320/320/people" alt="Chania">
                                 </a>
@@ -1450,7 +1381,7 @@
                                 <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 12</i></div>
                             </div>
 
-                            <div class="col-md-4 nopadding">
+                            <div class="imgDiv col-md-4 nopadding">
                                 <a href="" title="">
                                     <img class="img-responsive" width="100%" src="https://placeimg.com/320/320/people" alt="Chania">
                                 </a>
@@ -1487,7 +1418,7 @@
                                 <div class="right col-md-2 nopadding"><i class="fa fa-comments" aria-hidden="true"> 12</i></div>
                             </div>
 
-                            <div class="col-md-4 nopadding">
+                            <div class="imgDiv col-md-4 nopadding">
                                 <a href="" title="">
                                     <img class="img-responsive" width="100%" src="https://placeimg.com/320/320/people" alt="Chania">
                                 </a>

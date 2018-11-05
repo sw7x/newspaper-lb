@@ -1,6 +1,6 @@
 <div class="text-justify">
-    <ul class="sitemap" style="padding-left: 15px;">
-        <li><a href="/privacy-policy.html" title="Privacy Policy">Privacy Policy</a></li>
+    <ul class="sitemap" style="padding-left: 40px;">
+        <li><a href="/privacy-policy.html" title="Privacy Policy">g Privacy Policy</a></li>
         <li><a href="/what-we-do.html" title="What we do">What we do</a><ul>
                 <li><a href="/what-we-do/search-engine-optimization.html" title="Search Engine Optimization (SEO)">Search Engine Optimization (SEO)</a></li>
                 <li><a href="/what-we-do/web-developement.html" title="Web Development">Web Development</a></li>
