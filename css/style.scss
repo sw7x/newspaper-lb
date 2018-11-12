@@ -1645,17 +1645,24 @@ section#page-top{
                 }
 
                 .social-container{
-                    .socialDiv{
-                        .icon-div{
-                            float: left;
-                            margin-right: 3px;
+                    .row{
+                        padding: 5px 0px;
+                        .textDiv{
+                            padding-right: 0px;
+                        }
+                        .socialDiv{
+                            .icon-div{
+                                float: left;
+                                margin-right: 3px;
 
-                            a{
-                                img{
-                                    width: 35px;
+                                a{
+                                    img{
+                                        width: 30px;
+
+                                    }
                                 }
-                            }
 
+                            }
                         }
                     }
 
@@ -1677,25 +1684,44 @@ section#page-top{
                         }
                     }
 
-                    .e-paper-btn-wrapper{
-                        position: relative;
-                        .e-paper-btn{
 
-                            display: inline-block;
-                            position: absolute;
-                            right: 0px;
-                            top: 10px;
-                            a{
-                                font-size: 18px;
-                                padding: 5px 40px;
-                                border-radius: 4px;
-                                color: #fff;
-                                background-image: linear-gradient(to right, #f58220 0, #f58220c2 51%, #f58220 100%);
-                                transition: all .5s ease;
-                                text-decoration: none;
-                            }
+                  .row{
+                    padding : 5px 0px;
+
+                    .e-paper-btn-wrapper{
+                      display: inline-block;
+                      position: absolute;
+                      right: -26px;
+                      top: 2px;
+
+
+
+                      .e-paper-btn{
+
+
+                        a{
+                          font-size: 16px;
+                          padding: 2px 40px;
+                          border-radius: 4px;
+                          color: #fff;
+                          background-image: linear-gradient(to right, #f58220 0, #f58220c2 51%, #f58220 100%);
+                          transition: all .5s ease;
+                          text-decoration: none;
                         }
+                      }
                     }
+
+                    &.bottom{
+                      .e-paper-btn-wrapper{
+                        top: 45px;
+                        right: -3px;
+                      }
+
+                    }
+
+
+                  }
+
 
 
 
@@ -1757,10 +1783,13 @@ section#navigation-div{
                     .content-div-wrapper{
                         padding-bottom: 2px;
                         padding-top: 2px;
-                        border-bottom: solid 1px #f58220;
-                        border-top: solid 1px #f58220;
+                        border-bottom: solid 1px #000;
+                        border-top: solid 1px #000;
                         position: relative;
                         margin-bottom: 1px;
+                        background: #000;
+
+
                         nav#main-nav{
 
 
@@ -1771,16 +1800,16 @@ section#navigation-div{
                                         line-height: normal;
                                         font-size: 14px;
                                         padding: 7px 12px 7px 10px;
-                                        color: #f58220;
-                                        background-color: #fff;
+                                        color: #ffffff;
+                                        background-color: #000;
                                         font-weight: bold;
                                     }
 
                                     &.active,&:hover{
                                         a,
                                         a:visited {
-                                            color: #fff;
-                                            background-color: #f58220;
+                                            color: #f58220;
+                                            background-color: #ffffff;
                                         }
                                     }
 
@@ -1862,7 +1891,7 @@ section#navigation-div{
 
     .home-page-top-news-section-row{
         .content-div{
-            @include top-and-down-border;
+            border-top : 1px solid;
             padding-top: 10px;
             padding-bottom: 10px;
             div{
@@ -2015,10 +2044,12 @@ section#navigation-div{
                                         .snippet-text-div{
                                             line-height: 18px;
                                             padding: 5px 10px;
-                                            text-align: justify;
+                                            text-align: left;
+                                            font-size: 14px;
+                                            letter-spacing: normal;
                                             p.snippet-text{
                                                 //margin: 0 0 27px;
-                                                text-align: justify;
+                                                //text-align: justify;
 
                                                 a{
                                                     text-decoration: none;
@@ -2033,27 +2064,7 @@ section#navigation-div{
                                         }
                                     }
 
-                                    .read-more-link{
-                                        position: absolute;
-                                        right : 3px;
-                                        bottom: 7px;
-                                        a{
-                                            color: #000;
-                                            border: 1px solid#000;
-                                            background: #fff;
-                                            font-size: 12px;
-                                            padding: 5px 10px;
-                                            text-decoration: none !important;
-                                            &:hover{
-                                                //float: left;
-                                                //padding: 5px 10px;
-                                                color: #fff;
-                                                //border: 1px solid#000;
-                                                background: #000;
 
-                                            }
-                                        }
-                                    }
 
                                 }
 
@@ -2070,9 +2081,9 @@ section#navigation-div{
                                     bottom: 10px;
 
                                     a{
-                                        color: #000;
+                                        color: #fff;
                                         border: 1px solid#000;
-                                        background: #fff;
+                                        background: #000;
                                         font-size: 14px;
                                         padding: 5px 10px;
                                         text-decoration: none !important;
@@ -2081,7 +2092,7 @@ section#navigation-div{
                                             //padding: 5px 10px;
                                             color: #fff;
                                             //border: 1px solid#000;
-                                            background: #000;
+                                            background: #f58220;
                                         }
                                     }
                                 }
@@ -2111,7 +2122,7 @@ section#navigation-div{
 
 
                     .top-feature-div{
-                        border-bottom: 1px solid #666;
+                        //border-bottom: 1px solid #666;
 
 
                         >div{
@@ -2306,9 +2317,9 @@ section#navigation-div{
                                                         right : 3px;
                                                         bottom: 7px;
                                                         a{
-                                                            color: #000;
+                                                            color: #fff;
                                                             border: 1px solid#000;
-                                                            background: #fff;
+                                                            background: #000;
                                                             font-size: 12px;
                                                             padding: 5px 10px;
                                                             text-decoration: none !important;
@@ -2317,10 +2328,14 @@ section#navigation-div{
                                                                 //padding: 5px 10px;
                                                                 color: #fff;
                                                                 //border: 1px solid#000;
-                                                                background: #000;
+                                                                background: #f58220;
+
 
                                                             }
                                                         }
+
+
+
                                                     }
 
                                                 }
@@ -2333,13 +2348,14 @@ section#navigation-div{
                                                 }
 
                                                 .read-more-link{
+
                                                     position: absolute;
                                                     right : 15px;
                                                     bottom: 5px;
                                                     a{
-                                                        color: #000;
+                                                        color: #fff;
                                                         border: 1px solid#000;
-                                                        background: #fff;
+                                                        background: #000;
                                                         font-size: 14px;
                                                         padding: 5px 10px;
                                                         text-decoration: none !important;
@@ -2348,7 +2364,7 @@ section#navigation-div{
                                                             //padding: 5px 10px;
                                                             color: #fff;
                                                             //border: 1px solid#000;
-                                                            background: #000;
+                                                            background: #f58220;
 
                                                         }
                                                     }
@@ -2505,9 +2521,9 @@ section#navigation-div{
                                             bottom   : 7px;
                                             a
                                             {
-                                                color           : #000;
+                                                color           : #fff;
                                                 border          : 1px solid #000;
-                                                background      : #fff;
+                                                background      : #000;
                                                 /* float: left; */
                                                 padding         : 5px 10px;
                                                 text-decoration : none !important;
@@ -2517,7 +2533,7 @@ section#navigation-div{
                                                     //padding: 5px 10px;
                                                     color      : #fff;
                                                     //border: 1px solid#000;
-                                                    background : #000;
+                                                    background: #f58220;
 
                                                 }
                                             }
@@ -2801,7 +2817,11 @@ section#navigation-div{
                                             .snippet-text-div{
                                                 line-height: 18px;
                                                 padding: 5px 10px;
-                                                text-align: justify;
+                                                text-align: left;
+                                                font-size: 14px;
+                                                letter-spacing: normal;
+
+
                                                 p.snippet-text{
                                                     //margin: 0 0 27px;
                                                     text-align: justify;
@@ -2824,9 +2844,9 @@ section#navigation-div{
                                             right : 3px;
                                             bottom: 7px;
                                             a{
-                                                color: #000;
+                                                color: #fff;
                                                 border: 1px solid#000;
-                                                background: #fff;
+                                                background: #000;
                                                 font-size: 12px;
                                                 padding: 5px 10px;
                                                 text-decoration: none !important;
@@ -2835,7 +2855,7 @@ section#navigation-div{
                                                     //padding: 5px 10px;
                                                     color: #fff;
                                                     //border: 1px solid#000;
-                                                    background: #000;
+                                                    background: #f58220;
 
                                                 }
                                             }
@@ -2855,9 +2875,9 @@ section#navigation-div{
                                         right: 0px;
                                         bottom: 10px;
                                         a{
-                                            color: #000;
+                                            color: #fff;
                                             border: 1px solid#000;
-                                            background: #fff;
+                                            background: #000;
                                             font-size: 14px;
                                             padding: 5px 10px;
                                             text-decoration: none !important;
@@ -2866,7 +2886,7 @@ section#navigation-div{
                                                 //padding: 5px 10px;
                                                 color: #fff;
                                                 //border: 1px solid#000;
-                                                background: #000;
+                                                background: #f58220;
 
                                             }
                                         }
@@ -2977,9 +2997,9 @@ section#navigation-div{
                                             right : 3px;
                                             bottom: 7px;
                                             a{
-                                                color: #000;
-                                                border: 1px solid#000;
-                                                background: #fff;
+                                                color: #fff;
+                                                border: 1px solid #000;
+                                                background: #000;
                                                 font-size: 12px;
                                                 padding: 5px 10px;
                                                 text-decoration: none !important;
@@ -2988,7 +3008,7 @@ section#navigation-div{
                                                     //padding: 5px 10px;
                                                     color: #fff;
                                                     //border: 1px solid#000;
-                                                    background: #000;
+                                                    background: #f58220;
 
                                                 }
                                             }
@@ -3066,6 +3086,7 @@ section#navigation-div{
 
                             .secondary-news-snippet-wrapper{
                                 margin-bottom : 10px;
+                                padding-bottom: 35px;
 
                                 .heading-row{
                                     margin-top: 10px;
@@ -3075,9 +3096,9 @@ section#navigation-div{
 
                                 .news-type-heading-wrapper{
                                     .news-type-heading{
-                                        background-color: #ea6f2b;
+                                        background-color: #f58220;
                                         color : #fff;
-                                        padding: 5px 0px;
+                                        padding: 2px 0px;
                                         text-align: center;
                                         margin-bottom: 10px;
                                         // border-bottom: 3px solid #ea6f2b;
@@ -3169,7 +3190,12 @@ section#navigation-div{
 
                                             .snippet-text-div
                                             {
-                                                padding : 5px;
+
+                                                line-height: 18px;
+                                                padding: 5px 10px;
+                                                text-align: left;
+                                                font-size: 14px;
+                                                letter-spacing: normal;
                                                 p.snippet-text
                                                 {
                                                     margin     : 0 0 0px;
@@ -3206,30 +3232,7 @@ section#navigation-div{
 
 
                                         }
-                                        .read-more-link
-                                        {
-                                            position : absolute;
-                                            right    : 3px;
-                                            bottom   : 7px;
-                                            a
-                                            {
-                                                color           : #000;
-                                                border          : 1px solid #000;
-                                                background      : #fff;
-                                                /* float: left; */
-                                                padding         : 5px 10px;
-                                                text-decoration : none !important;
-                                                &:hover
-                                                {
-                                                    //float: left;
-                                                    //padding: 5px 10px;
-                                                    color      : #fff;
-                                                    //border: 1px solid#000;
-                                                    background : #ea6f2b;
 
-                                                }
-                                            }
-                                        }
 
                                         &:last-of-type{
                                             margin-bottom : 0px;
@@ -3243,7 +3246,30 @@ section#navigation-div{
                                     }
                                 }
 
+                                .read-more-link
+                                {
+                                    position : absolute;
+                                    right    : 3px;
+                                    bottom   : 7px;
+                                    a
+                                    {
+                                        color           : #fff;
+                                        border          : 1px solid #000;
+                                        background      : #000;
+                                        /* float: left; */
+                                        padding         : 5px 10px;
+                                        text-decoration : none !important;
+                                        &:hover
+                                        {
+                                            //float: left;
+                                            //padding: 5px 10px;
+                                            color      : #fff;
+                                            //border: 1px solid#000;
+                                            background : #ea6f2b;
 
+                                        }
+                                    }
+                                }
 
 
 
@@ -3381,7 +3407,7 @@ section#navigation-div{
                         .top-feature-heading-wrapper{
                             margin-bottom: 0px;
                             .top-feature-heading{
-                                background-color: #ea6f2b;
+                                background-color: #f58220;
                                 color : #fff;
                                 padding: 2px 0px;
                                 text-align: center;
@@ -3439,7 +3465,7 @@ section#navigation-div{
                             &:first-of-type{
                                 border-top: 0px solid #666;
                             }
-                            border-bottom: 1px solid #666;
+                            //border-bottom: 1px solid #666;
                             padding: 10px 0px;
 
 
@@ -3551,13 +3577,16 @@ section#navigation-div{
                                                     }
                                                 }
 
-                                                .snippet-text-div
-                                                {
-                                                    padding : 5px;
+                                                .snippet-text-div{
+                                                    line-height: 18px;
+                                                    padding: 5px 10px;
+                                                    text-align: left;
+                                                    font-size: 14px;
+                                                    letter-spacing: normal;
                                                     p.snippet-text
                                                     {
-                                                        margin     : 0 0 0px;
-                                                        text-align : justify;
+                                                        margin     : 0 0 10px;
+                                                        //text-align : justify;
 
                                                     }
                                                 }
@@ -3589,30 +3618,34 @@ section#navigation-div{
 
 
                                             }
-                                            .read-more-link
-                                            {
-                                                position : absolute;
-                                                right    : 3px;
-                                                bottom   : 7px;
-                                                a
-                                                {
-                                                    color           : #000;
-                                                    border          : 1px solid #000;
-                                                    background      : #fff;
-                                                    /* float: left; */
-                                                    padding         : 5px 10px;
-                                                    text-decoration : none !important;
-                                                    &:hover
-                                                    {
-                                                        //float: left;
-                                                        //padding: 5px 10px;
-                                                        color      : #fff;
-                                                        //border: 1px solid#000;
-                                                        background : #000;
 
-                                                    }
-                                                }
-                                            }
+                                            &.full-snippet .read-more-link
+                                            {
+                                                 position : absolute;
+                                                 right: 15px;
+                                                 bottom: 25px;
+                                                 a
+                                                 {
+                                                     color           : #fff;
+                                                     border          : 1px solid #000;
+                                                     background      : #000;
+                                                     /* float: left; */
+                                                     padding         : 10px 15px;
+                                                     text-decoration : none !important;
+                                                     font-size: 14px;
+                                                     &:hover
+                                                     {
+                                                         //float: left;
+                                                         //padding: 5px 10px;
+                                                         color      : #fff;
+                                                         //border: 1px solid#000;
+                                                         background: #f58220;
+
+                                                     }
+                                                 }
+                                             }
+
+
 
                                         }
 
@@ -3621,7 +3654,9 @@ section#navigation-div{
                                             margin-bottom : 0px;
                                         }
 
+
                                     }
+
 
                                     .read-more-link
                                     {
@@ -3630,9 +3665,9 @@ section#navigation-div{
                                         bottom   : 10px;
                                         a
                                         {
-                                            color           : #000;
+                                            color           : #fff;
                                             border          : 1px solid #000;
-                                            background      : #fff;
+                                            background      : #000;
                                             /* float: left; */
                                             padding         : 5px 10px;
                                             text-decoration : none !important;
@@ -3642,19 +3677,20 @@ section#navigation-div{
                                                 //padding: 5px 10px;
                                                 color      : #fff;
                                                 //border: 1px solid#000;
-                                                background : #000;
+                                                background: #f58220;
 
                                             }
                                         }
                                     }
 
+
                                 }
 
                                 .news-type-heading-wrapper{
                                     .news-type-heading{
-                                        background-color: #ea6f2b;
+                                        background-color: #f58220;
                                         color : #fff;
-                                        padding: 5px 0px;
+                                        padding: 2px 0px;
                                         text-align: center;
                                         margin-bottom: 10px;
                                        // border-bottom: 3px solid #ea6f2b;
@@ -3672,6 +3708,13 @@ section#navigation-div{
                                         }
                                     }
                                 }
+
+
+
+
+
+
+
 
 
 
@@ -3716,12 +3759,19 @@ section#navigation-div{
         }
 
 
+
+
+
+
+
+
         .top-feature-heading-wrapper{
+
             margin-bottom: 0px;
             .top-feature-heading{
-                background-color: #ea6f2b;
+                background-color: #f58220;
                 color : #fff;
-                padding: 2px 0px;
+                padding: 5px 0px;
                 text-align: center;
                 margin-bottom: 0px;
                 //border-bottom: 3px solid #ea6f2b;
@@ -3731,7 +3781,7 @@ section#navigation-div{
                     a{
                         text-decoration: none;
                         font-weight: bold;
-                        //line-height: 30px;
+                        line-height: 32px;
                         color:#fff;
 
                         &:hover{
@@ -3866,11 +3916,16 @@ section#navigation-div{
 
                     .snippet-text-div
                     {
-                        padding : 5px;
+                        line-height: 18px;
+                        padding: 5px 10px;
+                        text-align: left;
+                        font-size: 14px;
+                        letter-spacing: normal;
+
                         p.snippet-text
                         {
-                            margin     : 0 0 0px;
-                            text-align : justify;
+                            margin     : 0 0 10px;
+                            //text-align : justify;
 
                         }
                     }
@@ -3882,9 +3937,9 @@ section#navigation-div{
                     bottom   : 7px;
                     a
                     {
-                        color           : #000;
+                        color           : #fff;
                         border          : 1px solid #000;
-                        background      : #fff;
+                        background      : #000;
                         /* float: left; */
                         padding         : 5px 10px;
                         text-decoration : none !important;
@@ -3894,7 +3949,7 @@ section#navigation-div{
                             //padding: 5px 10px;
                             color      : #fff;
                             //border: 1px solid#000;
-                            background : #000;
+                            background: #f58220;
 
                         }
                     }
@@ -3938,6 +3993,15 @@ section#navigation-div{
                             p.snippet-text{
                                 margin-bottom: 20px;
                             }
+                        }
+                    }
+
+                    .read-more-link{
+                        right: 15px;
+                        bottom: 20px;
+                        a{
+                            padding: 10px 15px;
+                            font-size: 14px;
                         }
                     }
                 }
@@ -4193,9 +4257,9 @@ section#navigation-div{
                             right : 3px;
                             bottom: 7px;
                             a{
-                                color: #000;
+                                color: #fff;
                                 border: 1px solid#000;
-                                background: #fff;
+                                background: #000;
                                 font-size: 12px;
                                 padding: 5px 10px;
                                 text-decoration: none !important;
@@ -4204,7 +4268,7 @@ section#navigation-div{
                                     //padding: 5px 10px;
                                     color: #fff;
                                     //border: 1px solid#000;
-                                    background: #000;
+                                    background: #f58220;
 
                                 }
                             }
@@ -4226,9 +4290,9 @@ section#navigation-div{
                         bottom: 10px;
 
                         a{
-                            color: #000;
+                            color: #fff;
                             border: 1px solid#000;
-                            background: #fff;
+                            background:#000;
                             font-size: 14px;
                             padding: 5px 10px;
                             text-decoration: none !important;
@@ -4237,7 +4301,7 @@ section#navigation-div{
                                 //padding: 5px 10px;
                                 color: #fff;
                                 //border: 1px solid#000;
-                                background: #000;
+                                background: #f58220;
 
                             }
                         }
@@ -4270,9 +4334,9 @@ section#navigation-div{
                 .top-feature-heading-wrapper{
                     margin-bottom: 0px;
                     .top-feature-heading{
-                        background-color: #ea6f2b;
+                        background-color: #f58220;
                         color : #fff;
-                        padding: 2px 0px;
+                        padding: 5px 0px;
                         text-align: center;
                         margin-bottom: 0px;
                         //border-bottom: 3px solid #ea6f2b;
@@ -4281,7 +4345,7 @@ section#navigation-div{
                             a{
                                 text-decoration: none;
                                 font-weight: bold;
-                                line-height: 30px;
+                                line-height: 32px;
                                 color:#fff;
 
                                 &:hover{
@@ -4348,7 +4412,7 @@ section#navigation-div{
                         .infoDiv
                         {
                             border-bottom : 1px dotted #000;
-                            padding       : 0px 5px;
+                            padding       : 5px 5px;
                             font-size     : 12px;
                             .left
                             {
@@ -4378,9 +4442,9 @@ section#navigation-div{
                         bottom   : 7px;
                         a
                         {
-                            color           : #000;
+                            color           : #fff;
                             border          : 1px solid #000;
-                            background      : #fff;
+                            background      : #000;
                             /* float: left; */
                             padding         : 5px 10px;
                             text-decoration : none !important;
@@ -4390,7 +4454,7 @@ section#navigation-div{
                                 //padding: 5px 10px;
                                 color      : #fff;
                                 //border: 1px solid#000;
-                                background : #000;
+                                background: #f58220;
 
                             }
                         }
@@ -4828,12 +4892,12 @@ section#navigation-div{
 
 section.home-page-category-news-section{
     background-color: #fff;
-    border-bottom: 1px solid #666;
+    //border-bottom: 1px solid #666;
     position: relative;
     padding-bottom: 30px;
 
     &.last{
-        border-bottom: 0px solid #666;
+        //border-bottom: 0px solid #666;
     }
 
     .home-page-category-news-section-row{
@@ -4920,8 +4984,8 @@ section.home-page-category-news-section{
                         text-align: justify;
                         padding:5px;
                         p.snippet-text{
-                            text-align: justify;
-                            font-size: 12px;
+                            //text-align: justify;
+                            //font-size: 12px;
                         }
                     }
 
@@ -4957,9 +5021,9 @@ section.home-page-category-news-section{
                         bottom: 7px;
                         //display: none;
                         a{
-                            color: #000;
+                            color: #fff;
                             border: 1px solid#000;
-                            background: #fff;
+                            background:#000;
                             //float: left;
                             padding: 5px 10px;
                             text-decoration: none !important;
@@ -4970,7 +5034,7 @@ section.home-page-category-news-section{
                                 //padding: 5px 10px;
                                 color: #fff;
                                 //border: 1px solid#000;
-                                background: #000;
+                                background: #f58220;
 
 
                             }
@@ -5040,31 +5104,7 @@ section.home-page-category-news-section{
                             margin-bottom: 0px;
                         }
 
-                        .read-more-link{
-                            position: absolute;
-                            right : 3px;
-                            bottom: 7px;
-                            //display: none;
-                            a{
-                                color: #000;
-                                border: 1px solid#000;
-                                background: #fff;
-                                //float: left;
-                                padding: 5px 10px;
-                                text-decoration: none !important;
-                                font-size: 12px;
 
-                                &:hover{
-                                    //float: left;
-                                    //padding: 5px 10px;
-                                    color: #fff;
-                                    //border: 1px solid#000;
-                                    background: #000;
-
-
-                                }
-                            }
-                        }
                     }
 
                 }
@@ -5072,6 +5112,7 @@ section.home-page-category-news-section{
             }
 
             .middle{
+                padding-bottom: 40px;
                 .snippet-container{
                     border : 1px solid #666;
 
@@ -5118,11 +5159,15 @@ section.home-page-category-news-section{
 
 
                         .snippet-text-div{
-                            text-align: justify;
-                            padding:5px;
+                            line-height: 20px;
+                            padding: 5px 10px;
+                            text-align: left;
+                            font-size: 14px;
+                            letter-spacing: 0.3px;
                             p.snippet-text{
-                                text-align: justify;
-                                font-size: 12px;
+                                //text-align: justify;
+                                //font-size: 12px;
+
                             }
                         }
 
@@ -5153,41 +5198,47 @@ section.home-page-category-news-section{
                         }
 
 
-                        .read-more-link{
-                            position: absolute;
-                            right : 3px;
-                            bottom: 7px;
-                            //display: none;
-                            a{
-                                color: #000;
-                                border: 1px solid#000;
-                                background: #fff;
-                                //float: left;
-                                padding: 5px 10px;
-                                text-decoration: none !important;
-                                font-size: 12px;
 
-                                &:hover{
-                                    //float: left;
-                                    //padding: 5px 10px;
-                                    color: #fff;
-                                    //border: 1px solid#000;
-                                    background: #000;
-
-
-                                }
-                            }
-                        }
                     }
 
                 }
 
                 .snippet-container:not(:last-of-type) {
-                     margin-bottom: 10px;
+                     margin-bottom: 20px;
                 }
+
+
+                .read-more-link{
+                    position: absolute;
+                    right : 15px;
+                    bottom: 5px;
+                    //display: none;
+                    a{
+                        color:#fff;
+                        border: 1px solid#000;
+                        background: #000;
+                        //float: left;
+                        padding: 5px 10px;
+                        text-decoration: none !important;
+                        font-size: 14px;
+
+                        &:hover{
+                            //float: left;
+                            //padding: 5px 10px;
+                            color: #fff;
+                            //border: 1px solid#000;
+                            background: #f58220;
+
+
+                        }
+                    }
+                }
+
+
             }
 
             .right{
+                padding-bottom: 40px;
                 .snippet-container{
                     border : 1px solid #666;
 
@@ -5231,11 +5282,15 @@ section.home-page-category-news-section{
 
 
                         .snippet-text-div{
-                            text-align: justify;
-                            padding:5px;
+                            line-height: 20px;
+                            padding: 5px 10px;
+                            text-align: left;
+                            font-size: 14px;
+                            letter-spacing: 0.3px;
+
                             p.snippet-text{
-                                text-align: justify;
-                                font-size: 12px;
+                                //text-align: justify;
+                                //font-size: 12px;
                             }
                         }
 
@@ -5265,38 +5320,48 @@ section.home-page-category-news-section{
                             }
                         }
 
-                        .read-more-link{
-                            position: absolute;
-                            right : 3px;
-                            bottom: 7px;
-                            //display: none;
-                            a{
-                                color: #000;
-                                border: 1px solid#000;
-                                background: #fff;
-                                //float: left;
-                                padding: 5px 10px;
-                                text-decoration: none !important;
-                                font-size: 12px;
 
-                                &:hover{
-                                    //float: left;
-                                    //padding: 5px 10px;
-                                    color: #fff;
-                                    //border: 1px solid#000;
-                                    background: #000;
-
-
-                                }
-                            }
-                        }
                     }
 
                 }
 
                 .snippet-container:not(:last-of-type) {
-                     margin-bottom: 10px;
-                 }
+                     margin-bottom: 20px;
+                }
+
+                .read-more-link{
+                    position: absolute;
+                    right : 15px;
+                    bottom: 5px;
+                    //display: none;
+                    a{
+                        color: #fff;
+                        border: 1px solid#000;
+                        background: #000;
+                        //float: left;
+                        padding: 5px 10px;
+                        text-decoration: none !important;
+                        font-size: 14px;
+
+                        &:hover{
+                            //float: left;
+                            //padding: 5px 10px;
+                            color: #fff;
+                            //border: 1px solid#000;
+                            background: #f58220;
+
+
+                        }
+                    }
+                }
+
+
+
+
+
+
+
+
             }
 
 
@@ -5312,9 +5377,9 @@ section.home-page-category-news-section{
         bottom: 10px;
         //display: none;
         a{
-            color: #000;
+            color: #fff;
             border: 1px solid#000;
-            background: #fff;
+            background: #000;
             //float: left;
             padding: 5px 10px;
             text-decoration: none !important;
@@ -5325,13 +5390,21 @@ section.home-page-category-news-section{
                 //padding: 5px 10px;
                 color: #fff;
                 //border: 1px solid#000;
-                background: #000;
+                background: #f58220;
 
 
             }
         }
     }
 }
+
+
+section.home-page-adv-section{
+    background-color: #fff;
+    position: relative;
+}
+
+
 
 
 section .v2.home-page-category-news-section{
@@ -5792,30 +5865,29 @@ section#copywrite{
     height: 33px;
     z-index: 2;
     outline: none;
-    color: #999;
+    color: #FFF;
     background: transparent;
-    border: 1px solid #f58220;
+    border: 1px solid #FFF;
     width: 200px;
     transition-timing-function: ease-out;
     font-size: 16px;
     padding-right: 40px;
 
-
     &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-        color: #f58220;
+        color: #fff;
         opacity: 1; /* Firefox */
         font-weight: bold;
         font-size: 14px;
     }
 
     &:-ms-input-placeholder { /* Internet Explorer 10-11 */
-        color: #f58220;
+        color: #fff;
         font-weight: bold;
         font-size: 14px;
     }
 
     &::-ms-input-placeholder { /* Microsoft Edge */
-        color: #f58220;
+        color: #fff;
         font-weight: bold;
         font-size: 14px;
     }
@@ -5824,7 +5896,7 @@ section#copywrite{
 }
 
 #lksearch .search-box input.expand {
-    color: #000;
+    color: #fff;
 
     width: 400px;
 
@@ -5839,7 +5911,7 @@ section#copywrite{
 
 .search-box .icon {
     position: absolute;
-    top: 0;
+    top: -3px;
     right: 0;
     bottom: 0;
     width: 40px;
@@ -5847,8 +5919,9 @@ section#copywrite{
     line-height: 40px;
     z-index: 1;
     cursor: pointer;
-    opacity: .5;
+    opacity: .8;
     font-size: 18px;
+    color : #fff;
 }
 
 #lksearch.navbar-nav>li>a {
@@ -5963,8 +6036,54 @@ section#copywrite{
     }
 }
 
+.sticky {
+ // transition: all .2s ease-in-out;
+}
 
 
+
+section#navigation-div.stuck{
+  margin-top: 0px;
+}
+
+#home-page-top-news-section{
+  //margin-top:55px
+}
+
+
+
+
+section#navigation-div.stuck .navigation-row .top-div .content-div{
+  padding: 0px;
+}
+
+section#navigation-div.stuck .navigation-row .top-div .content-div .content-div-wrapper {
+  padding-bottom: 2px;
+  padding-top: 2px;
+  border-bottom: solid 1px #000;
+  border-top: solid 1px #000;
+  position: relative;
+  margin-bottom: 0px;
+
+}
+
+
+.stuck {
+
+  position: fixed;
+  top: 0;
+
+  /* color: black; */
+  /* padding: .5vh; */
+  /* min-height: 0; */
+  left: 0px;
+  right: 0px;
+  z-index: 9999;
+
+
+
+
+}
 
 
 

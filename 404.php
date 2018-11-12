@@ -52,15 +52,15 @@
 
 
                 <div class="row normal-news-feature-div clearfix">
-                    <div class="col-md-4"><div class=""><img class="img-responsive" src="https://dummyimage.com/360x175&text=AD" alt="Chania"></div></div>
-                    <div class="col-md-4"><div class=""><img class="img-responsive" src="https://dummyimage.com/360x175&text=AD" alt="Chania"></div></div>
-                    <div class="col-md-4"><div class=""><img class="img-responsive" src="https://dummyimage.com/360x175&text=AD" alt="Chania"></div></div>
+                    <div class="col-md-4"><div class=""><img class="img-responsive" src="https://dummyimage.com/360x175&text=Advertisement" alt="Chania"></div></div>
+                    <div class="col-md-4"><div class=""><img class="img-responsive" src="https://dummyimage.com/360x175&text=Advertisement" alt="Chania"></div></div>
+                    <div class="col-md-4"><div class=""><img class="img-responsive" src="https://dummyimage.com/360x175&text=Advertisement" alt="Chania"></div></div>
                 </div>
 
 
                 <div class="row normal-news-feature-div clearfix">
                     <div class="col-md-12"><div class="">
-                            <img class="img-responsive" src="https://dummyimage.com/1140x200&text=AD" alt="Chania">
+                            <img class="img-responsive" src="https://dummyimage.com/1140x200&text=Advertisement" alt="Chania">
                         </div>
                     </div>
                 </div>
@@ -86,7 +86,7 @@
 
 
             <div class="rightDiv  col-md-4">
-                <?php include 'aside-news.php';?>
+                <?php include 'aside-news-2.php';?>
             </div>
         </div>
 

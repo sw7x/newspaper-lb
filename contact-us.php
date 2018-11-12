@@ -79,9 +79,9 @@
             <div class="col-md-6 clearfix">
 
 
-                <div class="top-feature-heading-wrapper col-md-12">
-                    <div class="top-feature-heading">
-                        <h2>Contact Information</h2>
+                <div class="heading-wrapper col-md-12">
+                    <div class="heading">
+                        <h2><a href="" title="">w නවතම පුවත්</a></h2>
                     </div>
                 </div>
 

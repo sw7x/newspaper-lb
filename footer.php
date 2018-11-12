@@ -1,4 +1,4 @@
-        <footer class="">
+        <footer class="sticky-stopper" id="footer">
             <div class="container">
                 <div class="row clearfix">
 
@@ -142,7 +142,7 @@
 
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js'></script>
@@ -165,11 +165,11 @@
         <script>
 
         $(document).ready(function() {
-            $('.left-side-div, .right-side-div').theiaStickySidebar({
-                    additionalMarginTop: 30
-            });
+//             $('.left-side-div, .right-side-div').theiaStickySidebar({
+//                     additionalMarginTop: 30
+//             });
 
-			$('.big-img-div, .small-img-div').theiaStickySidebar({
+			$('.left-side-div, .big-img-div, .small-img-div').theiaStickySidebar({
 				additionalMarginTop: 30
 			});
         });
@@ -180,6 +180,8 @@
         window.onscroll = function() {
         	scrollFunction();
 			fixNavScrollFunction();
+
+			//floatNavDiv();
 
         };
 
@@ -198,6 +200,14 @@
 		}
 
 
+		function floatNavDiv() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("floating-sidebar-nav").style.display = "block";
+			} else {
+				document.getElementById("floating-sidebar-nav").style.display = "none";
+
+			}
+		}
 
 
 
@@ -216,6 +226,210 @@
             }, 800);
             return false;
         });
+
+
+		// scroll body to 0px on click
+		$('#floating-sidebar-nav ul li a').on('click',function (event) {
+
+			var  loc = $.attr(this, 'href');
+			$(this).blur();
+			//alert(loc);
+
+
+			$('html, body').animate({
+				scrollTop: $(loc).offset().top
+			}, 1000);
+
+			event.preventDefault();
+            return false;
+		});
+
+
+
+
+
+
+
+
+
+		let mainNavLinks = document.querySelectorAll("nav ul li a");
+		let mainSections = document.querySelectorAll("main section");
+
+		let lastId;
+		let cur = [];
+
+		// This should probably be throttled.
+		// Especially because it triggers during smooth scrolling.
+		// https://lodash.com/docs/4.17.10#throttle
+		// You could do like...
+		// window.addEventListener("scroll", () => {
+		//    _.throttle(doThatStuff, 100);
+		// });
+		// Only not doing it here to keep this Pen dependency-free.
+
+		window.addEventListener("scroll", event => {
+			let fromTop = $(window).scrollTop();
+			console.log('==============================');
+			console.clear();
+
+			$('#floating-sidebar-nav ul li a').each(function( index ) {
+
+				//
+
+				var  loc = $.attr(this, 'href');
+				var link = $(this);
+
+				console.log(link);
+				var section = $(loc);
+
+
+// 				var hT = $('#scroll-to').offset().top,
+// 					hH = $('#scroll-to').outerHeight(),
+// 					wH = $(window).height(),
+// 					wS = $(this).scrollTop();
+// 				if (wS > (hT+hH-wH)){
+// 					console.log('H1 on the view!');
+// 				}
+
+
+
+
+
+
+                var heightToElementTop = section.offset().top;
+                var elementHeight      = section.outerHeight(true);
+                var windowHeight       = $(window).height();
+                var heightToScrollTop  = $(window).scrollTop();
+
+
+				console.log("<<< true =========>>>");
+                console.log(typeof heightToElementTop);
+				console.log(typeof elementHeight);
+				console.log(typeof windowHeight);
+				console.log(typeof heightToScrollTop);
+				console.log("<<< true =========>>>");
+
+
+
+// 				var docViewTop = $(window).scrollTop();
+// 				var docViewBottom = docViewTop + $(window).height();
+// 				var elemTop = $(elem).offset().top;
+// 				return ((elemTop <= docViewBottom) && (elemTop >= docViewTop));
+
+
+
+
+
+
+
+// 				console.table([ section ,
+// 					heightToScrollTop + ' + ' + windowHeight + ' = ' + Number(heightToScrollTop+windowHeight),
+//
+// 					heightToElementTop + ' + ' + elementHeight + ' = ' + Number(heightToElementTop+elementHeight),
+//
+//
+// 				]);
+
+
+// 				console.table([ section ,
+// 					heightToScrollTop,
+//                     heightToElementTop,
+// 					heightToScrollTop + elementHeight
+//
+// 				]);
+
+
+				console.table([ section ,
+					heightToScrollTop,
+					heightToElementTop,
+					heightToScrollTop + elementHeight
+
+				]);
+
+
+				if( (heightToElementTop <= (heightToScrollTop + (windowHeight/2))) &&
+                    ((heightToScrollTop + (windowHeight/2)) <= heightToElementTop + elementHeight)
+
+                ){
+
+
+
+
+
+// 				if( (heightToElementTop <= heightToScrollTop + elementHeight ) &&
+//                     (heightToElementTop >= heightToScrollTop)){
+
+
+
+
+
+// 				if (    heightToScrollTop > Number(heightToElementTop+elementHeight-windowHeight) &&
+// 					Number(heightToElementTop > heightToScrollTop) &&
+// 					(Number(heightToScrollTop + windowHeight) > Number(heightToElementTop+elementHeight))){
+
+			    //if (heightToScrollTop > (heightToElementTop + elementHeight - windowHeight)){
+
+					link.addClass("current");
+					console.log("<<< true =======" + loc + "=============>>>");
+				}else{
+
+					link.removeClass("current");
+					console.log(">>> false ~~~~~~~~" + loc + "~~~~~~~~<<<");
+                }
+
+
+
+
+
+
+
+
+
+				/*
+				link => {
+				let section = document.querySelector(link.hash);
+
+				if (
+					section.offset().top <= fromTop &&
+					section.offset().top + section.offsetHeight > fromTop
+				) {
+					link.classList.add("current");
+				} else {
+					link.classList.remove("current");
+				}
+			}*/
+
+
+
+
+			});
+		});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         $(document).on("click","a.disableLink",function() {

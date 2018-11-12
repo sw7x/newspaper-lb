@@ -472,3 +472,105 @@ var datePickerModule = (function(window,$){
 	}
 
 })(window,jQuery);
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+
+	$(".floating-sidebar-btn-div button").click(function() {
+		//var selector = $(this).data("target");
+		//	$(selector).toggleClass('in');
+
+		$(this).closest('#floating-sidebar-nav').find('.category-list-div').toggleClass('in');
+	});
+});
+
+
+
+
+$( document ).ready(function() {
+	/* 111
+
+	console.log( "document ready!" );
+
+	var $sticky = $('.sticky');
+	var $stickyrStopper = $('.sticky-stopper');
+
+
+
+	var yourNavigation = $(".nav");
+	stickyDiv = "sticky";
+	yourHeader = $('#navigation-div').offset().top;
+
+	$(window).scroll(function() {
+		if( $(this).scrollTop() > yourHeader ) {
+			$sticky.addClass("stuck");
+			//$('#home-page-top-news-section').css('margin-top','55px');
+		} else {
+			$sticky.removeClass("stuck");
+			//$('#home-page-top-news-section').css('margin-top','0px');
+		}
+	});
+
+	*/
+
+
+
+
+
+/*
+
+	if (!!$sticky.offset()) { // make sure ".sticky" element exists
+
+		var generalSidebarHeight = $sticky.innerHeight();
+		var stickyTop = $sticky.offset().top;
+		var stickOffset = 0;
+		var stickyStopperPosition = $stickyrStopper.offset().top;
+		var stopPoint = stickyStopperPosition - generalSidebarHeight - stickOffset;
+		var diff = stopPoint + stickOffset;
+		//stickOffset = 0;
+
+
+
+		fixedNav();
+		$(window).scroll(fixedNav);
+
+		function fixedNav(){ // scroll event
+			var windowTop = $(window).scrollTop(); // returns number
+
+			if (stopPoint < windowTop) {
+				//	$sticky.css({ position: 'absolute', top: diff });
+			} else if (stickyTop < windowTop+stickOffset) {
+				//$sticky.css({ position: 'fixed', top: stickOffset });
+				$sticky.addClass("stuck");
+				//$('#home-page-top-news-section').css('margin-top','55px');
+
+
+			} else {
+				//$sticky.css({position: 'static', top: 'initial'});
+				$sticky.removeClass("stuck");
+				//$('#home-page-top-news-section').css('margin-top','0px');
+
+			}
+		}
+
+	}
+
+
+	*/
+});
+
+
+
+
+
+
+
+
+
+

@@ -129,13 +129,7 @@
 
             <header class="header-row">
 
-                <div class="row first-ad-div clearfix" style="">
-                    <div class="clearfix content-div">
-                        <div class="col-md-4 " style=""><div class=""><img class="img-responsive" src="https://via.placeholder.com/360x75" alt="Chania"></div></div>
-                        <div class="col-md-4 " style=""><div class=""><img class="img-responsive" src="https://via.placeholder.com/360x75" alt="Chania"></div></div>
-                        <div class="col-md-4 " style=""><div class=""><img class="img-responsive" src="https://via.placeholder.com/360x75" alt="Chania"></div></div>
-                    </div>
-                </div>
+
 
                 <div class="row second-ad-div clearfix" style="">
                     <div class="clearfix content-div">
@@ -147,17 +141,27 @@
                     <div class="clearfix content-div">
 
                         <div class="col-md-4 social-container" style="">
-                            <div class="">
-                                <p>Get In Touch With Us</p>
-                                <div class="socialDiv clearfix">
+
+                            <div class="row clearfix">
+                                <div class="col-md-5 textDiv"><p>Get In Touch With Us</p></div>
+                                <div class="col-md-7 socialDiv clearfix">
                                     <div class="icon-div"><a href="https://www.facebook.com/lakbima.lk/" target="_blank"><img alt="Facebook icon" src="images/social/fb.png"></a></div>
                                     <div class="icon-div"><a href="https://twitter.com/lakbimaonline?lang=en" target="_blank"><img alt="Twitter icon" src="images/social/twitter.png"></a></div>
                                     <div class="icon-div"><a href="https://www.instagram.com/lakbimalk/" target="_blank"><img alt="Instagram icon" src="images/social/instagram.png"></a></div>
                                     <div class="icon-div"><a href="https://plus.google.com/+LakbimaNewsPaper" target="_blank"><img alt="Google plus icon" src="images/social/gplus.png"></a></div>
                                     <div class="icon-div"><a href="https://www.youtube.com/channel/UC4D_-vXfH6FYahnCbufW1Mg" target="_blank"><img alt="YouTube icon" src="/images/social/youtube.png"></a></div>
                                 </div>
-
                             </div>
+
+                            <div class="row clearfix">
+                                <div class="col-md-5 textDiv"><p>Mobile App</p></div>
+                                <div class="col-md-7 socialDiv clearfix">
+                                    <div class="icon-div"><a href="" target="_blank"><img alt="android icon" src="images/android-icon.png"></a></div>
+                                    <div class="icon-div"><a href="" target="_blank"><img alt="ios icon" src="images/ios-icon.png"></a></div>
+                                </div>
+                            </div>
+
+
                         </div>
 
 
@@ -169,7 +173,7 @@
 
                                 <h1 class="logo-img">
                                     <a href="#" style="" target="_blank" title="Lakbima Online">
-                                        <img class="img-responsive" src="images/logo.png" title="Lakbima Online" alt="Lakbima Online">
+                                        <img class="img-responsive" src="images/logo.jpg" title="Lakbima Online" alt="Lakbima Online">
                                     </a>
                                 </h1>
 
@@ -178,20 +182,52 @@
                             </div>
                         </div>
 
-                        <div class="col-md-4 enewsPaperDiv" style="">
-                            <div class="clearfix">
-                                <div class="para"><p>Read Lakbima E-Paper</p></div>
 
-                                <div class="e-paper-btn-wrapper clearfix">
+
+
+                        <div class="col-md-4 enewsPaperDiv" style="">
+
+                            <div class="row top clearfix">
+                                <div class="col-md-6 para">
+                                    <p>Read Lakbima E-Paper</p>
+                                </div>
+
+                                <div class="col-md-6 e-paper-btn-wrapper clearfix">
                                     <div class="e-paper-btn">
                                         <a href="" target="_blank">E-Paper</a>
                                     </div>
                                 </div>
-
-
                             </div>
+
+                            <div class="row bottom clearfix">
+                                <div class="col-md-6 para">
+                                    <p>Lakbima News alert</p>
+                                </div>
+
+                                <div class="col-md-6 e-paper-btn-wrapper clearfix">
+                                    <div class="e-paper-btn">
+                                        <a href="" target="_blank">News Alert</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
                         </div>
 
+
+
+
+
+                    </div>
+                </div>
+
+                <div class="row first-ad-div clearfix" style="">
+                    <div class="clearfix content-div">
+                        <div class="col-md-4 " style=""><div class=""><img class="img-responsive" src="https://via.placeholder.com/360x75" alt="Chania"></div></div>
+                        <div class="col-md-4 " style=""><div class=""><img class="img-responsive" src="https://via.placeholder.com/360x75" alt="Chania"></div></div>
+                        <div class="col-md-4 " style=""><div class=""><img class="img-responsive" src="https://via.placeholder.com/360x75" alt="Chania"></div></div>
                     </div>
                 </div>
 

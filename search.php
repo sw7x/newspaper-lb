@@ -66,13 +66,36 @@
                                 </div>
 
 
-                                <div class="read-more-link">
-                                    <a class="" href="" title="">Read More</a>
-                                </div>
+
                             </div>
                         </div>
                     </div>
                 <?php endfor; ?>
+
+
+
+
+                <div class="row normal-news-feature-div">
+                    <div class="col-md-11">
+                        <div class="row">
+                            <div class="col-md-4"><div class=""><img class="img-responsive" src="https://dummyimage.com/360x175&text=Advertisement" alt="Chania"></div></div>
+                            <div class="col-md-4"><div class=""><img class="img-responsive" src="https://dummyimage.com/360x175&text=Advertisement" alt="Chania"></div></div>
+                            <div class="col-md-4"><div class=""><img class="img-responsive" src="https://dummyimage.com/360x175&text=Advertisement" alt="Chania"></div></div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                <div class="row normal-news-feature-div clearfix">
+                    <div class="col-md-11">
+                        <div class="">
+                            <img class="img-responsive" src="https://dummyimage.com/1140x200&text=Advertisement" alt="Chania">
+                        </div>
+                    </div>
+                </div>
 
 
 
@@ -103,13 +126,14 @@
 
                             </div>
 
-                            <div class="read-more-link">
-                                <a class="" href="" title="">Read More</a>
-                            </div>
+
 
                         </div>
                     </div>
                 </div>
+
+
+
 
 
                 <div class="row normal-news-feature-div">
@@ -150,9 +174,9 @@
             <div class="col-md-4">
 
                 <div class="row normal-news-feature-div clearfix">
-                    <div class="top-feature-heading-wrapper col-md-12">
-                        <div  class="top-feature-heading">
-                            <h2><a href="" title="">News Category</a></h2>
+                    <div class="heading-wrapper col-md-12">
+                        <div class="heading">
+                            <h2><a href="" title="">w නවතම පුවත්</a></h2>
                         </div>
                     </div>
                 </div>
@@ -232,6 +256,15 @@
                     </div>
 
                 </form>
+
+
+
+
+                <div class="row normal-news-feature-div clearfix">
+                    <div class="col-md-12">
+                        <img class="img-responsive" src="https://dummyimage.com/360x300&text=Advertisement" alt="Chania">
+                    </div>
+                </div>
 
             </div>
 

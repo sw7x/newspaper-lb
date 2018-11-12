@@ -62,6 +62,22 @@ for ($i=0;$i<2;$i++):
 
                 </div>
             </div>
+
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading-wrapper ">
+                        <div  class="heading">
+                            <h2><a href="" title="">w නවතම පුවත්</a></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
             <?php endif;?>
 
             <div class="row">
@@ -93,9 +109,7 @@ for ($i=0;$i<2;$i++):
                             </div>
                         </div>
 
-                        <div class="read-more-link">
-                            <a class="" href="" title="">Read More</a>
-                        </div>
+
 
 
                     </div>
@@ -104,7 +118,7 @@ for ($i=0;$i<2;$i++):
 
             <div class="row">
                 <div class="col-md-12">
-                    <div class="snippet-container"><img width="100%" src="https://dummyimage.com/230x100&text=AD" alt=""></div>
+                    <div class="snippet-container"><img width="100%" src="https://dummyimage.com/230x100&text=Advertisement" alt=""></div>
                 </div>
             </div>
 
@@ -136,9 +150,7 @@ for ($i=0;$i<2;$i++):
                             </div>
                         </div>
 
-                        <div class="read-more-link">
-                            <a class="" href="" title="">Read More</a>
-                        </div>
+
 
 
                     </div>
@@ -169,9 +181,7 @@ for ($i=0;$i<2;$i++):
                                     <p class="snippet-text">OK, so images can get quite complicated as we have a few variables to work with! For example the image below has had a caption entered</p>
                                 </div>
 
-                                <div class="read-more-link">
-                                    <a class="" href="" title="">Read More</a>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -206,20 +216,21 @@ for ($i=0;$i<2;$i++):
                             </div>
                         </div>
 
-                        <div class="read-more-link">
-                            <a class="" href="" title="">Read More</a>
-                        </div>
+
 
 
                     </div>
                 </div>
             </div>
 
+            <!--
             <div class="row">
                 <div class="col-md-12">
-                    <div class="snippet-container"><img width="100%" src="https://dummyimage.com/230x75&text=AD" alt=""></div>
+                    <div class="snippet-container"><img width="100%" src="https://dummyimage.com/230x75&text=Advertisement" alt=""></div>
                 </div>
             </div>
+            -->
+
 
 
 

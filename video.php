@@ -214,6 +214,21 @@
 
         </div>
 
+
+
+        <div class="row sub-page-top-news-section-row clearfix">
+            <div class="col-md-4"><div class=""><img class="img-responsive" src="https://dummyimage.com/360x125&text=Advertisement" alt="Chania"></div></div>
+            <div class="col-md-4"><div class=""><img class="img-responsive" src="https://dummyimage.com/360x125&text=Advertisement" alt="Chania"></div></div>
+            <div class="col-md-4"><div class=""><img class="img-responsive" src="https://dummyimage.com/360x125&text=Advertisement" alt="Chania"></div></div>
+        </div>
+
+
+        <div class="row sub-page-top-news-section-row clearfix">
+            <div class="col-md-12"><div class=""><img class="img-responsive" src="https://dummyimage.com/1140x125&text=Advertisement" alt="Chania"></div></div>
+        </div>
+
+
+
         <div class="row sub-page-top-news-section-row">
             <div class="col-md-12 clearfix">
                 <!-- Larger pagination -->

@@ -71,6 +71,17 @@
             </div>
         </div>
 
+        <div class="row sub-page-top-news-section-row clearfix">
+            <div class="col-md-4"><div class=""><img class="img-responsive" src="https://dummyimage.com/360x125&text=Advertisement" alt="Chania"></div></div>
+            <div class="col-md-4"><div class=""><img class="img-responsive" src="https://dummyimage.com/360x125&text=Advertisement" alt="Chania"></div></div>
+            <div class="col-md-4"><div class=""><img class="img-responsive" src="https://dummyimage.com/360x125&text=Advertisement" alt="Chania"></div></div>
+        </div>
+
+
+        <div class="row sub-page-top-news-section-row clearfix">
+            <div class="col-md-12"><div class=""><img class="img-responsive" src="https://dummyimage.com/1140x125&text=Advertisement" alt="Chania"></div></div>
+        </div>
+
 
 
         <div class="row sub-page-top-news-section-row">
@@ -110,9 +121,7 @@
                             </div>
 
 
-                            <div class="read-more-link">
-                                <a class="" href="" title="">Read More</a>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -148,9 +157,7 @@
                             </div>
 
 
-                            <div class="read-more-link">
-                                <a class="" href="" title="">Read More</a>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -193,9 +200,7 @@
                                 </div>
 
 
-                                <div class="read-more-link">
-                                    <a class="" href="" title="">Read More</a>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -208,7 +213,7 @@
 
 
                             <div class="snippet-heading">
-                                <h3><a href="" title="">නවතම පුවත්</a></h3>
+                                <h3><a href="" title="">tt නවතම පුවත්</a></h3>
                             </div>
 
                             <div class="snippet-content">
@@ -226,12 +231,22 @@
 
                             </div>
 
-                            <div class="read-more-link">
-                                <a class="" href="" title="">Read More</a>
-                            </div>
+
 
                         </div>
                     </div>
+                </div>
+
+
+                <div class="row normal-news-feature-div clearfix">
+                    <div class="col-md-4"><div class=""><img class="img-responsive" src="https://dummyimage.com/360x125&text=Advertisement" alt="Chania"></div></div>
+                    <div class="col-md-4"><div class=""><img class="img-responsive" src="https://dummyimage.com/360x125&text=Advertisement" alt="Chania"></div></div>
+                    <div class="col-md-4"><div class=""><img class="img-responsive" src="https://dummyimage.com/360x125&text=Advertisement" alt="Chania"></div></div>
+                </div>
+
+
+                <div class="row normal-news-feature-div clearfix">
+                    <div class="col-md-12"><div class=""><img class="img-responsive" src="https://dummyimage.com/1140x125&text=Advertisement" alt="Chania"></div></div>
                 </div>
 
 
@@ -266,7 +281,7 @@
 
 
             <div class="rightDiv col-md-4">
-                <?php include 'aside-news.php';?>
+                <?php include 'aside-news-2.php';?>
             </div>
 
         </div>

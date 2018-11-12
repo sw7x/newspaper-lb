@@ -1,4 +1,4 @@
-    <section class="container" id="navigation-div">
+    <section class="container sticky" id="navigation-div">
         <div class="row navigation-row">
 
 
